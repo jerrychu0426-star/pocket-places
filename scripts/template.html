@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
-<meta name="theme-color" content="#24402f">
+<meta name="theme-color" content="#1f3a5f">
 <title>附近去哪</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">
@@ -12,21 +12,21 @@
 /* Layout: travel-journal look. Forest-green header band with mountains, paper body, single column of
    journal cards (two columns on wide screens). Brick red = primary action, mustard = tape/highlights. */
 :root{
-  --paper:#f2eadb; --card:#fbf7ee; --ink:#2b2a24; --muted:#6f6858; --line:#e3d7c0;
-  --forest:#24402f; --forest-2:#2f5240; --on-forest:#f4ecd9; --on-forest-muted:#c9d4c3;
-  --brick:#a8432f; --brick-soft:#f4e0d7; --mustard:#c8962f; --tape:rgba(214,176,92,.55);
-  --sage:#5f7f5f; --sage-soft:#e3ebdc; --blue:#2f5f9e; --blue-soft:#e1e9f4; --plum:#7a4a6b; --plum-soft:#efe1ea;
-  --price:#a8432f; --shadow:0 1px 0 rgba(43,42,36,.04),0 6px 16px -8px rgba(43,42,36,.25);
+  --paper:#f1e3c2; --card:#fcf6e6; --ink:#2a2418; --muted:#6e604a; --line:#e3cfa3;
+  --forest:#1f3a5f; --forest-2:#2d5283; --on-forest:#f8eed6; --on-forest-muted:#c9d6ea;
+  --brick:#8e2a22; --brick-soft:#f3d9d1; --mustard:#c8962f; --tape:rgba(200,150,47,.5);
+  --sage:#2a5a9a; --sage-soft:#dfe8f4; --blue:#2a5a9a; --blue-soft:#dfe8f4; --plum:#5b3a7a; --plum-soft:#e9e1f1;
+  --price:#8e2a22; --shadow:0 1px 0 rgba(42,36,24,.05),0 6px 16px -8px rgba(90,60,20,.3);
   --hand:"LXGW WenKai TC","Kaiti TC","STKaiti","DFKai-SB",serif;
   --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{
-  --paper:#151a16; --card:#1f2621; --ink:#ece4d3; --muted:#a8a08d; --line:#323b34;
-  --forest:#1b3024; --forest-2:#24402f; --on-forest:#f1e9d6; --on-forest-muted:#a9b8a6;
-  --brick:#e07a5f; --brick-soft:#3a2620; --mustard:#e0b458; --tape:rgba(224,180,88,.35);
-  --sage:#9cbf98; --sage-soft:#24332a; --blue:#8db4ec; --blue-soft:#1f2c40; --plum:#d9a2c6; --plum-soft:#35242f;
-  --price:#f0a184; --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
+  --paper:#141a26; --card:#1d2535; --ink:#f2e8d0; --muted:#a9a08a; --line:#2e3a50;
+  --forest:#0f1f38; --forest-2:#1d3558; --on-forest:#f6ecd4; --on-forest-muted:#a9bbd8;
+  --brick:#e5735f; --brick-soft:#3b2220; --mustard:#e2b65a; --tape:rgba(226,182,90,.35);
+  --sage:#8fb4ea; --sage-soft:#1f2d45; --blue:#8fb4ea; --blue-soft:#1f2d45; --plum:#c9a8e6; --plum-soft:#2e2540;
+  --price:#f09a86; --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
@@ -68,7 +68,7 @@ summary{cursor:pointer;color:var(--brick);font-weight:600;font-size:14px;padding
 .group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
 .group b{font-family:var(--hand);font-size:14px;color:var(--muted);width:2.8em;flex:none;font-weight:700}
 .chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
-.chip[aria-pressed=true]{background:var(--forest);border-color:var(--forest);color:var(--on-forest);font-weight:600}
+.chip[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:var(--card);font-weight:600}
 button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
 .msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--brick-soft);color:var(--brick);font-size:14px}
 .lucky{position:relative;margin-top:22px;border:2px solid var(--brick);background:var(--card);border-radius:16px;padding:14px 14px 10px}
@@ -81,18 +81,19 @@ button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{o
 #list{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:12px}
 @media (min-width:900px){#list{grid-template-columns:1fr 1fr}}
 li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:14px 14px 12px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);min-width:0}
-.no{grid-row:span 2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--forest);color:var(--on-forest);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+.no{grid-row:span 2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--brick);color:var(--card);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
 .nm{font-weight:700;font-size:16px;min-width:0;line-height:1.35}
 .d{font-family:var(--hand);font-weight:700;color:var(--brick);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:17px}
 .meta{grid-column:2/-1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:13px;color:var(--muted)}
 .tag{border-radius:6px;padding:1px 8px;font-weight:700;font-size:12px;background:var(--sage-soft);color:var(--sage)}
 .tag[data-t="餐廳"]{background:var(--brick-soft);color:var(--brick)}
-.tag[data-t="咖啡"]{background:#f3e6c6;color:#8a6414}
+.tag[data-t="咖啡"]{background:#f6e2b0;color:#7a560f}
 .tag[data-t="酒吧"]{background:var(--plum-soft);color:var(--plum)}
 .tag[data-t="景點"]{background:var(--blue-soft);color:var(--blue)}
+.tag[data-t="外帶/伴手禮"]{background:#efe0c4;color:#6e604a}
 @media (prefers-color-scheme: dark){
-  .chip[aria-pressed=true],.no,.acts a.go{background:var(--sage);border-color:var(--sage);color:#141a16}}
-@media (prefers-color-scheme: dark){.tag[data-t="咖啡"]{background:#3a3020;color:var(--mustard)}}
+  .chip[aria-pressed=true]{color:#141a26}.no,.acts a.go{color:#1b1410}}
+@media (prefers-color-scheme: dark){.tag[data-t="咖啡"]{background:#3a3020;color:var(--mustard)}.tag[data-t="外帶/伴手禮"]{background:#2a2a2a;color:var(--muted)}}
 .pr{color:var(--price);font-weight:700;letter-spacing:.04em}
 .bad{background:var(--brick-soft);color:var(--brick);border-radius:6px;padding:1px 8px;font-size:12px;font-weight:700}
 .note{grid-column:1/-1;font-family:var(--hand);font-size:15px;color:var(--ink);opacity:.85;min-width:0;border-left:3px solid var(--tape);padding-left:8px;margin-top:2px}
@@ -103,7 +104,7 @@ li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:sta
 .park.none{background:none;padding:0 2px;color:var(--muted)}
 .acts{grid-column:1/-1;display:flex;gap:8px;margin-top:8px}
 .acts a{font-size:13px;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 14px;background:var(--paper)}
-.acts a.go{background:var(--forest);border-color:var(--forest);color:var(--on-forest)}
+.acts a.go{background:var(--brick);border-color:var(--brick);color:var(--card)}
 .legend{font-size:12px;color:var(--muted);margin-top:30px;line-height:1.7}
 .foot{font-family:var(--hand);text-align:center;color:var(--muted);font-size:16px;margin-top:18px}
 </style>

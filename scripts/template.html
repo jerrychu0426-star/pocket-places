@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>附近去哪</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap">
+<style>
+:root{
+  --bg:#f3f6f4; --surface:#fff; --fg:#17231d; --muted:#5d6b64; --line:#d6dfda;
+  --accent:#0f6b4f; --accent-soft:#dcefe6; --price:#a45a00; --warn:#b3261e; --warn-soft:#fbe4e1;
+  --display:"Noto Serif TC","Songti TC",serif;
+  --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#101714; --surface:#17211c; --fg:#e4ece7; --muted:#9aaba2; --line:#2a3832;
+  --accent:#5fcf9f; --accent-soft:#1d3a2e; --price:#f0a94a; --warn:#ff8a80; --warn-soft:#3d1f1c; color-scheme:dark}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:720px;margin:0 auto;padding-block:max(20px,env(safe-area-inset-top)) 48px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+h1{font-family:var(--display);font-weight:900;font-size:30px;margin:0}
+.where{color:var(--muted);margin:4px 0 14px;font-size:14px}
+.big{display:block;width:100%;border:0;border-radius:12px;padding:14px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:var(--bg);cursor:pointer}
+.quick{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.quick a{display:block;text-align:center;text-decoration:none;border:1px solid var(--accent);color:var(--accent);border-radius:10px;padding:11px 6px;font-weight:700;background:var(--surface)}
+.quick a[aria-disabled=true]{opacity:.45;pointer-events:none}
+.group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:12px}
+.group b{font-size:12px;color:var(--muted);width:3em;flex:none;font-weight:600}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.msg{margin-top:14px;padding:12px 14px;border-radius:10px;background:var(--warn-soft);color:var(--warn);font-size:14px}
+.count{font-size:13px;color:var(--muted);margin-top:14px}
+ul{list-style:none;margin:6px 0 0;padding:0}
+li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.nm{font-weight:700;font-size:16px;min-width:0}
+.d{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;color:var(--muted)}
+.meta .pr{color:var(--price);font-weight:700}
+.note{grid-column:1/-1;font-size:13px;opacity:.85}
+.acts{grid-column:1/-1;display:flex;gap:14px;font-size:14px}
+.acts a{color:var(--accent);font-weight:600}
+.legend{font-size:12px;color:var(--muted);margin-top:24px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>附近去哪</h1>
+  <p class="where" id="where">按下面的按鈕，用目前位置找你收藏過的店。</p>
+  <button class="big" id="locate">用我的位置找附近</button>
+  <div class="quick">
+    <a id="park" aria-disabled="true" target="_blank" rel="noopener">附近停車場</a>
+    <a id="gas" aria-disabled="true" target="_blank" rel="noopener">附近加油站</a>
+  </div>
+  <div class="group" id="g-r"><b>距離</b></div>
+  <div class="group" id="g-type"><b>類型</b></div>
+  <div class="group" id="g-occ"><b>場合</b></div>
+  <div id="msg" class="msg" hidden></div>
+  <div class="count" id="count"></div>
+  <ul id="list"></ul>
+  <p class="legend">停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。清單只列你收藏過、且查得到座標的店；已永久歇業的不顯示。資料更新於 __UPDATED__。價位：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上（估算）。</p>
+</div>
+<script>
+const D=__DATA__;
+const R=[["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30]];
+const S={r:3,type:new Set(),occ:new Set()};let here=null;
+const opts={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"]};
+function chip(g,label,on,click){const b=document.createElement("button");b.className="chip";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=()=>{click(b)};g.appendChild(b);return b}
+const gr=document.getElementById("g-r");
+R.forEach(([l,v])=>chip(gr,l,v===S.r,b=>{S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));render()}));
+["type","occ"].forEach(k=>{const g=document.getElementById("g-"+k);opts[k].forEach(v=>chip(g,v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));render()}))});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function km(a,b){const t=Math.PI/180,dl=(b.lat-a.lat)*t,dg=(b.lng-a.lng)*t;const x=Math.sin(dl/2)**2+Math.cos(a.lat*t)*Math.cos(b.lat*t)*Math.sin(dg/2)**2;return 12742*Math.asin(Math.sqrt(x))}
+const fmt=d=>d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km";
+function render(){
+  const list=document.getElementById("list"),cnt=document.getElementById("count");
+  if(!here){list.innerHTML="";cnt.textContent="";return}
+  const rows=D.filter(p=>p.lat!=null&&p.status!=="CLOSED_PERMANENTLY"&&p.type!=="其他")
+    .map(p=>({...p,d:km(here,p)})).filter(p=>p.d<=S.r)
+    .filter(p=>!S.type.size||S.type.has(p.type))
+    .filter(p=>!S.occ.size||[...S.occ].some(o=>p.occ.includes(o)))
+    .sort((a,b)=>a.d-b.d);
+  cnt.textContent=rows.length?`${S.r} 公里內有 ${rows.length} 個收藏`:`${S.r} 公里內沒有符合的收藏，試試放大距離。`;
+  list.innerHTML=rows.map(p=>{
+    const nav=`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:"");
+    const tmp=p.status==="CLOSED_TEMPORARILY"?' · <span style="color:var(--warn)">暫停營業</span>':"";
+    return `<li><div class="nm">${esc(p.name)}</div><div class="d">${fmt(p.d)}</div>
+    <div class="meta"><span>${esc(p.type)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${tmp}</div>
+    ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
+    <div class="acts"><a href="${esc(nav)}" target="_blank" rel="noopener">導航</a><a href="${esc(p.url)}" target="_blank" rel="noopener">看店家</a></div></li>`}).join("")}
+function setQuick(){
+  const q=(w)=>`https://www.google.com/maps/search/${encodeURIComponent(w)}/@${here.lat},${here.lng},15z`;
+  const p=document.getElementById("park"),g=document.getElementById("gas");
+  p.href=q("停車場");g.href=q("加油站");p.removeAttribute("aria-disabled");g.removeAttribute("aria-disabled")}
+function showMsg(t){const m=document.getElementById("msg");m.textContent=t;m.hidden=!t}
+document.getElementById("locate").onclick=()=>{
+  if(!navigator.geolocation){showMsg("這個瀏覽器不支援定位。");return}
+  showMsg("");document.getElementById("where").textContent="定位中…";
+  navigator.geolocation.getCurrentPosition(pos=>{
+    here={lat:pos.coords.latitude,lng:pos.coords.longitude};
+    document.getElementById("where").textContent=`目前位置 ${here.lat.toFixed(4)}, ${here.lng.toFixed(4)}（誤差約 ${Math.round(pos.coords.accuracy)} 公尺）`;
+    document.getElementById("locate").textContent="重新定位";setQuick();render()},
+  err=>{document.getElementById("where").textContent="還沒取得位置。";
+    showMsg(err.code===1?"定位被拒絕了。請到手機設定允許瀏覽器使用位置，再按一次。":"暫時抓不到位置，請到空曠處再試一次。")},
+  {enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
+</script>
+</body>
+</html>

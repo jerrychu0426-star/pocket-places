@@ -16,7 +16,7 @@ saved Google Maps places. A scheduled session runs this weekly. Work in the repo
   outside the repo and run `python3 -I scripts/update.py merge <file>`.
   The export is the full list: places missing from it are removed on purpose.
   Sanity check: if it would remove more than 30% of places, stop and report instead of committing.
-- Then `python3 -I scripts/update.py geocode`.
+- Then `python3 -I scripts/update.py geocode` and `python3 -I scripts/update.py parking`.
 - After a successful push (step 4), rename the Drive file to `已處理_<original title>`.
 - Fallback / also check: CSV files the owner uploaded to the repo's `imports/` folder.
   Process them the same way, then `git mv` each to `imports/processed/` in the same commit.

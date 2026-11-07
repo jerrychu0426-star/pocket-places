@@ -4,6 +4,7 @@
   python3 -I scripts/update.py merge <takeout.csv>   add new saved places, drop removed ones
   python3 -I scripts/update.py geocode               look up places that have no coordinates yet
   python3 -I scripts/update.py recheck               refresh business status of every known place
+  python3 -I scripts/update.py parking               find the nearest parking lot for places missing one
   python3 -I scripts/update.py report                list places needing human/Claude review
   python3 -I scripts/update.py build                 regenerate index.html and places.csv
 
@@ -138,7 +139,7 @@ def report():
 def build():
     d = load()
     view = [dict(name=p["name"], region=p["region"], type=p["type"], occ=p["occ"], price=p["price"], note=p["note"],
-                 url=p["url"], pid=p.get("pid"), status=p.get("status"),
+                 url=p["url"], pid=p.get("pid"), status=p.get("status"), park=p.get("parking"),
                  lat=None if p.get("nomatch") or p.get("lat") is None else round(p["lat"], 6),
                  lng=None if p.get("nomatch") or p.get("lng") is None else round(p["lng"], 6)) for p in d]
     # last date the data actually changed or was rechecked; stable across no-op weekly runs
@@ -155,7 +156,35 @@ def build():
     print(f"built index.html with {len(d)} places")
 
 
+def parking():
+    """Find the nearest parking lot (within 800 m) for places that have coordinates but no parking info yet."""
+    import math
+    d = load()
+    n = 0
+    for p in d:
+        if p.get("lat") is None or p.get("nomatch") or "parking" in p or p.get("status") == "CLOSED_PERMANENTLY":
+            continue
+        body = {"includedTypes": ["parking"], "maxResultCount": 1, "rankPreference": "DISTANCE", "languageCode": "zh-TW",
+                "locationRestriction": {"circle": {"center": {"latitude": p["lat"], "longitude": p["lng"]}, "radius": 800}}}
+        try:
+            res = api("https://places.googleapis.com/v1/places:searchNearby", body, "places.id,places.displayName,places.location")
+        except urllib.error.HTTPError as e:
+            sys.exit(f"Places API error {e.code}: {e.read()[:300]!r}")
+        g = (res.get("places") or [None])[0]
+        if g:
+            la, ln = g["location"]["latitude"], g["location"]["longitude"]
+            k = math.pi / 180
+            m = 12742000 * math.asin(math.sqrt(math.sin((la - p["lat"]) * k / 2) ** 2 + math.cos(p["lat"] * k) * math.cos(la * k) * math.sin((ln - p["lng"]) * k / 2) ** 2))
+            p["parking"] = {"name": g["displayName"]["text"], "pid": g["id"], "lat": round(la, 6), "lng": round(ln, 6), "m": round(m)}
+        else:
+            p["parking"] = None
+        n += 1
+        time.sleep(0.05)
+    save(d)
+    print(f"parking looked up for {n} places")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    {"merge": lambda: merge(sys.argv[2]), "geocode": geocode, "recheck": recheck, "report": report, "build": build}.get(
+    {"merge": lambda: merge(sys.argv[2]), "geocode": geocode, "recheck": recheck, "report": report, "build": build, "parking": parking}.get(
         cmd, lambda: sys.exit(__doc__))()

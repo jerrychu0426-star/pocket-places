@@ -4,104 +4,148 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
+<meta name="theme-color" content="#24402f">
 <title>附近去哪</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">
 <style>
-/* Layout: navy header band with title + stats, then a single column of controls and place cards */
+/* Layout: travel-journal look. Forest-green header band with mountains, paper body, single column of
+   journal cards (two columns on wide screens). Brick red = primary action, mustard = tape/highlights. */
 :root{
-  --bg:#eef3fa; --surface:#ffffff; --fg:#0f1e33; --muted:#5a6b82; --line:#d5e0ee;
-  --accent:#1f5fbf; --accent-soft:#e3edfb; --band:#123a73; --band-fg:#ffffff; --band-muted:#b9cdee;
-  --price:#b45309; --warn:#b42318; --warn-soft:#fde8e6; --shadow:0 1px 2px rgba(15,30,51,.06),0 4px 14px rgba(15,30,51,.06);
-  --display:"Noto Serif TC","Songti TC",serif;
+  --paper:#f2eadb; --card:#fbf7ee; --ink:#2b2a24; --muted:#6f6858; --line:#e3d7c0;
+  --forest:#24402f; --forest-2:#2f5240; --on-forest:#f4ecd9; --on-forest-muted:#c9d4c3;
+  --brick:#a8432f; --brick-soft:#f4e0d7; --mustard:#c8962f; --tape:rgba(214,176,92,.55);
+  --sage:#5f7f5f; --sage-soft:#e3ebdc; --blue:#2f5f9e; --blue-soft:#e1e9f4; --plum:#7a4a6b; --plum-soft:#efe1ea;
+  --price:#a8432f; --shadow:0 1px 0 rgba(43,42,36,.04),0 6px 16px -8px rgba(43,42,36,.25);
+  --hand:"LXGW WenKai TC","Kaiti TC","STKaiti","DFKai-SB",serif;
   --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{
-  --bg:#0b1220; --surface:#131c2e; --fg:#e6edf7; --muted:#93a3ba; --line:#24324a;
-  --accent:#6ea8ff; --accent-soft:#1a2b47; --band:#0f2747; --band-fg:#f1f5fc; --band-muted:#9fb6d9;
-  --price:#f5a54a; --warn:#ff8a80; --warn-soft:#3a1d1f; --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}}
+  --paper:#151a16; --card:#1f2621; --ink:#ece4d3; --muted:#a8a08d; --line:#323b34;
+  --forest:#1b3024; --forest-2:#24402f; --on-forest:#f1e9d6; --on-forest-muted:#a9b8a6;
+  --brick:#e07a5f; --brick-soft:#3a2620; --mustard:#e0b458; --tape:rgba(224,180,88,.35);
+  --sage:#9cbf98; --sage-soft:#24332a; --blue:#8db4ec; --blue-soft:#1f2c40; --plum:#d9a2c6; --plum-soft:#35242f;
+  --price:#f0a184; --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
-.band{background:var(--band);color:var(--band-fg);padding-top:env(safe-area-inset-top)}
-.inner{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
-.band .inner{padding-block:22px 20px}
-.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--band-muted);font-weight:600}
-h1{font-family:var(--display);font-weight:900;font-size:32px;margin:2px 0 0;letter-spacing:.04em}
-.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-.stats span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--band-muted)}
-.stats b{color:var(--band-fg);font-variant-numeric:tabular-nums;margin-left:2px}
-.wrap{padding-block:16px 48px}
-.where{color:var(--muted);margin:0 0 12px;font-size:14px}
-.big{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:0;border-radius:14px;padding:15px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:#fff;cursor:pointer;box-shadow:var(--shadow)}
-@media (prefers-color-scheme: dark){.big{color:#0b1220}}
-.big::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px rgba(255,255,255,.3)}
-.unloc{display:block;margin:10px auto 0;border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
-.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:10px}
-.row3 a,.row3 button{display:block;text-align:center;text-decoration:none;border:1px solid var(--line);color:var(--accent);border-radius:12px;padding:11px 4px;font:inherit;font-size:14px;font-weight:700;background:var(--surface);cursor:pointer;box-shadow:var(--shadow)}
-.row3 a[aria-disabled=true]{opacity:.45;pointer-events:none;box-shadow:none}
-.panel{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}
-input[type=search]{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+body{margin:0;background-color:var(--paper);
+  background-image:radial-gradient(rgba(120,100,60,.07) 1px,transparent 1.2px),radial-gradient(rgba(120,100,60,.05) 1px,transparent 1.2px);
+  background-size:7px 7px,11px 11px;background-position:0 0,3px 5px;
+  color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.inner{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+/* header */
+.band{background:var(--forest);color:var(--on-forest);padding-top:env(safe-area-inset-top);position:relative;overflow:hidden}
+.band .inner{padding-block:22px 46px;position:relative;z-index:1}
+.band svg{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:56px;display:block}
+.eyebrow{font-family:var(--hand);font-size:15px;color:var(--on-forest-muted);letter-spacing:.12em}
+h1{font-family:var(--hand);font-weight:700;font-size:40px;line-height:1.15;margin:2px 0 4px;letter-spacing:.06em}
+.sub{font-family:var(--hand);font-size:16px;color:var(--on-forest-muted);margin:0}
+.sub::after{content:"";display:block;width:150px;height:2px;margin-top:6px;background:var(--mustard);border-radius:2px;transform:rotate(-1deg)}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.stamp{font-family:var(--hand);border:1.5px dashed var(--on-forest-muted);border-radius:8px;padding:4px 12px;font-size:14px;color:var(--on-forest-muted);transform:rotate(-1.5deg)}
+.stamp:nth-child(2){transform:rotate(1.2deg)}
+.stamp b{color:var(--on-forest);font-family:var(--body);font-variant-numeric:tabular-nums;font-size:16px;margin:0 3px}
+/* controls */
+main{padding-block:6px 48px}
+.where{color:var(--muted);margin:10px 0 12px;font-size:14px}
+.big{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-radius:14px;padding:15px;font-family:var(--hand);font-size:20px;font-weight:700;letter-spacing:.06em;background:var(--brick);color:#fff8ee;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.18)}
+@media (prefers-color-scheme: dark){.big{color:#1b1410}}
+.big::before{content:"";width:14px;height:14px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:currentColor}
+.big:active{transform:translateY(2px);box-shadow:0 1px 0 rgba(0,0,0,.18)}
+.unloc{display:block;margin:10px auto 0;border:0;background:none;color:var(--brick);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
+.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.row3 a,.row3 button{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:9px 4px;font:inherit;font-size:13px;font-weight:600;background:var(--card);cursor:pointer;box-shadow:var(--shadow)}
+.row3 .ic{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;font-family:var(--body)}
+.row3 a[aria-disabled=true]{opacity:.5;pointer-events:none;box-shadow:none}
+.panel{position:relative;margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 14px 12px;box-shadow:var(--shadow)}
+.panel::before,.lucky::before{content:"";position:absolute;top:-9px;left:22px;width:74px;height:18px;background:var(--tape);transform:rotate(-4deg);border-radius:2px}
+.lucky::before{left:auto;right:26px;transform:rotate(5deg)}
+input[type=search]{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
 details{margin-top:8px}
-summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:14px;padding:4px 0}
+summary{cursor:pointer;color:var(--brick);font-weight:600;font-size:14px;padding:4px 0}
 .group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
-.group b{font-size:12px;color:var(--muted);width:3em;flex:none;font-weight:600;letter-spacing:.05em}
-.chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
-.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--surface);font-weight:600}
-button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--warn-soft);color:var(--warn);font-size:14px}
-.lucky{margin-top:14px;border:2px solid var(--accent);background:var(--accent-soft);border-radius:16px;padding:12px 14px}
-.lucky .lab{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:700}
-.lucky ul{margin:4px 0 0}.lucky li{box-shadow:none;border:0;margin:0;padding:6px 0 0;background:none}
-.count{font-size:13px;color:var(--muted);margin-top:16px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
-.count button{border:0;background:none;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0;font-weight:600}
-ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:10px}
-li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
-.nm{font-weight:700;font-size:16px;min-width:0}
-.d{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:15px}
-.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:13px;color:var(--muted)}
-.meta .tag{background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:1px 8px;font-weight:600;font-size:12px}
-.meta .pr{color:var(--price);font-weight:700;letter-spacing:.04em}
-.meta .bad{background:var(--warn-soft);color:var(--warn);border-radius:6px;padding:1px 8px;font-size:12px;font-weight:600}
-.note{grid-column:1/-1;font-size:13px;color:var(--fg);opacity:.8;min-width:0}
-.acts{grid-column:1/-1;display:flex;gap:8px;margin-top:4px}
-.acts a{font-size:13px;font-weight:600;text-decoration:none;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:4px 12px}
-.acts a:first-child{background:var(--accent);border-color:var(--accent);color:var(--surface)}
-.legend{font-size:12px;color:var(--muted);margin-top:28px;line-height:1.7}
+.group b{font-family:var(--hand);font-size:14px;color:var(--muted);width:2.8em;flex:none;font-weight:700}
+.chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--forest);border-color:var(--forest);color:var(--on-forest);font-weight:600}
+button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
+.msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--brick-soft);color:var(--brick);font-size:14px}
+.lucky{position:relative;margin-top:22px;border:2px solid var(--brick);background:var(--card);border-radius:16px;padding:14px 14px 10px}
+.lucky .lab{font-family:var(--hand);font-size:18px;color:var(--brick);font-weight:700}
+.lucky ul{margin:6px 0 0}.lucky li{box-shadow:none;border:0;padding:4px 0 0;background:none}
+.count{margin-top:22px;display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.count span{font-family:var(--hand);font-size:18px;font-weight:700}
+.count button{border:0;background:none;color:var(--brick);font:inherit;font-size:13px;cursor:pointer;padding:0;font-weight:600}
+/* cards */
+#list{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:12px}
+@media (min-width:900px){#list{grid-template-columns:1fr 1fr}}
+li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:14px 14px 12px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);min-width:0}
+.no{grid-row:span 2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--forest);color:var(--on-forest);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
+.nm{font-weight:700;font-size:16px;min-width:0;line-height:1.35}
+.d{font-family:var(--hand);font-weight:700;color:var(--brick);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:17px}
+.meta{grid-column:2/-1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:13px;color:var(--muted)}
+.tag{border-radius:6px;padding:1px 8px;font-weight:700;font-size:12px;background:var(--sage-soft);color:var(--sage)}
+.tag[data-t="餐廳"]{background:var(--brick-soft);color:var(--brick)}
+.tag[data-t="咖啡"]{background:#f3e6c6;color:#8a6414}
+.tag[data-t="酒吧"]{background:var(--plum-soft);color:var(--plum)}
+.tag[data-t="景點"]{background:var(--blue-soft);color:var(--blue)}
+@media (prefers-color-scheme: dark){
+  .chip[aria-pressed=true],.no,.acts a.go{background:var(--sage);border-color:var(--sage);color:#141a16}}
+@media (prefers-color-scheme: dark){.tag[data-t="咖啡"]{background:#3a3020;color:var(--mustard)}}
+.pr{color:var(--price);font-weight:700;letter-spacing:.04em}
+.bad{background:var(--brick-soft);color:var(--brick);border-radius:6px;padding:1px 8px;font-size:12px;font-weight:700}
+.note{grid-column:1/-1;font-family:var(--hand);font-size:15px;color:var(--ink);opacity:.85;min-width:0;border-left:3px solid var(--tape);padding-left:8px;margin-top:2px}
+.park{grid-column:1/-1;display:flex;align-items:center;gap:8px;margin-top:6px;padding:7px 10px;border-radius:10px;background:var(--blue-soft);font-size:13px;min-width:0}
+.park .P{flex:none;width:22px;height:22px;border-radius:5px;background:var(--blue);color:var(--card);display:grid;place-items:center;font-weight:800;font-size:13px}
+.park a{color:var(--blue);font-weight:700;text-decoration:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.park span.w{margin-left:auto;flex:none;color:var(--muted)}
+.park.none{background:none;padding:0 2px;color:var(--muted)}
+.acts{grid-column:1/-1;display:flex;gap:8px;margin-top:8px}
+.acts a{font-size:13px;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 14px;background:var(--paper)}
+.acts a.go{background:var(--forest);border-color:var(--forest);color:var(--on-forest)}
+.legend{font-size:12px;color:var(--muted);margin-top:30px;line-height:1.7}
+.foot{font-family:var(--hand);text-align:center;color:var(--muted);font-size:16px;margin-top:18px}
 </style>
 </head>
 <body>
 <header class="band"><div class="inner">
-  <div class="eyebrow">口袋名單</div>
+  <div class="eyebrow">我的口袋名單</div>
   <h1>附近去哪</h1>
+  <p class="sub">收藏過的好店，走到哪、吃到哪</p>
   <div class="stats" id="stats"></div>
-</div></header>
-<main class="inner wrap">
+</div>
+<svg viewBox="0 0 400 56" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 56 L0 38 L40 22 L70 34 L110 12 L150 32 L185 20 L220 36 L260 14 L300 30 L335 18 L370 32 L400 24 L400 56 Z" fill="var(--forest-2)"/>
+  <path d="M0 56 L0 46 L50 36 L95 46 L140 34 L190 46 L240 38 L290 48 L340 38 L400 46 L400 56 Z" fill="var(--paper)"/>
+</svg>
+</header>
+<main class="inner">
   <p class="where" id="where">還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。</p>
   <button class="big" id="locate">用我的位置找附近</button>
   <button class="unloc" id="unlocate" type="button" hidden>取消定位，改看全部清單</button>
   <div class="row3">
-    <a id="park" aria-disabled="true" target="_blank" rel="noopener">附近停車場</a>
-    <a id="gas" aria-disabled="true" target="_blank" rel="noopener">附近加油站</a>
-    <button id="pick" type="button">隨機挑一家</button>
+    <a id="park" aria-disabled="true" target="_blank" rel="noopener"><span class="ic" style="background:var(--blue)">P</span>附近停車場</a>
+    <a id="gas" aria-disabled="true" target="_blank" rel="noopener"><span class="ic" style="background:var(--mustard)">⛽</span>附近加油站</a>
+    <button id="pick" type="button"><span class="ic" style="background:var(--brick)">?</span>隨機挑一家</button>
   </div>
   <div class="panel">
-  <input type="search" id="q" placeholder="搜尋店名、區域、備註（例：牛肉湯、安平）" aria-label="搜尋">
-  <div class="group" id="g-r" hidden><b>距離</b></div>
-  <div class="group" id="g-type"><b>類型</b></div>
-  <div class="group" id="g-occ"><b>場合</b></div>
-  <details id="more">
-    <summary>更多篩選（城市、價位）</summary>
-    <div class="group" id="g-city"><b>城市</b></div>
-    <div class="group" id="g-price"><b>價位</b></div>
-  </details>
+    <input type="search" id="q" placeholder="搜尋店名、區域、備註（例：牛肉湯、安平）" aria-label="搜尋">
+    <div class="group" id="g-r" hidden><b>距離</b></div>
+    <div class="group" id="g-type"><b>類型</b></div>
+    <div class="group" id="g-occ"><b>場合</b></div>
+    <details id="more">
+      <summary>更多篩選（城市、價位）</summary>
+      <div class="group" id="g-city"><b>城市</b></div>
+      <div class="group" id="g-price"><b>價位</b></div>
+    </details>
   </div>
   <div id="msg" class="msg" hidden></div>
   <div id="lucky" class="lucky" hidden></div>
   <div class="count"><span id="count"></span><button id="reset" type="button">清除篩選</button></div>
   <ul id="list"></ul>
-  <p class="legend">每週一自動檢查更新，「共收錄」不含已歇業的店。營業狀態取自 Google 地點資料，已歇業的店不顯示。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <p class="legend">每週一自動檢查更新；「共收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <p class="foot">下一站，去哪都好吃 ♥</p>
 </main>
 <script>
 const D=__DATA__;
@@ -130,17 +174,24 @@ function filtered(){
     &&(!S.price.size||S.price.has(p.price)));
   if(here){rows=rows.filter(p=>p.lat!=null).map(p=>({...p,d:km(here,p)})).filter(p=>p.d<=S.r).sort((a,b)=>a.d-b.d)}
   return rows}
-function item(p){
+function park(p){
+  if(p.type==="其他"||p.lat==null)return "";
+  const k=p.park;
+  if(!k)return '<div class="park none">800 公尺內查無停車場</div>';
+  const nav=`https://www.google.com/maps/dir/?api=1&destination=${k.lat},${k.lng}&destination_place_id=${encodeURIComponent(k.pid)}`;
+  const w=k.m<60?"就在旁邊":`步行約 ${Math.max(1,Math.round(k.m/70))} 分鐘`;
+  return `<div class="park"><span class="P">P</span><a href="${esc(nav)}" target="_blank" rel="noopener">${esc(k.name)}</a><span class="w">${w}</span></div>`}
+function item(p,i){
   const nav=p.lat!=null?`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:""):"";
   const bad=p.status==="CLOSED_PERMANENTLY"?'<span class="bad">已歇業</span>':p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
-  return `<li><div class="nm">${esc(p.name)}</div><div class="d">${p.d!=null?fmt(p.d):""}</div>
-  <div class="meta"><span class="tag">${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
-  ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
-  <div class="acts">${nav?`<a href="${esc(nav)}" target="_blank" rel="noopener">導航</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">看店家</a></div></li>`}
+  return `<li><div class="no">${i??"★"}</div><div class="nm">${esc(p.name)}</div><div class="d">${p.d!=null?fmt(p.d):""}</div>
+  <div class="meta"><span class="tag" data-t="${esc(p.type)}">${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
+  ${p.note?`<div class="note">${esc(p.note)}</div>`:""}${park(p)}
+  <div class="acts">${nav?`<a class="go" href="${esc(nav)}" target="_blank" rel="noopener">導航</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">看店家</a></div></li>`}
 function render(){
   const rows=filtered();
   document.getElementById("count").textContent=(here?(S.r<1e9?`${S.r} 公里內`:"依距離")+`有 ${rows.length} 個收藏`:`共 ${rows.length} 個收藏`)+(rows.length||!here?"":"，試試放大距離");
-  document.getElementById("list").innerHTML=rows.map(item).join("");
+  document.getElementById("list").innerHTML=rows.map((p,i)=>item(p,i+1)).join("");
   document.getElementById("lucky").hidden=true;
 }
 document.getElementById("q").addEventListener("input",e=>{S.q=e.target.value.trim();render()});
@@ -174,7 +225,7 @@ document.getElementById("unlocate").onclick=()=>{
   showMsg("");render()};
 (function(){const open=D.filter(p=>p.status!=="CLOSED_PERMANENTLY").length;
   const [y,m,dd]="__UPDATED__".split("-");
-  document.getElementById("stats").innerHTML=`<span>共收錄<b>${open}</b> 家</span><span>資料更新<b>${y}/${+m}/${+dd}</b></span>`})();
+  document.getElementById("stats").innerHTML=`<span class="stamp">共收錄<b>${open}</b>家</span><span class="stamp">資料更新<b>${y}/${+m}/${+dd}</b></span>`})();
 render();
 </script>
 </body>

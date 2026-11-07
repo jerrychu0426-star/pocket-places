@@ -15,7 +15,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "遠東百貨嘉義FE21店停車場",
+   "pid": "ChIJ4cx7oyaUbjQR1XK7B2m56e8",
+   "lat": 23.472695,
+   "lng": 120.44116,
+   "m": 75
+  }
  },
  {
   "name": "大寶專業白滷豆干",
@@ -33,7 +40,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "南紡_永固東寧停車場",
+   "pid": "ChIJMfsfqaF3bjQRG9AVl5adyLE",
+   "lat": 22.990069,
+   "lng": 120.231035,
+   "m": 140
+  }
  },
  {
   "name": "新塭阿美紅蟳",
@@ -51,7 +65,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "信成蔴油廠",
@@ -69,7 +84,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "中山商圈平面停車場",
+   "pid": "ChIJURIOWwCpQjQRQs2Sg7Xym6g",
+   "lat": 25.056479,
+   "lng": 121.521582,
+   "m": 195
+  }
  },
  {
   "name": "老李螺肉大王",
@@ -87,7 +109,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南小北商場站停車場",
+   "pid": "ChIJpSN36oB3bjQRnrRU9-SdTrU",
+   "lat": 23.008207,
+   "lng": 120.206844,
+   "m": 5
+  }
  },
  {
   "name": "福昇小食鱔魚意麵",
@@ -105,7 +134,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "西門圓環停車場",
+   "pid": "ChIJH_V_wNh3bjQR_d3zHcYLgLk",
+   "lat": 22.997653,
+   "lng": 120.200031,
+   "m": 135
+  }
  },
  {
   "name": "浮生避難所",
@@ -123,7 +159,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "俥亭停車場",
+   "pid": "ChIJCXxiHyyqQjQRl-zu4eM-E3c",
+   "lat": 25.026049,
+   "lng": 121.544159,
+   "m": 69
+  }
  },
  {
   "name": "賜福船長的店",
@@ -141,7 +184,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "竹圍漁港停車場（漁港北路、彩虹橋）",
+   "pid": "ChIJ3TjAZGmfQjQRPkSRNIFf_wg",
+   "lat": 25.118804,
+   "lng": 121.245921,
+   "m": 172
+  }
  },
  {
   "name": "春風臭豆腐",
@@ -159,7 +209,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "民權路四段北側抽水站停車場",
+   "pid": "ChIJcQjilBt2bjQR5X6ff4V0lB4",
+   "lat": 23.002546,
+   "lng": 120.165948,
+   "m": 122
+  }
  },
  {
   "name": "紅仙水咖啡",
@@ -177,7 +234,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "福興鄉大地第一停車場P",
+   "pid": "ChIJG2yH_QZGaTQRIiJNDVxr2rg",
+   "lat": 24.052601,
+   "lng": 120.438966,
+   "m": 78
+  }
  },
  {
   "name": "炭火大叔野餐店 Fumoir d'Arthur",
@@ -195,7 +259,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新平溪煤礦博物園區停車場",
+   "pid": "ChIJW01kCgBRXTQRkFHppe_hl-w",
+   "lat": 25.051656,
+   "lng": 121.773942,
+   "m": 149
+  }
  },
  {
   "name": "La dolceria Buonumore",
@@ -213,7 +284,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 天母傑仕堡站",
+   "pid": "ChIJZf291ICvQjQR5-91GdQPGeY",
+   "lat": 25.116328,
+   "lng": 121.533126,
+   "m": 190
+  }
  },
  {
   "name": "PASŪTA",
@@ -231,7 +309,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "好庭車停車場",
+   "pid": "ChIJa1NnE5euQjQRY-Vhe7XZREM",
+   "lat": 25.103139,
+   "lng": 121.523945,
+   "m": 56
+  }
  },
  {
   "name": "禮約蜂蜜彌月蛋糕",
@@ -249,7 +334,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJ24QK2VJxbjQR3MLm71eNr8g",
+   "lat": 23.028964,
+   "lng": 120.251799,
+   "m": 126
+  }
  },
  {
   "name": "江家羊肉",
@@ -267,7 +359,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "羊世界教學休閒牧場停車場",
+   "pid": "ChIJuYUp5X0haDQRr8KOsBJD098",
+   "lat": 24.982274,
+   "lng": 121.210576,
+   "m": 141
+  }
  },
  {
   "name": "明玉海產粥",
@@ -285,7 +384,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJ87S-o8R3bjQR8sIxVtNEohY",
+   "lat": 23.032269,
+   "lng": 120.189251,
+   "m": 297
+  }
  },
  {
   "name": "嘉邑海鮮小館",
@@ -303,7 +409,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "歐特儀-貢寮澳底公園地下停車場(近澳底國小、夜市、澳仔漁港)",
+   "pid": "ChIJVcV2WeldXTQRmrPyP6oJzCo",
+   "lat": 25.053358,
+   "lng": 121.92527,
+   "m": 560
+  }
  },
  {
   "name": "KOS CAFE",
@@ -321,7 +434,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南市忠烈祠停車場",
+   "pid": "ChIJZSlfgIF2bjQR2KOY0f1naZ0",
+   "lat": 22.980975,
+   "lng": 120.210371,
+   "m": 98
+  }
  },
  {
   "name": "RJ Lazy Cheese",
@@ -339,7 +459,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鼎富發機車停車場",
+   "pid": "ChIJDT1dfgB3bjQRXCtRMSKzOnQ",
+   "lat": 22.989533,
+   "lng": 120.195966,
+   "m": 163
+  }
  },
  {
   "name": "歸 すき焼",
@@ -357,7 +484,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 成大醫院復健部站 (機車停車場)",
+   "pid": "ChIJ3313ov93bjQRKyyapxKaLsc",
+   "lat": 23.002951,
+   "lng": 120.219248,
+   "m": 65
+  }
  },
  {
   "name": "Swallow 嚥·台南",
@@ -375,7 +509,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-台南忠義(全聯)站",
+   "pid": "ChIJyXMhpyl3bjQRRRHHdjSTXZw",
+   "lat": 23.000667,
+   "lng": 120.205681,
+   "m": 70
+  }
  },
  {
   "name": "南北小吃",
@@ -393,7 +534,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "康是美停車位LW",
+   "pid": "ChIJj_nGDQBPXTQROyLOARPiqys",
+   "lat": 25.127723,
+   "lng": 121.752385,
+   "m": 153
+  }
  },
  {
   "name": "陳記腸蚵專業麵線",
@@ -411,7 +559,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 梧州街停車場",
+   "pid": "ChIJd-kjCrOpQjQRWdsqkWO1ius",
+   "lat": 25.03584,
+   "lng": 121.497664,
+   "m": 94
+  }
  },
  {
   "name": "白兔美術社 Coffee KISSA",
@@ -429,7 +584,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 臺南一中體育館停車場",
+   "pid": "ChIJc2C-4DR3bjQRjVFTXMDMIpE",
+   "lat": 22.992427,
+   "lng": 120.218637,
+   "m": 157
+  }
  },
  {
   "name": "名揚坤昌行 古早味手工豆腐乳",
@@ -447,7 +609,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJOydlEgADaDQRDdyzndfnTP0",
+   "lat": 24.993626,
+   "lng": 121.50352,
+   "m": 84
+  }
  },
  {
   "name": "KOMEYA飯糰",
@@ -465,7 +634,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJZdRNTQB3bjQRLBWlstDy4w4",
+   "lat": 22.998466,
+   "lng": 120.198446,
+   "m": 81
+  }
  },
  {
   "name": "連得堂餅家",
@@ -483,7 +659,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "開基玉皇宮停車場",
+   "pid": "ChIJDaCawIp2bjQRZgVf0BdVm2I",
+   "lat": 22.999625,
+   "lng": 120.206597,
+   "m": 87
+  }
  },
  {
   "name": "賀康(海王子)手作碳烤夾心酥",
@@ -501,7 +684,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJG2zJyP13bjQR7Isk174l63A",
+   "lat": 22.996021,
+   "lng": 120.200443,
+   "m": 62
+  }
  },
  {
   "name": "堯平布朗尼一店",
@@ -519,7 +709,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "府中街停車場",
+   "pid": "ChIJAWZzKQB3bjQRbQZI1CXHtWY",
+   "lat": 22.990619,
+   "lng": 120.207211,
+   "m": 125
+  }
  },
  {
   "name": "Present Coffee",
@@ -537,7 +734,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJZdRNTQB3bjQRLBWlstDy4w4",
+   "lat": 22.998466,
+   "lng": 120.198446,
+   "m": 113
+  }
  },
  {
   "name": "甲子園茶行 中正店",
@@ -555,7 +759,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南中正路停車場",
+   "pid": "ChIJk2ctGAB3bjQRuoweSvHS_CY",
+   "lat": 22.992557,
+   "lng": 120.199073,
+   "m": 101
+  }
  },
  {
   "name": "玉井阿月芒果冰",
@@ -573,7 +784,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "玉井農會停車場",
+   "pid": "ChIJKfH5oRNhbjQRH7DHKGet-uk",
+   "lat": 23.125303,
+   "lng": 120.462025,
+   "m": 42
+  }
  },
  {
   "name": "万茶川日本茶專賣店",
@@ -591,7 +809,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南U.I.J HOTEL & HOSTEL停車場 假日房客優先",
+   "pid": "ChIJRY70aUZ3bjQRGnMKvU07um0",
+   "lat": 22.99088,
+   "lng": 120.199603,
+   "m": 96
+  }
  },
  {
   "name": "榮興水果店",
@@ -609,7 +834,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 台南興濟站",
+   "pid": "ChIJzfsWN4h3bjQRtcXxaOSSMFM",
+   "lat": 22.99839,
+   "lng": 120.206261,
+   "m": 74
+  }
  },
  {
   "name": "三大牛肉火鍋（創始店）",
@@ -627,7 +859,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "三大牛肉停車場",
+   "pid": "ChIJ2eyofABxbjQRXEYM0AwyYXc",
+   "lat": 23.003249,
+   "lng": 120.258978,
+   "m": 100
+  }
  },
  {
   "name": "和喫咖啡",
@@ -645,7 +884,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "府連停車場",
+   "pid": "ChIJw_F1trt3bjQRR37amaFmBH4",
+   "lat": 22.983855,
+   "lng": 120.211925,
+   "m": 162
+  }
  },
  {
   "name": "光芒果子 Sunny Mango Gelato",
@@ -663,7 +909,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "虎頭山第一停車場",
+   "pid": "ChIJidTrcgJhbjQRcAbccPQSS8U",
+   "lat": 23.129126,
+   "lng": 120.481236,
+   "m": 646
+  }
  },
  {
   "name": "九記何燒臘",
@@ -681,7 +934,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "安和吉林站停車場",
+   "pid": "ChIJ_TOvOGepQjQRC-wh2rH2qvk",
+   "lat": 25.054257,
+   "lng": 121.530252,
+   "m": 94
+  }
  },
  {
   "name": "元意餐廳",
@@ -699,7 +959,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "益彩國際深坑停車場",
+   "pid": "ChIJyTt3ewCrQjQRZkbmiTkE3kk",
+   "lat": 25.001225,
+   "lng": 121.619557,
+   "m": 194
+  }
  },
  {
   "name": "Tim castella",
@@ -735,7 +1002,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ViVi PARK安平路二站停車場",
+   "pid": "ChIJz_jYV9N3bjQRZ83uzfZFm84",
+   "lat": 23.000434,
+   "lng": 120.170172,
+   "m": 274
+  }
  },
  {
   "name": "東菜市場玉春珍珠玉米",
@@ -753,7 +1027,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "日月亭中西萬昌街 uTagGo",
+   "pid": "ChIJi2VtHSl3bjQRWxwvZI9k_ao",
+   "lat": 22.991108,
+   "lng": 120.210458,
+   "m": 36
+  }
  },
  {
   "name": "老咖啡館",
@@ -771,7 +1052,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "皇翔敦南站停車場",
+   "pid": "ChIJb-3WZH6rQjQRnth3QijlOTU",
+   "lat": 25.039922,
+   "lng": 121.548194,
+   "m": 115
+  }
  },
  {
   "name": "宣福居",
@@ -789,7 +1077,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ClTY.PARKlNG城市車旅停車場（臺南市海安路地下停車場2）",
+   "pid": "ChIJ9xRqq2V2bjQRNE-zXs5kpZE",
+   "lat": 22.995109,
+   "lng": 120.196357,
+   "m": 49
+  }
  },
  {
   "name": "萬萬 One One",
@@ -807,7 +1102,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南中正路停車場",
+   "pid": "ChIJk2ctGAB3bjQRuoweSvHS_CY",
+   "lat": 22.992557,
+   "lng": 120.199073,
+   "m": 79
+  }
  },
  {
   "name": "永發珈琲",
@@ -843,7 +1145,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "西門圓環停車場",
+   "pid": "ChIJH_V_wNh3bjQR_d3zHcYLgLk",
+   "lat": 22.997653,
+   "lng": 120.200031,
+   "m": 72
+  }
  },
  {
   "name": "鄭記黑珍珠玉米",
@@ -861,7 +1170,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "青年路東市場公有機車停車場",
+   "pid": "ChIJmxIVQQB3bjQR2nknXMs9QIQ",
+   "lat": 22.991638,
+   "lng": 120.210305,
+   "m": 60
+  }
  },
  {
   "name": "黑珍珠玉米",
@@ -879,7 +1195,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "青年路東市場公有機車停車場",
+   "pid": "ChIJmxIVQQB3bjQR2nknXMs9QIQ",
+   "lat": 22.991638,
+   "lng": 120.210305,
+   "m": 60
+  }
  },
  {
   "name": "吃麵吧",
@@ -897,7 +1220,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南大仁街停車場",
+   "pid": "ChIJOY3S_7V3bjQRXjfJl9YljSY",
+   "lat": 22.990458,
+   "lng": 120.193547,
+   "m": 42
+  }
  },
  {
   "name": "品味鱔魚意麵",
@@ -915,7 +1245,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 海安站",
+   "pid": "ChIJE-rkzXp2bjQR0qSK4v-7948",
+   "lat": 22.991248,
+   "lng": 120.195687,
+   "m": 71
+  }
  },
  {
   "name": "再發號百年肉粽",
@@ -933,7 +1270,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣大車位-台南中西民生路停車場 天壇",
+   "pid": "ChIJWQSgCHB3bjQR0KaQFnGMblM",
+   "lat": 22.993254,
+   "lng": 120.203697,
+   "m": 177
+  }
  },
  {
   "name": "王氏魚皮",
@@ -951,7 +1295,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ViVi PARK安平路一站停車場",
+   "pid": "ChIJkasqNBB3bjQROBz4RwGSJO4",
+   "lat": 22.999374,
+   "lng": 120.169221,
+   "m": 54
+  }
  },
  {
   "name": "叁沌 coffee",
@@ -969,7 +1320,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南大遠百公園店停車場",
+   "pid": "ChIJAW549Yl2bjQRvAH3GBX9pVU",
+   "lat": 22.995396,
+   "lng": 120.206332,
+   "m": 110
+  }
  },
  {
   "name": "阿蓮牛肉湯 台南公園店",
@@ -987,7 +1345,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南大遠百公園店停車場",
+   "pid": "ChIJAW549Yl2bjQRvAH3GBX9pVU",
+   "lat": 22.995396,
+   "lng": 120.206332,
+   "m": 112
+  }
  },
  {
   "name": "清吉水果",
@@ -1005,7 +1370,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南U.I.J HOTEL & HOSTEL停車場 假日房客優先",
+   "pid": "ChIJRY70aUZ3bjQRGnMKvU07um0",
+   "lat": 22.99088,
+   "lng": 120.199603,
+   "m": 80
+  }
  },
  {
   "name": "莉莉水果店",
@@ -1023,7 +1395,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "忠義國小付費路外停車場",
+   "pid": "ChIJn2StQQB3bjQRCd0hcCX2bzU",
+   "lat": 22.989491,
+   "lng": 120.203131,
+   "m": 113
+  }
  },
  {
   "name": "阿財點心",
@@ -1041,7 +1420,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "友愛街機車停車場",
+   "pid": "ChIJDynCwMh3bjQRMdFGmH2_Kgw",
+   "lat": 22.992397,
+   "lng": 120.195424,
+   "m": 92
+  }
  },
  {
   "name": "Mi Cazuela 移動的鍋子",
@@ -1059,7 +1445,14 @@
   "status": "CLOSED_TEMPORARILY",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "友愛街機車停車場",
+   "pid": "ChIJcVBWZ5Z3bjQRLNIcVyOehgY",
+   "lat": 22.990931,
+   "lng": 120.20591,
+   "m": 160
+  }
  },
  {
   "name": "永樂牛肉湯",
@@ -1077,7 +1470,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJZdRNTQB3bjQRLBWlstDy4w4",
+   "lat": 22.998466,
+   "lng": 120.198446,
+   "m": 116
+  }
  },
  {
   "name": "露台焼き鳥 Yakitori Bar",
@@ -1095,7 +1495,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南大仁街停車場",
+   "pid": "ChIJOY3S_7V3bjQRXjfJl9YljSY",
+   "lat": 22.990458,
+   "lng": 120.193547,
+   "m": 90
+  }
  },
  {
   "name": "金龐鹽酥雞",
@@ -1113,7 +1520,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "月租套房/員工宿舍/實習月租",
+   "pid": "ChIJNwrWZvZ2bjQRz4pmlisTgBY",
+   "lat": 23.007065,
+   "lng": 120.207825,
+   "m": 226
+  }
  },
  {
   "name": "馨味胡椒白菜雞",
@@ -1131,7 +1545,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南北安二站停車場",
+   "pid": "ChIJ8xiNDep3bjQRYfjUkN_Dx8w",
+   "lat": 23.015723,
+   "lng": 120.211904,
+   "m": 59
+  }
  },
  {
   "name": "小豪洲沙茶爐 中正總店",
@@ -1149,7 +1570,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南中正路停車場",
+   "pid": "ChIJk2ctGAB3bjQRuoweSvHS_CY",
+   "lat": 22.992557,
+   "lng": 120.199073,
+   "m": 87
+  }
  },
  {
   "name": "青山茶行",
@@ -1167,7 +1595,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ClTY.PARKlNG城市車旅停車場（臺南市海安路地下停車場2）",
+   "pid": "ChIJ9xRqq2V2bjQRNE-zXs5kpZE",
+   "lat": 22.995109,
+   "lng": 120.196357,
+   "m": 25
+  }
  },
  {
   "name": "阿江鱔魚意麵",
@@ -1185,7 +1620,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJZdRNTQB3bjQRLBWlstDy4w4",
+   "lat": 22.998466,
+   "lng": 120.198446,
+   "m": 153
+  }
  },
  {
   "name": "KAPISIU KOFFEE",
@@ -1203,7 +1645,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鹽神白沙灘停車場",
+   "pid": "ChIJNZqbpajYbTQRRVhNbuGnTaA",
+   "lat": 23.000547,
+   "lng": 120.153937,
+   "m": 74
+  }
  },
  {
   "name": "阿裕牛肉涮涮鍋（崑崙店）",
@@ -1221,7 +1670,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "柏旭交通",
+   "pid": "ChIJj266eO9zbjQROhhmA2yGCFI",
+   "lat": 22.937329,
+   "lng": 120.262657,
+   "m": 379
+  }
  },
  {
   "name": "延記臭豆腐（大東夜市）",
@@ -1239,7 +1695,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-台南林森場",
+   "pid": "ChIJyZZCAeV3bjQRy1tBgGbXvkQ",
+   "lat": 22.982485,
+   "lng": 120.220788,
+   "m": 142
+  }
  },
  {
   "name": "碳饅堡",
@@ -1257,7 +1720,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "高雄白灰王",
+   "pid": "ChIJZQF0inB2bjQRbp-hggvYOxk",
+   "lat": 22.990285,
+   "lng": 120.192372,
+   "m": 6
+  }
  },
  {
   "name": "Barista Ray Coffee",
@@ -1275,7 +1745,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJ84u-EAB3bjQRaVWOhSlwaaA",
+   "lat": 22.991445,
+   "lng": 120.202092,
+   "m": 48
+  }
  },
  {
   "name": "ゴゴ台所 kaku.daidokoro",
@@ -1293,7 +1770,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "樹林街二段254號旁臨時免費公有機車停車場",
+   "pid": "ChIJI2mAGwB3bjQRHoJmXtNNRL8",
+   "lat": 22.986209,
+   "lng": 120.202644,
+   "m": 105
+  }
  },
  {
   "name": "烏木 Wumu 甜點",
@@ -1311,7 +1795,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "南門路231巷停車場",
+   "pid": "ChIJpUzC64J3bjQRshp0xLpFhbg",
+   "lat": 22.983517,
+   "lng": 120.205133,
+   "m": 61
+  }
  },
  {
   "name": "體育場樺哥土產牛肉湯",
@@ -1329,7 +1820,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "健康路一段133巷收費停車場",
+   "pid": "ChIJo1mA3ll1bjQR6WvBhiu8lVU",
+   "lat": 22.978086,
+   "lng": 120.208856,
+   "m": 188
+  }
  },
  {
   "name": "堯平布朗尼二店",
@@ -1347,7 +1845,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "統舜財經大廈停車場",
+   "pid": "ChIJ5Yt-mV92bjQRoO2U80brCFY",
+   "lat": 23.003502,
+   "lng": 120.203998,
+   "m": 242
+  }
  },
  {
   "name": "網maan",
@@ -1365,7 +1870,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "暖時嚼旅 旅客專用付費停車場 ( 平日收費300/天.假日收費400/天)",
+   "pid": "ChIJFeLAj693bjQRfAdC2DjxuW8",
+   "lat": 22.998035,
+   "lng": 120.201962,
+   "m": 87
+  }
  },
  {
   "name": "阿法紅豆泥",
@@ -1383,7 +1895,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJZdRNTQB3bjQRLBWlstDy4w4",
+   "lat": 22.998466,
+   "lng": 120.198446,
+   "m": 105
+  }
  },
  {
   "name": "㕩肉舖 Pankoko 燒肉專門店",
@@ -1401,7 +1920,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "全美戲院對面停車場",
+   "pid": "ChIJH6sZdgB3bjQRx77PODlpeBg",
+   "lat": 22.995254,
+   "lng": 120.201831,
+   "m": 96
+  }
  },
  {
   "name": "冬日 Dongri",
@@ -1419,7 +1945,14 @@
   "status": "CLOSED_TEMPORARILY",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "安平老街停車場",
+   "pid": "ChIJyUHNFgB3bjQR0Q2XZxKOKsM",
+   "lat": 22.999278,
+   "lng": 120.166174,
+   "m": 204
+  }
  },
  {
   "name": "己己咖啡",
@@ -1437,7 +1970,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ViVi PARK 台南東安路停車場",
+   "pid": "ChIJ8Y9SvuN3bjQROf6oQi1kVMM",
+   "lat": 22.996238,
+   "lng": 120.227468,
+   "m": 156
+  }
  },
  {
   "name": "錦興豆腐店",
@@ -1455,7 +1995,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新埔鎮公有停車場",
+   "pid": "ChIJn5TuMG05aDQRLbvENrErDTs",
+   "lat": 24.828342,
+   "lng": 121.080661,
+   "m": 110
+  }
  },
  {
   "name": "阿財泰國蝦",
@@ -1473,7 +2020,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "亞洲電腦十全停車場",
+   "pid": "ChIJ_eZKuSIFbjQRT_BvWj5LHfo",
+   "lat": 22.646049,
+   "lng": 120.297252,
+   "m": 137
+  }
  },
  {
   "name": "1+1燒臘（原東門鴨莊總店）",
@@ -1491,7 +2045,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "南昌停車場",
+   "pid": "ChIJ9bBz3ZipQjQRPSO7N3CURrs",
+   "lat": 25.031318,
+   "lng": 121.516626,
+   "m": 53
+  }
  },
  {
   "name": "龍潭豆花",
@@ -1509,7 +2070,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "公館新館大樓停車場",
+   "pid": "ChIJOyscs0GpQjQRpsGuLKA6a9I",
+   "lat": 25.013298,
+   "lng": 121.534119,
+   "m": 69
+  }
  },
  {
   "name": "厚冶 Bakery & Cafe",
@@ -1527,7 +2095,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "台灣中油 青海路站",
@@ -1545,7 +2114,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "青海河南站停車場",
+   "pid": "ChIJdQzExNA9aTQRQnC8K91g_-A",
+   "lat": 24.171029,
+   "lng": 120.644213,
+   "m": 43
+  }
  },
  {
   "name": "賴新魁麵館 三義總店",
@@ -1563,7 +2139,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "賴新魁麵館專用停車場一",
+   "pid": "ChIJA5uo948GaTQReI5plfSGTXA",
+   "lat": 24.410971,
+   "lng": 120.768621,
+   "m": 27
+  }
  },
  {
   "name": "宋廚菜館",
@@ -1581,7 +2164,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "迦美-市府站停車場",
+   "pid": "ChIJ6YAIdQCrQjQRoXUM5nNuvog",
+   "lat": 25.042134,
+   "lng": 121.565928,
+   "m": 60
+  }
  },
  {
   "name": "注目 Tranity 深夜甜點酒吧",
@@ -1599,7 +2189,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "古堡街 122 巷路外停車場",
+   "pid": "ChIJMzL7cADZbTQRHtNkdOIRZsc",
+   "lat": 23.003998,
+   "lng": 120.158866,
+   "m": 235
+  }
  },
  {
   "name": "蜷尾家 甘味処",
@@ -1617,7 +2214,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南民生路第2停車場",
+   "pid": "ChIJ5zQ2WWR2bjQRRdDGVyejJkg",
+   "lat": 22.994858,
+   "lng": 120.197539,
+   "m": 73
+  }
  },
  {
   "name": "這個甘草芭樂 總店",
@@ -1635,7 +2239,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南保安郡西停車場",
+   "pid": "ChIJO_5cVYp3bjQR1vFNWNbdCJk",
+   "lat": 22.990659,
+   "lng": 120.194542,
+   "m": 68
+  }
  },
  {
   "name": "阿財牛肉湯 西門x保安店",
@@ -1653,7 +2264,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鼎富發機車停車場",
+   "pid": "ChIJDT1dfgB3bjQRXCtRMSKzOnQ",
+   "lat": 22.989533,
+   "lng": 120.195966,
+   "m": 177
+  }
  },
  {
   "name": "石精臼牛肉湯",
@@ -1671,7 +2289,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "暖時嚼旅 旅客專用付費停車場 ( 平日收費300/天.假日收費400/天)",
+   "pid": "ChIJFeLAj693bjQRfAdC2DjxuW8",
+   "lat": 22.998035,
+   "lng": 120.201962,
+   "m": 93
+  }
  },
  {
   "name": "西羅殿牛肉湯",
@@ -1689,7 +2314,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "臺南轉運站大型車收費路外停車場(請由公園北路進出)",
+   "pid": "ChIJPwv4CwB3bjQRzLvmG4HB4Ek",
+   "lat": 23.002256,
+   "lng": 120.20797,
+   "m": 97
+  }
  },
  {
   "name": "豆奶宗",
@@ -1707,7 +2339,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南大仁街停車場",
+   "pid": "ChIJOY3S_7V3bjQRXjfJl9YljSY",
+   "lat": 22.990458,
+   "lng": 120.193547,
+   "m": 108
+  }
  },
  {
   "name": "林家茂子白糖粿蕃薯椪",
@@ -1725,7 +2364,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "俥亭停車場(西門場)",
+   "pid": "ChIJDwVINXt2bjQR6Pg3pwOhUjg",
+   "lat": 22.991869,
+   "lng": 120.19784,
+   "m": 54
+  }
  },
  {
   "name": "鄭牛肉湯",
@@ -1743,7 +2389,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "食光宴大福願景店-專屬停車場",
+   "pid": "ChIJC_B1SAB3bjQRIMTehykyuGM",
+   "lat": 22.99841,
+   "lng": 120.194254,
+   "m": 44
+  }
  },
  {
   "name": "舊李合興蜜餞 安平店",
@@ -1761,7 +2414,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 台南安平運河站",
+   "pid": "ChIJwWOXNNl3bjQR5RjmXQPLd2w",
+   "lat": 22.998743,
+   "lng": 120.16251,
+   "m": 158
+  }
  },
  {
   "name": "阿興虱目魚",
@@ -1779,7 +2439,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "文賢路365巷路外停車場",
+   "pid": "ChIJkztQF3J3bjQRsNlhAhpyRSI",
+   "lat": 23.007904,
+   "lng": 120.193175,
+   "m": 154
+  }
  },
  {
   "name": "台南土城螃蟹專賣店（耐人蟳味）",
@@ -1797,7 +2464,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-台南土城(全聯)站",
+   "pid": "ChIJ050JOJrZbTQRERaVm7KBXQM",
+   "lat": 23.064565,
+   "lng": 120.128616,
+   "m": 566
+  }
  },
  {
   "name": "水仙宮三兄弟魚湯店",
@@ -1815,7 +2489,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "168Parking (國華室內停車場)",
+   "pid": "ChIJG6AHqsB3bjQRPJEedPfNluA",
+   "lat": 22.995362,
+   "lng": 120.197377,
+   "m": 180
+  }
  },
  {
   "name": "金桃家草莓大福 2号店",
@@ -1833,7 +2514,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南和平街停車場",
+   "pid": "ChIJI0siWt93bjQRjqSCPcvbxE8",
+   "lat": 22.996806,
+   "lng": 120.195107,
+   "m": 56
+  }
  },
  {
   "name": "金桃家草莓大福",
@@ -1851,7 +2539,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南永康大勇路【月租】停車場",
+   "pid": "ChIJ__w-hN9xbjQRrznQhxANiIg",
+   "lat": 23.0105,
+   "lng": 120.260888,
+   "m": 246
+  }
  },
  {
   "name": "咚窩蕊喫茶店",
@@ -1869,7 +2564,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "全美戲院對面停車場",
+   "pid": "ChIJH6sZdgB3bjQRx77PODlpeBg",
+   "lat": 22.995254,
+   "lng": 120.201831,
+   "m": 135
+  }
  },
  {
   "name": "粼粼",
@@ -1887,7 +2589,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南東門路二段第3停車場",
+   "pid": "ChIJS4wFg913bjQR8zynhUMElSs",
+   "lat": 22.983212,
+   "lng": 120.227064,
+   "m": 158
+  }
  },
  {
   "name": "深藍咖啡館 旗艦店",
@@ -1905,7 +2614,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣大車位—台南平通路場",
+   "pid": "ChIJYcncZgB3bjQRZmAvxOffkR4",
+   "lat": 22.992771,
+   "lng": 120.180925,
+   "m": 212
+  }
  },
  {
   "name": "台南東區東平路38號（只有地址）",
@@ -1923,7 +2639,14 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "水恃 日式料理",
+   "pid": "ChIJF4kuZQB3bjQRv4qsp6KEt00",
+   "lat": 22.994361,
+   "lng": 120.231383,
+   "m": 191
+  }
  },
  {
   "name": "文章牛肉湯 安平總店",
@@ -1941,7 +2664,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 (台南安平運河二站)",
+   "pid": "ChIJfdeTr4t3bjQRwSeKTrVEbYg",
+   "lat": 22.998687,
+   "lng": 120.170149,
+   "m": 45
+  }
  },
  {
   "name": "東東鮮蝦餅",
@@ -1959,7 +2689,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJAR8LagB3bjQRdyJqoIpKZeI",
+   "lat": 23.000061,
+   "lng": 120.167812,
+   "m": 93
+  }
  },
  {
   "name": "阿忠螃蟹 府城蟳禮",
@@ -1977,7 +2714,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-台南土城(全聯)站",
+   "pid": "ChIJ050JOJrZbTQRERaVm7KBXQM",
+   "lat": 23.064565,
+   "lng": 120.128616,
+   "m": 530
+  }
  },
  {
   "name": "土城海產店",
@@ -1995,7 +2739,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-台南土城(全聯)站",
+   "pid": "ChIJ050JOJrZbTQRERaVm7KBXQM",
+   "lat": 23.064565,
+   "lng": 120.128616,
+   "m": 444
+  }
  },
  {
   "name": "南紡購物中心",
@@ -2013,7 +2764,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "永固便利停車股份有限公司",
+   "pid": "ChIJpZi1xr52bjQRjrTkZaKqbJk",
+   "lat": 22.991474,
+   "lng": 120.232895,
+   "m": 79
+  }
  },
  {
   "name": "La Belle Maison Cafe 法國手工甜品",
@@ -2031,7 +2789,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "民權路四段北側抽水站停車場",
+   "pid": "ChIJcQjilBt2bjQR5X6ff4V0lB4",
+   "lat": 23.002546,
+   "lng": 120.165948,
+   "m": 223
+  }
  },
  {
   "name": "石頭鄉燜烤香味玉米",
@@ -2049,7 +2814,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南保安郡西停車場",
+   "pid": "ChIJO_5cVYp3bjQR1vFNWNbdCJk",
+   "lat": 22.990659,
+   "lng": 120.194542,
+   "m": 63
+  }
  },
  {
   "name": "土魠魚粥、菜粽、肉粽",
@@ -2067,7 +2839,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "食光宴大福願景店-專屬停車場",
+   "pid": "ChIJC_B1SAB3bjQRIMTehykyuGM",
+   "lat": 22.99841,
+   "lng": 120.194254,
+   "m": 62
+  }
  },
  {
   "name": "順福土產牛肉湯",
@@ -2085,7 +2864,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "佳里新生停車場",
+   "pid": "ChIJDZ2OBwB_bjQRLgZiMoHsIi8",
+   "lat": 23.160391,
+   "lng": 120.177346,
+   "m": 156
+  }
  },
  {
   "name": "友愛牛肉湯",
@@ -2103,7 +2889,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台南市友愛市場 停車場",
+   "pid": "ChIJV9DEqC93bjQRqUlfZ610-iM",
+   "lat": 22.991209,
+   "lng": 120.199594,
+   "m": 31
+  }
  },
  {
   "name": "阿銘牛肉湯",
@@ -2121,7 +2914,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-台南永明場",
+   "pid": "ChIJfTxahuxxbjQRaO4XUfKKV08",
+   "lat": 23.02587,
+   "lng": 120.259091,
+   "m": 264
+  }
  },
  {
   "name": "六千泓佐土產牛肉",
@@ -2139,7 +2939,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南海安路一段停車場",
+   "pid": "ChIJYwPaGEN3bjQRiWWDgYy9xqc",
+   "lat": 22.989311,
+   "lng": 120.195269,
+   "m": 44
+  }
  },
  {
   "name": "福記肉圓總店",
@@ -2157,7 +2964,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "忠義國小付費路外停車場",
+   "pid": "ChIJn2StQQB3bjQRCd0hcCX2bzU",
+   "lat": 22.989491,
+   "lng": 120.203131,
+   "m": 79
+  }
  },
  {
   "name": "台南葉家燒烤",
@@ -2175,7 +2989,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "府中街停車場",
+   "pid": "ChIJAWZzKQB3bjQRbQZI1CXHtWY",
+   "lat": 22.990619,
+   "lng": 120.207211,
+   "m": 158
+  }
  },
  {
   "name": "灣裡 鱔魚/花枝意麵",
@@ -2193,7 +3014,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "日月亭萬年六街停車場",
+   "pid": "ChIJORw_PgB1bjQRAKmPa34OUew",
+   "lat": 22.931842,
+   "lng": 120.185118,
+   "m": 513
+  }
  },
  {
   "name": "開元紅燒土魠魚羹",
@@ -2211,7 +3039,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 開南站",
+   "pid": "ChIJwThiAGR3bjQRjK-ayjsRJvA",
+   "lat": 23.007861,
+   "lng": 120.222335,
+   "m": 98
+  }
  },
  {
   "name": "杯情丞事 日式手作漢堡",
@@ -2229,7 +3064,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "百里亭台南永華場",
+   "pid": "ChIJ70v4pQx3bjQRNnk18-VgBVg",
+   "lat": 22.987311,
+   "lng": 120.196235,
+   "m": 74
+  }
  },
  {
   "name": "下大道旗魚羹",
@@ -2247,7 +3089,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南海安路一段停車場",
+   "pid": "ChIJYwPaGEN3bjQRiWWDgYy9xqc",
+   "lat": 22.989311,
+   "lng": 120.195269,
+   "m": 82
+  }
  },
  {
   "name": "下大道蘭米糕",
@@ -2265,7 +3114,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車處",
+   "pid": "ChIJf0ypcHp2bjQRc9yYHHnLbGM",
+   "lat": 22.989282,
+   "lng": 120.193954,
+   "m": 68
+  }
  },
  {
   "name": "大勇街無名鹹粥",
@@ -2283,7 +3139,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南大仁街停車場",
+   "pid": "ChIJOY3S_7V3bjQRXjfJl9YljSY",
+   "lat": 22.990458,
+   "lng": 120.193547,
+   "m": 73
+  }
  },
  {
   "name": "你我他之家",
@@ -2301,7 +3164,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鼎富發機車停車場",
+   "pid": "ChIJDT1dfgB3bjQRXCtRMSKzOnQ",
+   "lat": 22.989533,
+   "lng": 120.195966,
+   "m": 96
+  }
  },
  {
   "name": "上好烤魯味",
@@ -2319,7 +3189,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJDWw6R793bjQRPcz5o6bCjhE",
+   "lat": 22.999052,
+   "lng": 120.198242,
+   "m": 168
+  }
  },
  {
   "name": "阿明豬心冬粉",
@@ -2337,7 +3214,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 海安站",
+   "pid": "ChIJE-rkzXp2bjQR0qSK4v-7948",
+   "lat": 22.991248,
+   "lng": 120.195687,
+   "m": 100
+  }
  },
  {
   "name": "無名羊肉湯（大菜市）",
@@ -2355,7 +3239,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南保安郡西停車場",
+   "pid": "ChIJO_5cVYp3bjQR1vFNWNbdCJk",
+   "lat": 22.990659,
+   "lng": 120.194542,
+   "m": 76
+  }
  },
  {
   "name": "民生本產正牛肉湯 牛肉爐",
@@ -2373,7 +3264,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "河中街路外停車場",
+   "pid": "ChIJsTYkSxx3bjQReWaD0VhAza8",
+   "lat": 22.995901,
+   "lng": 120.193171,
+   "m": 37
+  }
  },
  {
   "name": "阿財牛肉湯",
@@ -2391,7 +3289,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 台南安平運河站",
+   "pid": "ChIJwWOXNNl3bjQR5RjmXQPLd2w",
+   "lat": 22.998743,
+   "lng": 120.16251,
+   "m": 134
+  }
  },
  {
   "name": "小丞事麵包烘焙坊",
@@ -2409,7 +3314,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-台南大德場",
+   "pid": "ChIJrxsyo4V3bjQRUf5QqLS9M2c",
+   "lat": 22.985881,
+   "lng": 120.195834,
+   "m": 66
+  }
  },
  {
   "name": "南都石頭燜烤玉米",
@@ -2427,7 +3339,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 台南保安郡西停車場",
+   "pid": "ChIJO_5cVYp3bjQR1vFNWNbdCJk",
+   "lat": 22.990659,
+   "lng": 120.194542,
+   "m": 102
+  }
  },
  {
   "name": "特麗雲端自助洗車廣場 濱江場",
@@ -2445,7 +3364,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台北市停車管理工程處濱江放置１場",
+   "pid": "ChIJCeTz8YmrQjQR9ej7GHIbqgU",
+   "lat": 25.067394,
+   "lng": 121.566187,
+   "m": 403
+  }
  },
  {
   "name": "峨眉立體停車場",
@@ -2463,7 +3389,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "峨眉立體停車場",
+   "pid": "ChIJ8fKP5gipQjQRrVykqwZyJAE",
+   "lat": 25.044291,
+   "lng": 121.50571,
+   "m": 0
+  }
  },
  {
   "name": "雅香石頭火鍋（西門總店）",
@@ -2481,7 +3414,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 浩瀚運創西門館停車場",
+   "pid": "ChIJf2bixbupQjQRy9XOE2Dd1YY",
+   "lat": 25.043056,
+   "lng": 121.504176,
+   "m": 158
+  }
  },
  {
   "name": "豆留森林",
@@ -2499,7 +3439,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣銀行教育訓練中心假日停車場",
+   "pid": "ChIJY5eYIImtQjQRx82Af1-l8RQ",
+   "lat": 25.139018,
+   "lng": 121.546531,
+   "m": 90
+  }
  },
  {
   "name": "台北大安區樂業街38號（只有地址）",
@@ -2517,7 +3464,14 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "168Parking(樂業停車場）",
+   "pid": "ChIJtddM1JGrQjQRqBe6lsDyPpA",
+   "lat": 25.023188,
+   "lng": 121.549966,
+   "m": 17
+  }
  },
  {
   "name": "Jexer Fitness & SPA",
@@ -2535,7 +3489,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場(俠隱場)",
+   "pid": "ChIJfZ5xBd6rQjQR82zS0UabJQY",
+   "lat": 25.05221,
+   "lng": 121.54214,
+   "m": 32
+  }
  },
  {
   "name": "極之好味 港式燒臘飯館",
@@ -2553,7 +3514,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "松山文創園區東側自行車停車場",
+   "pid": "ChIJ21O549OrQjQRJ74QfcCLavw",
+   "lat": 25.043588,
+   "lng": 121.562707,
+   "m": 32
+  }
  },
  {
   "name": "極之好味/港仔記 忠孝店",
@@ -2589,7 +3557,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "湳仔溝停車場",
+   "pid": "ChIJ1cKaZQAXaDQRbuEzfZagW0c",
+   "lat": 24.824732,
+   "lng": 121.288316,
+   "m": 512
+  }
  },
  {
   "name": "北投本土味明泉紅茶",
@@ -2607,7 +3582,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "北投溫泉運動館停車場",
+   "pid": "ChIJh6-9hoKvQjQRoGkGUW0nmOY",
+   "lat": 25.134568,
+   "lng": 121.504109,
+   "m": 142
+  }
  },
  {
   "name": "傳統之最豆花堂",
@@ -2625,7 +3607,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-捷運北投站",
+   "pid": "ChIJu-nuJLmvQjQRD__5itdvvBQ",
+   "lat": 25.132876,
+   "lng": 121.49803,
+   "m": 96
+  }
  },
  {
   "name": "客美多咖啡 Komeda's 中山店",
@@ -2643,7 +3632,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "老爺大酒店停車場",
+   "pid": "ChIJa-cHAwCpQjQR17nvM9Ms-zk",
+   "lat": 25.053583,
+   "lng": 121.523028,
+   "m": 69
+  }
  },
  {
   "name": "甜滿",
@@ -2661,7 +3657,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "USPACE 共享車位 (金華街)",
+   "pid": "ChIJrfnlA6GpQjQRsQcXPKYQaFg",
+   "lat": 25.030592,
+   "lng": 121.530411,
+   "m": 98
+  }
  },
  {
   "name": "榮星羊雞城",
@@ -2679,7 +3682,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "五常國小臨時停車場",
+   "pid": "ChIJ-UaupPyrQjQRgNPZyVSZoxs",
+   "lat": 25.064411,
+   "lng": 121.542214,
+   "m": 117
+  }
  },
  {
   "name": "宜家涼麵",
@@ -2697,7 +3707,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "舊莊公園平面停車場（24）",
+   "pid": "ChIJ8x9YDgOrQjQRDl1fSAaOA1c",
+   "lat": 25.040961,
+   "lng": 121.620398,
+   "m": 109
+  }
  },
  {
   "name": "野人花園",
@@ -2715,7 +3732,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嶼山食光停車埸",
+   "pid": "ChIJV7ReBwCtQjQRaE5sLJBPRM8",
+   "lat": 25.141457,
+   "lng": 121.568487,
+   "m": 435
+  }
  },
  {
   "name": "新營豆花",
@@ -2733,7 +3757,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "宏達昌吉停車場",
+   "pid": "ChIJf7NolSqpQjQRuPoJMjouxYg",
+   "lat": 25.065761,
+   "lng": 121.510002,
+   "m": 101
+  }
  },
  {
   "name": "椒心苑麻辣鍋",
@@ -2751,7 +3782,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "洛碁南京停車場",
+   "pid": "ChIJh7osh9-rQjQRgmUWwN27cFg",
+   "lat": 25.051601,
+   "lng": 121.537242,
+   "m": 52
+  }
  },
  {
   "name": "我家牛排 林口A9店",
@@ -2769,7 +3807,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "A9林口站轉乘停車場(應安168)",
+   "pid": "ChIJe2GSewCnQjQRXONqzz_ImjA",
+   "lat": 25.066606,
+   "lng": 121.361404,
+   "m": 15
+  }
  },
  {
   "name": "黑浮咖啡 JR東日本大飯店台北店",
@@ -2787,7 +3832,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 JR 東日本大飯店站",
+   "pid": "ChIJt8ENaHKrQjQRZ_S07wAvXrI",
+   "lat": 25.052364,
+   "lng": 121.541323,
+   "m": 9
+  }
  },
  {
   "name": "一志雞排",
@@ -2805,7 +3857,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "成功高中運動中心",
+   "pid": "ChIJvV1o43CpQjQRFl2rcmih074",
+   "lat": 25.043112,
+   "lng": 121.522971,
+   "m": 70
+  }
  },
  {
   "name": "老地方客家菜",
@@ -2823,7 +3882,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "老地方客家菜停車場",
+   "pid": "ChIJ-Wi3FVsZaDQRRsBG3m5I5d4",
+   "lat": 24.893745,
+   "lng": 121.274562,
+   "m": 300
+  }
  },
  {
   "name": "牛耳精緻麵館",
@@ -2841,7 +3907,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "西湖市場地下停車場",
+   "pid": "ChIJJxE3iS2tQjQRSMkU3MdUobU",
+   "lat": 25.082911,
+   "lng": 121.566522,
+   "m": 159
+  }
  },
  {
   "name": "聚聚",
@@ -2859,7 +3932,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 重慶南路三段停車場",
+   "pid": "ChIJx4lG9EypQjQRE5qSY7lCvaQ",
+   "lat": 25.029174,
+   "lng": 121.516143,
+   "m": 146
+  }
  },
  {
   "name": "馬叔餅舖",
@@ -2877,7 +3957,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "聯永臨沂停車場",
+   "pid": "ChIJS277twOpQjQR-jrHqfdRBOU",
+   "lat": 25.036198,
+   "lng": 121.528074,
+   "m": 39
+  }
  },
  {
   "name": "莫內咖啡",
@@ -2895,7 +3982,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "大白鯊海產",
@@ -2913,7 +4001,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "大白鯊海鮮停車 ️",
+   "pid": "ChIJuZuoLBAfaDQRGYmpr3wHb7M",
+   "lat": 25.026424,
+   "lng": 121.300989,
+   "m": 41
+  }
  },
  {
   "name": "玉米家",
@@ -2931,7 +4026,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-新和庭園站",
+   "pid": "ChIJ4ZrEJQCpQjQRe_WRVeLG5Lg",
+   "lat": 25.027807,
+   "lng": 121.504888,
+   "m": 171
+  }
  },
  {
   "name": "老增壽蜜餞舖",
@@ -2949,7 +4051,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 宜蘭康樂路停車場",
+   "pid": "ChIJASxAFr3lZzQRyvKZSVietI0",
+   "lat": 24.756542,
+   "lng": 121.752471,
+   "m": 19
+  }
  },
  {
   "name": "南機場 彰化肉圓",
@@ -2967,7 +4076,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "博客停車-台北南海場(臨停）",
+   "pid": "ChIJHYvhIACpQjQR9eEh3JwAiMI",
+   "lat": 25.02766,
+   "lng": 121.507929,
+   "m": 163
+  }
  },
  {
   "name": "萬華林建發仙草冰燒仙草",
@@ -2985,7 +4101,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車停車場",
+   "pid": "ChIJrzy0RgCpQjQRRh4HLK7JSe4",
+   "lat": 25.033988,
+   "lng": 121.501226,
+   "m": 123
+  }
  },
  {
   "name": "玖玖客棧",
@@ -3003,7 +4126,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "台灣番鴨園區",
@@ -3021,7 +4145,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "豐上旅遊集團停車場（鴕鳥場）",
+   "pid": "ChIJVcjeKZMjaDQR8DY_V7NtCAs",
+   "lat": 24.921478,
+   "lng": 121.223296,
+   "m": 280
+  }
  },
  {
   "name": "建中黑砂糖刨冰",
@@ -3039,7 +4170,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "uTagGo 富山泉州街停車場",
+   "pid": "ChIJtxcxNG2pQjQRsYloYbeiVrI",
+   "lat": 25.02892,
+   "lng": 121.514186,
+   "m": 49
+  }
  },
  {
   "name": "杭州小籠湯包",
@@ -3057,7 +4195,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "杭州南路大車停車格",
+   "pid": "ChIJCUwBLQCpQjQR_O_Bh287NB8",
+   "lat": 25.034386,
+   "lng": 121.523691,
+   "m": 35
+  }
  },
  {
   "name": "東門赤肉羹",
@@ -3075,7 +4220,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台北臨沂街停車場",
+   "pid": "ChIJC_vobY-pQjQRHTQAYQ7dzEI",
+   "lat": 25.035635,
+   "lng": 121.528497,
+   "m": 66
+  }
  },
  {
   "name": "張吳記麵餅舖",
@@ -3093,7 +4245,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "富山停車-杭州南路停車場",
+   "pid": "ChIJTegPHgCpQjQRPPm9CecAGDE",
+   "lat": 25.030763,
+   "lng": 121.52239,
+   "m": 56
+  }
  },
  {
   "name": "不一樣饅頭店",
@@ -3111,7 +4270,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 金山南路第3停車場",
+   "pid": "ChIJP6bzTgCpQjQROgyQkN-UYzU",
+   "lat": 25.028485,
+   "lng": 121.525911,
+   "m": 125
+  }
  },
  {
   "name": "台北中正區連雲街74巷3-2號（只有地址）",
@@ -3129,7 +4295,14 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鐳銳科技東門停車場",
+   "pid": "ChIJ7fDtJX6pQjQRKVF8wkEiIFY",
+   "lat": 25.034732,
+   "lng": 121.529858,
+   "m": 30
+  }
  },
  {
   "name": "美樂地我家小館",
@@ -3147,7 +4320,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 龍潭中正路停車場",
+   "pid": "ChIJ9yTPEQA9aDQRHz2v6tluTJ4",
+   "lat": 24.857595,
+   "lng": 121.21924,
+   "m": 285
+  }
  },
  {
   "name": "臺北南機場夜市",
@@ -3165,7 +4345,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-新和庭園站",
+   "pid": "ChIJ4ZrEJQCpQjQRe_WRVeLG5Lg",
+   "lat": 25.027807,
+   "lng": 121.504888,
+   "m": 185
+  }
  },
  {
   "name": "饕鍋 酸菜白肉鍋",
@@ -3183,7 +4370,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "道慈大樓停車場",
+   "pid": "ChIJaSjuvdOrQjQRQWtlUZsQO3o",
+   "lat": 25.034729,
+   "lng": 121.544255,
+   "m": 136
+  }
  },
  {
   "name": "廣州街夜市香脆蚵仔煎",
@@ -3201,7 +4395,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 萬華夜市停車場",
+   "pid": "ChIJIVjMpa6pQjQRzn6mX7qAxD4",
+   "lat": 25.036005,
+   "lng": 121.497501,
+   "m": 183
+  }
  },
  {
   "name": "桃園龍潭區淮子埔路132號（只有地址）",
@@ -3219,7 +4420,8 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "師大分部臭豆腐",
@@ -3237,7 +4439,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "永和樂華停車場",
+   "pid": "ChIJ_xvmHuipQjQRKimdpl2iCiE",
+   "lat": 25.007444,
+   "lng": 121.514446,
+   "m": 38
+  }
  },
  {
   "name": "基隆豬肝腸",
@@ -3255,7 +4464,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "基隆火車站南站停車場",
+   "pid": "ChIJq3sij7FPXTQRpq0ap2R82hE",
+   "lat": 25.131186,
+   "lng": 121.738338,
+   "m": 159
+  }
  },
  {
   "name": "阿國碳烤燒餅",
@@ -3273,7 +4489,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "基隆火車站南站停車場",
+   "pid": "ChIJq3sij7FPXTQRpq0ap2R82hE",
+   "lat": 25.131186,
+   "lng": 121.738338,
+   "m": 56
+  }
  },
  {
   "name": "周家蔥油餅",
@@ -3291,7 +4514,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "信二立體停車場",
+   "pid": "ChIJkzYvbj9OXTQRYHktuKdGpFE",
+   "lat": 25.130939,
+   "lng": 121.74596,
+   "m": 32
+  }
  },
  {
   "name": "禪日本料理",
@@ -3327,7 +4557,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "蘭雅公園地下停車場（2電位）",
+   "pid": "ChIJJxpS24SuQjQRGw1-2v8vUcM",
+   "lat": 25.10955,
+   "lng": 121.529322,
+   "m": 123
+  }
  },
  {
   "name": "忠誠牛肉麵",
@@ -3345,7 +4582,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Hi PARKING 台北德行東路停車場",
+   "pid": "ChIJT8WWawCvQjQRc55fREpHnZs",
+   "lat": 25.107041,
+   "lng": 121.526822,
+   "m": 81
+  }
  },
  {
   "name": "甜蒔",
@@ -3363,7 +4607,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "博愛地下停車場",
+   "pid": "ChIJ69xQBxZOXTQRd45WfRMX1L8",
+   "lat": 25.127549,
+   "lng": 121.741888,
+   "m": 66
+  }
  },
  {
   "name": "Eddie's Cafe Et Tiramisu",
@@ -3381,7 +4632,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "基隆市仁愛區行政大樓公有停車場",
+   "pid": "ChIJgdA30BBOXTQRSHLf7zQ97Po",
+   "lat": 25.125827,
+   "lng": 121.736041,
+   "m": 37
+  }
  },
  {
   "name": "陳家涼麵",
@@ -3399,7 +4657,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "USPACE台新人壽大樓",
+   "pid": "ChIJXSzsjQOrQjQRX53cAlWl0K8",
+   "lat": 25.051993,
+   "lng": 121.562041,
+   "m": 160
+  }
  },
  {
   "name": "帝王食補 林口店",
@@ -3417,7 +4682,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "長揚停車場（林口肱瑞站）",
+   "pid": "ChIJweNtUwCnQjQRzaMqBPtze8Q",
+   "lat": 25.078984,
+   "lng": 121.385998,
+   "m": 100
+  }
  },
  {
   "name": "野柳望海亭海鮮餐廳",
@@ -3435,7 +4707,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "野柳海洋世界停車場",
+   "pid": "ChIJs4BzwOlNXTQR5QWz_k2tYY0",
+   "lat": 25.204308,
+   "lng": 121.691078,
+   "m": 59
+  }
  },
  {
   "name": "永昌傳統豆花店",
@@ -3453,7 +4732,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "應安168停車聯盟 (永樂室內停車場)",
+   "pid": "ChIJvXmBhhOpQjQR-b0suMYr6q0",
+   "lat": 25.055445,
+   "lng": 121.510373,
+   "m": 25
+  }
  },
  {
   "name": "迪化街32巷口米粉湯",
@@ -3471,7 +4757,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJ8TfjFoCpQjQRjENb1nsagpg",
+   "lat": 25.056467,
+   "lng": 121.510984,
+   "m": 12
+  }
  },
  {
   "name": "呷二嘴",
@@ -3489,7 +4782,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "延平第一停車場",
+   "pid": "ChIJQxRmJQCpQjQRiakY7dBpBFE",
+   "lat": 25.059076,
+   "lng": 121.511716,
+   "m": 111
+  }
  },
  {
   "name": "先進海產店",
@@ -3507,7 +4807,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-延吉場(僅提供月租)",
+   "pid": "ChIJC6QZKsSrQjQRBgrTPIslMrQ",
+   "lat": 25.046577,
+   "lng": 121.553658,
+   "m": 39
+  }
  },
  {
   "name": "巧門香酥雞排",
@@ -3525,7 +4832,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 天母傑仕堡站",
+   "pid": "ChIJZf291ICvQjQR5-91GdQPGeY",
+   "lat": 25.116328,
+   "lng": 121.533126,
+   "m": 75
+  }
  },
  {
   "name": "阿全師專業鹹酥雞",
@@ -3543,7 +4857,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "士東市場停車場",
+   "pid": "ChIJW6EtBbyvQjQR6gjJ822oW0Q",
+   "lat": 25.111557,
+   "lng": 121.529577,
+   "m": 94
+  }
  },
  {
   "name": "徐淮人家",
@@ -3561,7 +4882,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "茂園台菜",
+   "pid": "ChIJZbHtkoOrQjQR3AJYV3wVRkU",
+   "lat": 25.048436,
+   "lng": 121.542628,
+   "m": 36
+  }
  },
  {
   "name": "香港九記海鮮",
@@ -3579,7 +4907,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "地下停車場",
+   "pid": "ChIJTWiJuq2pQjQREkCmo5rz61U",
+   "lat": 25.054344,
+   "lng": 121.527832,
+   "m": 53
+  }
  },
  {
   "name": "Wood & Pot",
@@ -3615,7 +4950,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新光三越台北天母店地下停車場",
+   "pid": "ChIJraIdhYCuQjQR3GOMKd5okc4",
+   "lat": 25.11786,
+   "lng": 121.533825,
+   "m": 108
+  }
  },
  {
   "name": "Papa Vito",
@@ -3633,7 +4975,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-天母全聯2站",
+   "pid": "ChIJbZOIyH6uQjQROrtJRI7iyJU",
+   "lat": 25.123413,
+   "lng": 121.532909,
+   "m": 215
+  }
  },
  {
   "name": "海灣星空咖啡館",
@@ -3669,7 +5018,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "安婷停車場",
+   "pid": "ChIJXTS88F2pQjQRMpJ-YriJ1-g",
+   "lat": 25.055906,
+   "lng": 121.530523,
+   "m": 67
+  }
  },
  {
   "name": "宜蘭滷之鄉",
@@ -3687,7 +5043,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "ViVi Park宜蘭礁溪停車場",
+   "pid": "ChIJkVANOgD7ZzQRKP56FyCcjpw",
+   "lat": 24.827458,
+   "lng": 121.772013,
+   "m": 9
+  }
  },
  {
   "name": "Goodman Roaster（阿里山咖啡）",
@@ -3705,7 +5068,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-天母全聯2站",
+   "pid": "ChIJbZOIyH6uQjQROrtJRI7iyJU",
+   "lat": 25.123413,
+   "lng": 121.532909,
+   "m": 128
+  }
  },
  {
   "name": "快手滷味",
@@ -3723,7 +5093,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-天母全聯2站",
+   "pid": "ChIJbZOIyH6uQjQROrtJRI7iyJU",
+   "lat": 25.123413,
+   "lng": 121.532909,
+   "m": 79
+  }
  },
  {
   "name": "涮辛酸麻辣火鍋吃到飽",
@@ -3759,7 +5136,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 重慶南路三段停車場",
+   "pid": "ChIJx4lG9EypQjQRE5qSY7lCvaQ",
+   "lat": 25.029174,
+   "lng": 121.516143,
+   "m": 100
+  }
  },
  {
   "name": "永寶客家餐廳",
@@ -3777,7 +5161,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "呷味鮮處女蟳",
@@ -3795,7 +5180,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場（星聚點KTV台北旗艦館）",
+   "pid": "ChIJz-FPPgCpQjQR6tAe97t0e-Y",
+   "lat": 25.056136,
+   "lng": 121.511724,
+   "m": 105
+  }
  },
  {
   "name": "好吃羊肉爐",
@@ -3813,7 +5205,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Hi PARKING 福港街平面停車場",
+   "pid": "ChIJmY793rauQjQRgRSfEkaEvnY",
+   "lat": 25.087356,
+   "lng": 121.518566,
+   "m": 89
+  }
  },
  {
   "name": "PAI PAI CANNOLI / PAIPITO GELATO 中山店",
@@ -3831,7 +5230,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "赤峰街機車停車場",
+   "pid": "ChIJIUw8m0mpQjQRkPAuaG2hEHQ",
+   "lat": 25.053775,
+   "lng": 121.519395,
+   "m": 19
+  }
  },
  {
   "name": "點冰室·ジャビン",
@@ -3849,7 +5255,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "承德機車停車場",
+   "pid": "ChIJszw_BV2pQjQRw2EBHA1Wz3k",
+   "lat": 25.055316,
+   "lng": 121.518753,
+   "m": 74
+  }
  },
  {
   "name": "老麵店",
@@ -3867,7 +5280,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-民族西站",
+   "pid": "ChIJ3fgRrGepQjQRExgYVVbxYNo",
+   "lat": 25.069931,
+   "lng": 121.510372,
+   "m": 138
+  }
  },
  {
   "name": "長生塩人",
@@ -3885,7 +5305,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "民生社區中心地下停車場",
+   "pid": "ChIJvShnn42rQjQRNaVBfp3U0gU",
+   "lat": 25.059763,
+   "lng": 121.563011,
+   "m": 180
+  }
  },
  {
   "name": "新店阿蘭姊薑母鴨",
@@ -3903,7 +5330,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Dafeng Park Parking Lot",
+   "pid": "ChIJB8sPRosBaDQR4SryT5ejIss",
+   "lat": 24.978676,
+   "lng": 121.535401,
+   "m": 146
+  }
  },
  {
   "name": "金峰魯肉飯",
@@ -3921,7 +5355,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "富山停車 - 南門市場地下停車場",
+   "pid": "ChIJ_RwMYgCpQjQRROw1fDwGyVA",
+   "lat": 25.031987,
+   "lng": 121.518196,
+   "m": 36
+  }
  },
  {
   "name": "羊成小館",
@@ -3939,7 +5380,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "天裔大廈停車場",
+   "pid": "ChIJs1kuJgCpQjQR90F4KDxWgeg",
+   "lat": 25.043126,
+   "lng": 121.528982,
+   "m": 3
+  }
  },
  {
   "name": "阜杭豆漿",
@@ -3957,7 +5405,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "墾海停車場",
+   "pid": "ChIJN4U5bHCpQjQRQTx3qlMlkQw",
+   "lat": 25.044732,
+   "lng": 121.524636,
+   "m": 59
+  }
  },
  {
   "name": "龍門客棧餃子館（林森店）",
@@ -3975,7 +5430,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "仁愛樸樂林森南路停車場",
+   "pid": "ChIJXXX273apQjQRQ2YsID1JiYs",
+   "lat": 25.039703,
+   "lng": 121.522037,
+   "m": 96
+  }
  },
  {
   "name": "阿城鵝肉 吉林本店",
@@ -3993,7 +5455,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "安婷停車場",
+   "pid": "ChIJXTS88F2pQjQRMpJ-YriJ1-g",
+   "lat": 25.055906,
+   "lng": 121.530523,
+   "m": 58
+  }
  },
  {
   "name": "越富越南法國麵包",
@@ -4011,7 +5480,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Hi PARKING 台北德行東路停車場",
+   "pid": "ChIJT8WWawCvQjQRc55fREpHnZs",
+   "lat": 25.107041,
+   "lng": 121.526822,
+   "m": 36
+  }
  },
  {
   "name": "興蓬萊台菜海鮮餐廳",
@@ -4029,7 +5505,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-大葉高島屋場",
+   "pid": "ChIJB7Mu4pavQjQR-1hb6CmDHfs",
+   "lat": 25.111852,
+   "lng": 121.53147,
+   "m": 3
+  }
  },
  {
   "name": "愜意 Pleasant cafe",
@@ -4047,7 +5530,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新長越天玉街停車場",
+   "pid": "ChIJ3ch_X4euQjQR_NE_7Wl9TOg",
+   "lat": 25.119264,
+   "lng": 121.529816,
+   "m": 129
+  }
  },
  {
   "name": "第二家鹽酥雞",
@@ -4065,7 +5555,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "通通停西安街停車場",
+   "pid": "ChIJhfjBd4atQjQRj1R_TgiOHu4",
+   "lat": 25.111248,
+   "lng": 121.517349,
+   "m": 126
+  }
  },
  {
   "name": "豆花林",
@@ -4083,7 +5580,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "正好停-振華公園地下停車場",
+   "pid": "ChIJn1wuOQCvQjQRvMKVKpWfi7Y",
+   "lat": 25.115759,
+   "lng": 121.518208,
+   "m": 102
+  }
  },
  {
   "name": "約翰紅茶公司",
@@ -4101,7 +5605,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Hi PARKING 台北永吉路停車場",
+   "pid": "ChIJp58MJwCrQjQRVz9KdztBzqg",
+   "lat": 25.042342,
+   "lng": 121.570326,
+   "m": 160
+  }
  },
  {
   "name": "KANPAI CLASSIC 天母店",
@@ -4119,7 +5630,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新光三越台北天母店地下停車場",
+   "pid": "ChIJraIdhYCuQjQR3GOMKd5okc4",
+   "lat": 25.11786,
+   "lng": 121.533825,
+   "m": 59
+  }
  },
  {
   "name": "好味道臭豆腐（車庫臭豆腐）",
@@ -4137,7 +5655,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "石牌陽信大樓停車場",
+   "pid": "ChIJD5mYVgCvQjQRo-um4hEeOk4",
+   "lat": 25.113723,
+   "lng": 121.512235,
+   "m": 192
+  }
  },
  {
   "name": "冠宸食館",
@@ -4155,7 +5680,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "收費停車場",
+   "pid": "ChIJSQCix0qzQjQRvGfPYKPGgcc",
+   "lat": 25.176149,
+   "lng": 121.539,
+   "m": 77
+  }
  },
  {
   "name": "金賞軒",
@@ -4173,7 +5705,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "松山新城第四區管理會附設公共停車場",
+   "pid": "ChIJYRLbwf-rQjQRkqCLrt9Bljg",
+   "lat": 25.054293,
+   "lng": 121.553102,
+   "m": 62
+  }
  },
  {
   "name": "萬得富爸爸肉骨茶",
@@ -4191,7 +5730,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "文強停車-板橋莒光路停車場",
+   "pid": "ChIJd_8nPACpQjQRrg4KPR5qcss",
+   "lat": 25.024316,
+   "lng": 121.469433,
+   "m": 58
+  }
  },
  {
   "name": "北埔廟前粄條",
@@ -4227,7 +5773,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "宏達昌吉停車場",
+   "pid": "ChIJf7NolSqpQjQRuPoJMjouxYg",
+   "lat": 25.065761,
+   "lng": 121.510002,
+   "m": 157
+  }
  },
  {
   "name": "台北北投區竹子湖路55-12號（只有地址）",
@@ -4245,7 +5798,14 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "竹子湖停車",
+   "pid": "ChIJwx5mAemxQjQRZp1dOJEi9bo",
+   "lat": 25.177781,
+   "lng": 121.534476,
+   "m": 338
+  }
  },
  {
   "name": "南港老張燒餅店（南京直營店）",
@@ -4263,7 +5823,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "市民八停車場",
+   "pid": "ChIJrTIxcgCrQjQRyxFwHVNrccI",
+   "lat": 25.05418,
+   "lng": 121.615931,
+   "m": 148
+  }
  },
  {
   "name": "第一家蚵嗲",
@@ -4281,7 +5848,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "鐵樂士精緻旅遊",
+   "pid": "ChIJIQ7ZCwAZaDQROZziQgz4ivo",
+   "lat": 24.964782,
+   "lng": 121.273078,
+   "m": 634
+  }
  },
  {
   "name": "大塊牛排",
@@ -4299,7 +5873,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 士林福德路停車場",
+   "pid": "ChIJj32sag6vQjQRrXE7wgelEl4",
+   "lat": 25.091941,
+   "lng": 121.524709,
+   "m": 121
+  }
  },
  {
   "name": "黑麻糬",
@@ -4317,7 +5898,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "USPACE共享車位（南京復興）",
+   "pid": "ChIJR0jJ0EGrQjQRcoUoyRUpvWU",
+   "lat": 25.050609,
+   "lng": 121.542797,
+   "m": 130
+  }
  },
  {
   "name": "老上海生煎",
@@ -4335,7 +5923,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-天津場",
+   "pid": "ChIJuzaAIG-pQjQR55XMU3MegV4",
+   "lat": 25.050928,
+   "lng": 121.522731,
+   "m": 26
+  }
  },
  {
   "name": "老曾碳烤燒餅店",
@@ -4353,7 +5948,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-三重自強站",
+   "pid": "ChIJa3KV2COpQjQRScBmKHz-g08",
+   "lat": 25.067053,
+   "lng": 121.497359,
+   "m": 216
+  }
  },
  {
   "name": "忠青商行",
@@ -4371,7 +5973,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "24TPS永固便利(林森三)",
+   "pid": "ChIJHSlPVXCpQjQRcJA08SnHVcE",
+   "lat": 25.044173,
+   "lng": 121.522757,
+   "m": 94
+  }
  },
  {
   "name": "吉馬陳蚵仔麵線大王",
@@ -4407,7 +6016,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "烏咪咖啡車及魔幻歐迪咖啡車停車場",
+   "pid": "ChIJ9UP7hgVLXTQRbuYr-_yUaeI",
+   "lat": 25.241465,
+   "lng": 121.63304,
+   "m": 58
+  }
  },
  {
   "name": "貳樓餐廳 仁愛店",
@@ -4425,7 +6041,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-仁愛新生2站",
+   "pid": "ChIJ7SYYPQCpQjQR9BQi_u-7k_A",
+   "lat": 25.037998,
+   "lng": 121.532029,
+   "m": 41
+  }
  },
  {
   "name": "魚心日式料理",
@@ -4443,7 +6066,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 美侖商旅停車場",
+   "pid": "ChIJlXNqzTWpQjQRL1dGWoJX-aQ",
+   "lat": 25.052982,
+   "lng": 121.530452,
+   "m": 40
+  }
  },
  {
   "name": "青菜園",
@@ -4461,7 +6091,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "竹子湖停車",
+   "pid": "ChIJwx5mAemxQjQRZp1dOJEi9bo",
+   "lat": 25.177781,
+   "lng": 121.534476,
+   "m": 366
+  }
  },
  {
   "name": "阿圖麻油雞（總店）",
@@ -4479,7 +6116,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-晴光商圈場",
+   "pid": "ChIJlYEhzUSpQjQR83mxXQ8c4mI",
+   "lat": 25.063755,
+   "lng": 121.525329,
+   "m": 63
+  }
  },
  {
   "name": "高家莊米苔目",
@@ -4497,7 +6141,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-林森站",
+   "pid": "ChIJ8_eMDmipQjQRy-sZqiemxng",
+   "lat": 25.055942,
+   "lng": 121.525046,
+   "m": 91
+  }
  },
  {
   "name": "迷迭香花園餐廳",
@@ -4533,7 +6184,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "基隆火車站南站停車場",
+   "pid": "ChIJq3sij7FPXTQRpq0ap2R82hE",
+   "lat": 25.131186,
+   "lng": 121.738338,
+   "m": 171
+  }
  },
  {
   "name": "天天鮮排骨飯",
@@ -4551,7 +6209,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "基隆火車站南站停車場",
+   "pid": "ChIJq3sij7FPXTQRpq0ap2R82hE",
+   "lat": 25.131186,
+   "lng": 121.738338,
+   "m": 181
+  }
  },
  {
   "name": "信二路公有停車場",
@@ -4569,7 +6234,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "信二立體停車場",
+   "pid": "ChIJkzYvbj9OXTQRYHktuKdGpFE",
+   "lat": 25.130939,
+   "lng": 121.74596,
+   "m": 0
+  }
  },
  {
   "name": "土角厝水上庭園餐廳",
@@ -4587,7 +6259,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "紙教堂停車場",
+   "pid": "ChIJHUVfdCbYaDQR8EuyxqyYiJ4",
+   "lat": 23.942427,
+   "lng": 120.928663,
+   "m": 531
+  }
  },
  {
   "name": "金都餐廳",
@@ -4605,7 +6284,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "汽車",
+   "pid": "ChIJp2hfHgDZaDQRe3DseRcrAwo",
+   "lat": 23.97172,
+   "lng": 120.973397,
+   "m": 240
+  }
  },
  {
   "name": "興丼壽司 台中店",
@@ -4623,7 +6309,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "恆春郵局站停車場",
+   "pid": "ChIJe--kF0uxcTQRst2D_gOvh08",
+   "lat": 22.001776,
+   "lng": 120.742676,
+   "m": 273
+  }
  },
  {
   "name": "興丼壽司",
@@ -4641,7 +6334,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "恆春郵局站停車場",
+   "pid": "ChIJe--kF0uxcTQRst2D_gOvh08",
+   "lat": 22.001776,
+   "lng": 120.742676,
+   "m": 273
+  }
  },
  {
   "name": "藍色公路海景咖啡館",
@@ -4659,7 +6359,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "翔紘挖土機車場",
+   "pid": "ChIJb9GQsnOjQjQRQRASu-ixteI",
+   "lat": 25.125513,
+   "lng": 121.345636,
+   "m": 235
+  }
  },
  {
   "name": "碧瑤山莊庭園餐廳",
@@ -4677,7 +6384,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "凌雲禪寺香客專用停車場",
+   "pid": "ChIJPzT46JWlQjQRZ-Y4TGe9jRU",
+   "lat": 25.127563,
+   "lng": 121.424001,
+   "m": 451
+  }
  },
  {
   "name": "Ulove羽樂歐陸創意料理（小巨蛋）",
@@ -4695,7 +6409,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-新高場",
+   "pid": "ChIJlVNfWeqrQjQRofuB2sgVl3c",
+   "lat": 25.051286,
+   "lng": 121.556537,
+   "m": 9
+  }
  },
  {
   "name": "蒸海精緻鍋物",
@@ -4713,7 +6434,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 全聯新莊幸福東店停車場",
+   "pid": "ChIJAd4EdYCpQjQR3Q9fjydVgas",
+   "lat": 25.04936,
+   "lng": 121.461559,
+   "m": 174
+  }
  },
  {
   "name": "林口米苔目冰",
@@ -4731,7 +6459,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 林口中山路停車場",
+   "pid": "ChIJl6sqKDenQjQRHGOTTWF-Wcw",
+   "lat": 25.081389,
+   "lng": 121.382187,
+   "m": 299
+  }
  },
  {
   "name": "華山 合掌村",
@@ -4749,7 +6484,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "墾海停車場",
+   "pid": "ChIJN4U5bHCpQjQRQTx3qlMlkQw",
+   "lat": 25.044732,
+   "lng": 121.524636,
+   "m": 60
+  }
  },
  {
   "name": "奇味番茄牛肉麵",
@@ -4767,7 +6509,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "捷運昆陽站機車停車場",
+   "pid": "ChIJBWnj-2-rQjQRkiTDHpGJ_F8",
+   "lat": 25.050735,
+   "lng": 121.594485,
+   "m": 130
+  }
  },
  {
   "name": "礁溪2326美食炸雞",
@@ -4785,7 +6534,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "順意食品五金生活館",
+   "pid": "ChIJLe75WRT7ZzQRhCFRlIDDQSA",
+   "lat": 24.824991,
+   "lng": 121.772713,
+   "m": 58
+  }
  },
  {
   "name": "南興十七切仔麵",
@@ -4803,7 +6559,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-宜蘭中山站",
+   "pid": "ChIJSQFgpsTkZzQRez2iKl7jXw4",
+   "lat": 24.754276,
+   "lng": 121.752864,
+   "m": 87
+  }
  },
  {
   "name": "無名蔥油餅",
@@ -4821,7 +6584,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "勝揚實業 西後街停車場",
+   "pid": "ChIJ9_x4zyLlZzQRZl3c1xYsT4A",
+   "lat": 24.755579,
+   "lng": 121.751378,
+   "m": 35
+  }
  },
  {
   "name": "馬利諾廚房 Marinos Kitchen",
@@ -4839,7 +6609,8 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": null
  },
  {
   "name": "老店家臭豆腐",
@@ -4857,7 +6628,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "花蓮果菜市場專屬停車場",
+   "pid": "ChIJI7qcX6CfaDQRcufACU8OHkQ",
+   "lat": 23.983906,
+   "lng": 121.584251,
+   "m": 318
+  }
  },
  {
   "name": "亞尼克夢想村 1號店",
@@ -4875,7 +6653,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "永發室內機車停車場",
+   "pid": "ChIJkxBAWCmmQjQRt5FUkk1eXcw",
+   "lat": 25.014177,
+   "lng": 121.463967,
+   "m": 15
+  }
  },
  {
   "name": "陳三鼎黑糖青蛙鮮奶 創始店",
@@ -4893,7 +6678,14 @@
   "status": null,
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機械停車位",
+   "pid": "ChIJYeh3XwCpQjQRrUxH9iq_nfY",
+   "lat": 25.015561,
+   "lng": 121.531417,
+   "m": 103
+  }
  },
  {
   "name": "古意人養生米粿",
@@ -4911,7 +6703,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 宜蘭康樂路停車場",
+   "pid": "ChIJASxAFr3lZzQRyvKZSVietI0",
+   "lat": 24.756542,
+   "lng": 121.752471,
+   "m": 103
+  }
  },
  {
   "name": "古山星辰景觀咖啡",
@@ -4929,7 +6728,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "大古山福山宮廣場｜觀景台｜停車場",
+   "pid": "ChIJj686jS2hQjQRkQAuTzjajfs",
+   "lat": 25.100873,
+   "lng": 121.290459,
+   "m": 175
+  }
  },
  {
   "name": "御品元冰火湯圓",
@@ -4947,7 +6753,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "通化停車場",
+   "pid": "ChIJCdnrcQCrQjQRNaEJ6Jdimu0",
+   "lat": 25.031168,
+   "lng": 121.555476,
+   "m": 104
+  }
  },
  {
   "name": "黑殿飯店",
@@ -4965,7 +6778,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 淡水淡海路停車場",
+   "pid": "ChIJJ7uM_cClQjQRwh5fHvXdTJw",
+   "lat": 25.178176,
+   "lng": 121.424408,
+   "m": 178
+  }
  },
  {
   "name": "游家麻糬米糕",
@@ -4983,7 +6803,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Hi PARKING 宜蘭中央市場停車場",
+   "pid": "ChIJEXKHHv3lZzQRg5PQU3kj2lk",
+   "lat": 24.757143,
+   "lng": 121.755814,
+   "m": 20
+  }
  },
  {
   "name": "大方冰品 永吉店",
@@ -5001,7 +6828,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "忠孝詠吉停車場",
+   "pid": "ChIJU2JCZwCrQjQRQT2aIgf-8U4",
+   "lat": 25.045924,
+   "lng": 121.581667,
+   "m": 64
+  }
  },
  {
   "name": "空軍一號咖啡廳",
@@ -5037,7 +6871,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "月租停車場",
+   "pid": "ChIJnQHAMklTXTQRpLPgIwATcNc",
+   "lat": 25.067648,
+   "lng": 121.63634,
+   "m": 243
+  }
  },
  {
   "name": "越南小棧",
@@ -5055,7 +6896,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新北市新生活促進會",
+   "pid": "ChIJ0X1IHIGxQjQRiqolhWlqsB8",
+   "lat": 25.253941,
+   "lng": 121.473123,
+   "m": 477
+  }
  },
  {
   "name": "南館懷念排骨麵",
@@ -5073,7 +6921,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-宜蘭中山站",
+   "pid": "ChIJSQFgpsTkZzQRez2iKl7jXw4",
+   "lat": 24.754276,
+   "lng": 121.752864,
+   "m": 41
+  }
  },
  {
   "name": "福德涼麵",
@@ -5091,7 +6946,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "售．租/室內/龍江一路發",
+   "pid": "ChIJwTvxCs6rQjQRXcbreZzUsP0",
+   "lat": 25.055177,
+   "lng": 121.540406,
+   "m": 119
+  }
  },
  {
   "name": "可口魚丸",
@@ -5109,7 +6971,14 @@
   "status": "CLOSED_TEMPORARILY",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "淡水區中正市場機車停車場",
+   "pid": "ChIJlRYhhlqlQjQRNbn28SBy4iQ",
+   "lat": 25.170106,
+   "lng": 121.439761,
+   "m": 106
+  }
  },
  {
   "name": "藍家割包",
@@ -5127,7 +6996,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機械停車位",
+   "pid": "ChIJYeh3XwCpQjQRrUxH9iq_nfY",
+   "lat": 25.015561,
+   "lng": 121.531417,
+   "m": 119
+  }
  },
  {
   "name": "城中伯豆花",
@@ -5145,7 +7021,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Alife武昌街USPACE停車場",
+   "pid": "ChIJK26e-depQjQRwo5_9qSsR_Y",
+   "lat": 25.043938,
+   "lng": 121.512526,
+   "m": 51
+  }
  },
  {
   "name": "屋頂上",
@@ -5163,7 +7046,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Club 63專屬停車場",
+   "pid": "ChIJ4-pKQQCtQjQRPIWLK8rvooE",
+   "lat": 25.135414,
+   "lng": 121.541317,
+   "m": 288
+  }
  },
  {
   "name": "阿娘給的蒜味肉羹",
@@ -5181,7 +7071,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJQ9cYgFLlZzQRMPERCN1h2xA",
+   "lat": 24.75216,
+   "lng": 121.739264,
+   "m": 64
+  }
  },
  {
   "name": "劉家肉粽 富基店",
@@ -5199,7 +7096,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "灣塔自行車道 1.2km 自行車停車處",
+   "pid": "ChIJn0xlRAC3QjQRqelCqZopA9Q",
+   "lat": 25.287986,
+   "lng": 121.531656,
+   "m": 75
+  }
  },
  {
   "name": "不老客家傳統麻糬",
@@ -5217,7 +7121,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "機車與大型重型機車共用格位範圍",
+   "pid": "ChIJDRH9HgCpQjQRL3t5A3ulgH8",
+   "lat": 25.060674,
+   "lng": 121.533298,
+   "m": 39
+  }
  },
  {
   "name": "星海之戀咖啡館",
@@ -5235,7 +7146,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "大古山福山宮廣場｜觀景台｜停車場",
+   "pid": "ChIJj686jS2hQjQRkQAuTzjajfs",
+   "lat": 25.100873,
+   "lng": 121.290459,
+   "m": 161
+  }
  },
  {
   "name": "淡水老牌阿給",
@@ -5253,7 +7171,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "文強淡水新民停車場",
+   "pid": "ChIJR93BnxmlQjQRj7rTs9_QJFc",
+   "lat": 25.174035,
+   "lng": 121.438356,
+   "m": 85
+  }
  },
  {
   "name": "雙月食品社",
@@ -5271,7 +7196,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "成功高中運動中心",
+   "pid": "ChIJvV1o43CpQjQRFl2rcmih074",
+   "lat": 25.043112,
+   "lng": 121.522971,
+   "m": 115
+  }
  },
  {
   "name": "青島排骨便當",
@@ -5289,7 +7221,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台北喜來登酒店停車塔",
+   "pid": "ChIJxd9rq3GpQjQR3sxhmDXcpY4",
+   "lat": 25.04445,
+   "lng": 121.522551,
+   "m": 93
+  }
  },
  {
   "name": "打狗霸 TAKAO1972 昆明店",
@@ -5307,7 +7246,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-昆明站",
+   "pid": "ChIJY16NJA-pQjQRWHtOZY8Y8MI",
+   "lat": 25.046512,
+   "lng": 121.505059,
+   "m": 69
+  }
  },
  {
   "name": "信利號阿塗貓耳朵",
@@ -5325,7 +7271,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "泰豐停車場（月租停車場）",
+   "pid": "ChIJ2R-ffGXlZzQReS5-yAnZp0k",
+   "lat": 24.758568,
+   "lng": 121.75206,
+   "m": 77
+  }
  },
  {
   "name": "KiOSK",
@@ -5343,7 +7296,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "新生北路高架橋下停車場 P2",
+   "pid": "ChIJd1ROOwCpQjQRQxHjfSSu4DE",
+   "lat": 25.046933,
+   "lng": 121.530993,
+   "m": 84
+  }
  },
  {
   "name": "甜蜜屋 Home Sweet Home",
@@ -5361,7 +7321,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "水湳洞停車場",
+   "pid": "ChIJybTsw_JFXTQRKFBz-Tk0VXY",
+   "lat": 25.121816,
+   "lng": 121.86378,
+   "m": 222
+  }
  },
  {
   "name": "上海銀鳳樓餐廳",
@@ -5379,7 +7346,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "板橋金站停車場",
+   "pid": "ChIJiVMkvKcCaDQRt3dKi8SmIIQ",
+   "lat": 25.007097,
+   "lng": 121.459168,
+   "m": 52
+  }
  },
  {
   "name": "甘榜馳名海南雞飯",
@@ -5415,7 +7389,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "富邦金融中心停車場",
+   "pid": "ChIJ8bLdDGirQjQRkCZaChMkokM",
+   "lat": 25.038384,
+   "lng": 121.551836,
+   "m": 142
+  }
  },
  {
   "name": "滿儎屋台料理",
@@ -5433,7 +7414,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "客家文化主題園區停車場",
+   "pid": "ChIJkZaic9CpQjQRxc6YuScNlaA",
+   "lat": 25.020726,
+   "lng": 121.524695,
+   "m": 86
+  }
  },
  {
   "name": "十六崁瓜仔雞麵",
@@ -5451,7 +7439,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "停車場",
+   "pid": "ChIJQ9cYgFLlZzQRMPERCN1h2xA",
+   "lat": 24.75216,
+   "lng": 121.739264,
+   "m": 58
+  }
  },
  {
   "name": "百葉溫州餛飩",
@@ -5469,7 +7464,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "日月亭淡水三民 uTagGo",
+   "pid": "ChIJ4w95J4ilQjQR889iM2X8qUM",
+   "lat": 25.172296,
+   "lng": 121.43906,
+   "m": 131
+  }
  },
  {
   "name": "金色三麥（臺北京站店）",
@@ -5487,7 +7489,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "壹車房_站前停車場",
+   "pid": "ChIJqyqz3D-pQjQRJrAl39yxzys",
+   "lat": 25.049763,
+   "lng": 121.5177,
+   "m": 72
+  }
  },
  {
   "name": "柳家麻油雞",
@@ -5505,7 +7514,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-三重自強站",
+   "pid": "ChIJa3KV2COpQjQRScBmKHz-g08",
+   "lat": 25.067053,
+   "lng": 121.497359,
+   "m": 81
+  }
  },
  {
   "name": "無名魷魚羹",
@@ -5523,7 +7539,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "捷運士林站橋下空間機車停車場",
+   "pid": "ChIJk8u5HgCvQjQRwK1oVRcNyHM",
+   "lat": 25.090079,
+   "lng": 121.527227,
+   "m": 164
+  }
  },
  {
   "name": "柯氏蔥油餅",
@@ -5541,7 +7564,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "礁溪國小地下停車場",
+   "pid": "ChIJA-R9Uqb7ZzQRPW4afBCk-nM",
+   "lat": 24.821477,
+   "lng": 121.769645,
+   "m": 31
+  }
  },
  {
   "name": "涓豆腐 台北敦南店",
@@ -5559,7 +7589,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Upark 停車場(敦化南路)",
+   "pid": "ChIJl-5u9c-rQjQRHkWK3XtQloQ",
+   "lat": 25.04035,
+   "lng": 121.549699,
+   "m": 14
+  }
  },
  {
   "name": "有麵煮私房小吃 礁溪店",
@@ -5577,7 +7614,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 宜蘭礁溪站",
+   "pid": "ChIJmf6Elkn6ZzQRFtTdhRl066Y",
+   "lat": 24.827144,
+   "lng": 121.771999,
+   "m": 92
+  }
  },
  {
   "name": "包餡雞蛋糕",
@@ -5595,7 +7639,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "中興麗園B區停車場",
+   "pid": "ChIJX_QHGACpQjQRDdXlkqSXssk",
+   "lat": 25.075595,
+   "lng": 121.515722,
+   "m": 127
+  }
  },
  {
   "name": "許義魚酥（味香魚丸店）",
@@ -5613,7 +7664,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "淡水區中正市場機車停車場",
+   "pid": "ChIJlRYhhlqlQjQRNbn28SBy4iQ",
+   "lat": 25.170106,
+   "lng": 121.439761,
+   "m": 53
+  }
  },
  {
   "name": "阿角紅燒肉 劉美麗",
@@ -5631,7 +7689,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-捷運大橋頭(機車)站",
+   "pid": "ChIJeVDrAPupQjQR6J5Lw75YmbQ",
+   "lat": 25.063354,
+   "lng": 121.512128,
+   "m": 140
+  }
  },
  {
   "name": "麻吉奶奶鮮奶麻糬",
@@ -5649,7 +7714,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "淡水區中正市場機車停車場",
+   "pid": "ChIJlRYhhlqlQjQRNbn28SBy4iQ",
+   "lat": 25.170106,
+   "lng": 121.439761,
+   "m": 48
+  }
  },
  {
   "name": "安安海鮮 An An Seafood",
@@ -5667,7 +7739,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "順康停車場",
+   "pid": "ChIJadWDJFapQjQRwb5NSQYSmmk",
+   "lat": 25.068416,
+   "lng": 121.53661,
+   "m": 120
+  }
  },
  {
   "name": "阿璋肉圓",
@@ -5685,7 +7764,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "永福路停車場",
+   "pid": "ChIJjVS1HQAXaTQR7Z5ol3qk5QU",
+   "lat": 24.185564,
+   "lng": 120.621213,
+   "m": 114
+  }
  },
  {
   "name": "三禾米粉湯",
@@ -5703,7 +7789,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "仁愛樸樂林森南路停車場",
+   "pid": "ChIJXXX273apQjQRQ2YsID1JiYs",
+   "lat": 25.039703,
+   "lng": 121.522037,
+   "m": 32
+  }
  },
  {
   "name": "阿娥排骨麵",
@@ -5721,7 +7814,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "宏達淡水停車場",
+   "pid": "ChIJfeM2nxevQjQRPiDM9_6xTqQ",
+   "lat": 25.175214,
+   "lng": 121.45421,
+   "m": 281
+  }
  },
  {
   "name": "小南鄭記台南碗粿",
@@ -5739,7 +7839,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "Times 梧州街停車場",
+   "pid": "ChIJd-kjCrOpQjQRWdsqkWO1ius",
+   "lat": 25.03584,
+   "lng": 121.497664,
+   "m": 81
+  }
  },
  {
   "name": "以馬內利鮮魚湯",
@@ -5757,7 +7864,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "台灣聯通停車場-醒吾場",
+   "pid": "ChIJ-dW_ZnqpQjQRaeJZNX5c-ZA",
+   "lat": 25.042765,
+   "lng": 121.526731,
+   "m": 96
+  }
  },
  {
   "name": "四八高地花枝羹",
@@ -5775,7 +7889,14 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "CITY PARKING 城市車旅停車場 新港站",
+   "pid": "ChIJC0YpPESfaDQRJhwT_Q1SkB0",
+   "lat": 23.979844,
+   "lng": 121.60604,
+   "m": 54
+  }
  },
  {
   "name": "滿堂紅頂級麻辣鴛鴦鍋（松江店）",
@@ -5811,6 +7932,13 @@
   "status": "OPERATIONAL",
   "nomatch": false,
   "checked": "2026-11-07",
-  "reviewed": true
+  "reviewed": true,
+  "parking": {
+   "name": "來來停車場-寧夏場",
+   "pid": "ChIJhwzhdQSpQjQR9Vd8udzobw0",
+   "lat": 25.05729,
+   "lng": 121.515047,
+   "m": 64
+  }
  }
 ]

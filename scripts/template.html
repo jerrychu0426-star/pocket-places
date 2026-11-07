@@ -18,12 +18,14 @@
   --bg:#101714; --surface:#17211c; --fg:#e4ece7; --muted:#9aaba2; --line:#2a3832;
   --accent:#5fcf9f; --accent-soft:#1d3a2e; --price:#f0a94a; --warn:#ff8a80; --warn-soft:#3d1f1c; color-scheme:dark}}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
 .wrap{max-width:760px;margin:0 auto;padding-block:max(20px,env(safe-area-inset-top)) 48px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
 h1{font-family:var(--display);font-weight:900;font-size:30px;margin:0}
 .where{color:var(--muted);margin:4px 0 14px;font-size:14px}
 .big{display:block;width:100%;border:0;border-radius:12px;padding:14px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:var(--bg);cursor:pointer}
+.unloc{display:block;margin:8px auto 0;border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
 .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:10px}
 .row3 a,.row3 button{display:block;text-align:center;text-decoration:none;border:1px solid var(--accent);color:var(--accent);border-radius:10px;padding:11px 4px;font:inherit;font-weight:700;background:var(--surface);cursor:pointer}
 .row3 a[aria-disabled=true]{opacity:.45;pointer-events:none}
@@ -60,6 +62,7 @@ li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;bor
   <h1>附近去哪</h1>
   <p class="where" id="where">還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。</p>
   <button class="big" id="locate">用我的位置找附近</button>
+  <button class="unloc" id="unlocate" type="button" hidden>取消定位，改看全部清單</button>
   <div class="row3">
     <a id="park" aria-disabled="true" target="_blank" rel="noopener">附近停車場</a>
     <a id="gas" aria-disabled="true" target="_blank" rel="noopener">附近加油站</a>
@@ -89,9 +92,12 @@ let here=null;
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function chip(g,label,on,click){const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=()=>click(b);g.appendChild(b);return b}
 const gr=document.getElementById("g-r");
-[["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限",1e9]].forEach(([l,v])=>chip(gr,l,v===S.r,b=>{S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c===b));render()}));
+function setR(v){S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",+c.dataset.v===v))}
+[["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限",1e9]].forEach(([l,v])=>{chip(gr,l,v===S.r,()=>{setR(v);render()}).dataset.v=v});
 const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮","其他"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"]};
-for(const k in sets){const g=document.getElementById("g-"+k);sets[k].forEach(v=>chip(g,v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));render()}))}
+for(const k in sets){const g=document.getElementById("g-"+k);sets[k].forEach(v=>chip(g,v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));
+  if(k==="city"&&here&&S.city.size&&S.r<1e9){setR(1e9);showMsg("");document.getElementById("where").textContent="已定位，選了城市所以距離改成「不限」，依距離排序。"}
+  render()}))}
 function km(a,b){const t=Math.PI/180,dl=(b.lat-a.lat)*t,dg=(b.lng-a.lng)*t;const x=Math.sin(dl/2)**2+Math.cos(a.lat*t)*Math.cos(b.lat*t)*Math.sin(dg/2)**2;return 12742*Math.asin(Math.sqrt(x))}
 const fmt=d=>d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km";
 function filtered(){
@@ -136,10 +142,16 @@ document.getElementById("locate").onclick=()=>{
   navigator.geolocation.getCurrentPosition(pos=>{
     here={lat:pos.coords.latitude,lng:pos.coords.longitude};
     document.getElementById("where").textContent=`已定位（誤差約 ${Math.round(pos.coords.accuracy)} 公尺），依距離排序。`;
-    document.getElementById("locate").textContent="重新定位";gr.hidden=false;setQuick();render()},
+    document.getElementById("locate").textContent="重新定位";gr.hidden=false;document.getElementById("unlocate").hidden=false;setQuick();render()},
   err=>{document.getElementById("where").textContent="還沒定位：下面是你收藏的全部地點。";
     showMsg(err.code===1?"定位被拒絕了。請到手機設定允許瀏覽器使用位置，再按一次。":"暫時抓不到位置，請到空曠處再試一次。")},
   {enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
+document.getElementById("unlocate").onclick=()=>{
+  here=null;setR(3);gr.hidden=true;document.getElementById("unlocate").hidden=true;
+  document.getElementById("locate").textContent="用我的位置找附近";
+  document.getElementById("where").textContent="還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。";
+  for(const id of ["park","gas"]){const a=document.getElementById(id);a.removeAttribute("href");a.setAttribute("aria-disabled","true")}
+  showMsg("");render()};
 render();
 </script>
 </body>

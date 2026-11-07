@@ -18,6 +18,10 @@ saved Google Maps places. A scheduled session runs this weekly. Work in the repo
   Sanity check: if it would remove more than 30% of places, stop and report instead of committing.
 - Then `python3 -I scripts/update.py geocode`.
 - After a successful push (step 4), rename the Drive file to `已處理_<original title>`.
+- Fallback / also check: CSV files the owner uploaded to the repo's `imports/` folder.
+  Process them the same way, then `git mv` each to `imports/processed/` in the same commit.
+- If the Google Drive tools are not available in this session, say so in the report
+  (the owner must add the Google Drive connector to the scheduled task) and still process `imports/`.
 
 ## 2. Monthly status recheck
 - On the first run of each calendar month (i.e. today's day-of-month ≤ 7), run

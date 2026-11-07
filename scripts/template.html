@@ -23,6 +23,8 @@ html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
 .wrap{max-width:760px;margin:0 auto;padding-block:max(20px,env(safe-area-inset-top)) 48px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
 h1{font-family:var(--display);font-weight:900;font-size:30px;margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:4px 14px;margin:6px 0 0;font-size:13px;color:var(--muted)}
+.stats b{color:var(--fg);font-variant-numeric:tabular-nums}
 .where{color:var(--muted);margin:4px 0 14px;font-size:14px}
 .big{display:block;width:100%;border:0;border-radius:12px;padding:14px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:var(--bg);cursor:pointer}
 .unloc{display:block;margin:8px auto 0;border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
@@ -60,6 +62,7 @@ li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;bor
 <body>
 <div class="wrap">
   <h1>附近去哪</h1>
+  <div class="stats" id="stats"></div>
   <p class="where" id="where">還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。</p>
   <button class="big" id="locate">用我的位置找附近</button>
   <button class="unloc" id="unlocate" type="button" hidden>取消定位，改看全部清單</button>
@@ -81,7 +84,7 @@ li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;bor
   <div id="lucky" class="lucky" hidden></div>
   <div class="count"><span id="count"></span><button id="reset" type="button">清除篩選</button></div>
   <ul id="list"></ul>
-  <p class="legend">資料更新於 __UPDATED__，每週一自動更新。營業狀態取自 Google 地點資料，已歇業的店不顯示。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <p class="legend">每週一自動檢查更新，「共收錄」不含已歇業的店。營業狀態取自 Google 地點資料，已歇業的店不顯示。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
 </div>
 <script>
 const D=__DATA__;
@@ -152,6 +155,9 @@ document.getElementById("unlocate").onclick=()=>{
   document.getElementById("where").textContent="還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。";
   for(const id of ["park","gas"]){const a=document.getElementById(id);a.removeAttribute("href");a.setAttribute("aria-disabled","true")}
   showMsg("");render()};
+(function(){const open=D.filter(p=>p.status!=="CLOSED_PERMANENTLY").length;
+  const [y,m,dd]="__UPDATED__".split("-");
+  document.getElementById("stats").innerHTML=`<span>共收錄 <b>${open}</b> 家</span><span>資料更新 <b>${y}/${+m}/${+dd}</b></span>`})();
 render();
 </script>
 </body>

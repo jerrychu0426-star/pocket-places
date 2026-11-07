@@ -141,9 +141,11 @@ def build():
                  url=p["url"], pid=p.get("pid"), status=p.get("status"),
                  lat=None if p.get("nomatch") or p.get("lat") is None else round(p["lat"], 6),
                  lng=None if p.get("nomatch") or p.get("lng") is None else round(p["lng"], 6)) for p in d]
+    # last date the data actually changed or was rechecked; stable across no-op weekly runs
+    updated = max((p.get("checked") or "" for p in d), default=TODAY) or TODAY
     tpl = open(os.path.join(ROOT, "scripts", "template.html"), encoding="utf-8").read()
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(
-        tpl.replace("__DATA__", json.dumps(view, ensure_ascii=False)).replace("__UPDATED__", TODAY))
+        tpl.replace("__DATA__", json.dumps(view, ensure_ascii=False)).replace("__UPDATED__", updated))
     with open(os.path.join(ROOT, "data", "places.csv"), "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow(["店名", "區域", "類型", "適合場合", "價位", "狀態", "備註", "地址", "Google Maps"])

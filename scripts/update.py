@@ -48,12 +48,16 @@ def region(addr):
 def merge(path):
     d = load()
     have = {p["url"]: p for p in d}
+    xp = os.path.join(ROOT, "data", "excluded.json")
+    excluded = {x["url"] for x in json.load(open(xp, encoding="utf-8"))} if os.path.exists(xp) else set()
     rows = [r for r in csv.DictReader(open(path, encoding="utf-8-sig")) if (r.get("標題") or "").strip()]
     urls = set()
     added = []
     for r in rows:
         u = r["網址"].strip()
         urls.add(u)
+        if u in excluded:
+            continue
         if u in have:
             if (r.get("筆記") or "").strip() and not have[u].get("note"):
                 have[u]["note"] = "你的筆記：" + r["筆記"].strip().replace("\n", "；")

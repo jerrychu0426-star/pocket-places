@@ -2099,31 +2099,6 @@
   "parking": null
  },
  {
-  "name": "台灣中油 青海路站",
-  "region": "台中西屯區",
-  "type": "其他",
-  "occ": "—",
-  "price": "—",
-  "note": "加油站",
-  "url": "https://www.google.com/maps/place/%E5%8F%B0%E7%81%A3%E4%B8%AD%E6%B2%B9+%E9%9D%92%E6%B5%B7%E8%B7%AF%E7%AB%99%EF%BC%88%E7%9B%B4%E7%87%9F%26%E8%87%AA%E5%8A%A9%EF%BC%89/data=!4m2!3m1!1s0x34693d8aa7708c79:0xab3d8703e8e28954",
-  "pid": "ChIJeYxwp4o9aTQRVIni6AOHPas",
-  "gname": "台灣中油青海路站｜直營 自助",
-  "addr": "407臺中市西屯區上安里青海路二段211號",
-  "lat": 24.1713234,
-  "lng": 120.64393,
-  "status": "OPERATIONAL",
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "青海河南站停車場",
-   "pid": "ChIJdQzExNA9aTQRQnC8K91g_-A",
-   "lat": 24.171029,
-   "lng": 120.644213,
-   "m": 43
-  }
- },
- {
   "name": "賴新魁麵館 三義總店",
   "region": "苗栗三義鄉",
   "type": "餐廳",
@@ -2621,31 +2596,6 @@
    "lat": 22.992771,
    "lng": 120.180925,
    "m": 212
-  }
- },
- {
-  "name": "台南東區東平路38號（只有地址）",
-  "region": "台南東區",
-  "type": "待確認",
-  "occ": "待確認",
-  "price": "?",
-  "note": "收藏時只存了地址",
-  "url": "https://www.google.com/maps/place/701%E5%8F%B0%E5%8D%97%E5%B8%82%E6%9D%B1%E5%8D%80%E6%9D%B1%E5%B9%B3%E8%B7%AF38%E8%99%9F/data=!4m2!3m1!1s0x346e76bf59bb4633:0xb75aaf6c484a1f00",
-  "pid": "ChIJM0a7Wb92bjQRAB9KSGyvWrc",
-  "gname": "東平路38號",
-  "addr": "701臺南市東區莊敬里東平路38號",
-  "lat": 22.9949929,
-  "lng": 120.2331126,
-  "status": null,
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "水恃 日式料理",
-   "pid": "ChIJF4kuZQB3bjQRv4qsp6KEt00",
-   "lat": 22.994361,
-   "lng": 120.231383,
-   "m": 191
   }
  },
  {
@@ -3349,56 +3299,6 @@
   }
  },
  {
-  "name": "特麗雲端自助洗車廣場 濱江場",
-  "region": "台北松山區",
-  "type": "其他",
-  "occ": "—",
-  "price": "—",
-  "note": "洗車場",
-  "url": "https://www.google.com/maps/place/%E7%89%B9%E9%BA%97-%E9%9B%B2%E7%AB%AF%E8%87%AA%E5%8A%A9%E6%B4%97%E8%BB%8A%E5%BB%A3%E5%A0%B4-%E5%8C%97%E5%B8%82%E6%BF%B1%E6%B1%9F%E5%A0%B4/data=!4m2!3m1!1s0x3442add2af5887f1:0x8aa4848359780664",
-  "pid": "ChIJ8YdYr9KtQjQRZAZ4WYOEpIo",
-  "gname": "特麗-雲端自助洗車廣場-北市濱江場",
-  "addr": "105臺北市松山區莊敬里撫遠街451號",
-  "lat": 25.0707751,
-  "lng": 121.56474209999999,
-  "status": "OPERATIONAL",
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "台北市停車管理工程處濱江放置１場",
-   "pid": "ChIJCeTz8YmrQjQR9ej7GHIbqgU",
-   "lat": 25.067394,
-   "lng": 121.566187,
-   "m": 403
-  }
- },
- {
-  "name": "峨眉立體停車場",
-  "region": "台北萬華區",
-  "type": "其他",
-  "occ": "—",
-  "price": "—",
-  "note": "停車場",
-  "url": "https://www.google.com/maps/place/%E5%B3%A8%E7%9C%89%E7%AB%8B%E9%AB%94%E5%81%9C%E8%BB%8A%E5%A0%B4/data=!4m2!3m1!1s0x3442a908e68ff2f1:0x1247206aba45cad",
-  "pid": "ChIJ8fKP5gipQjQRrVykqwZyJAE",
-  "gname": "峨眉立體停車場",
-  "addr": "108臺北市萬華區萬壽里峨眉街83號",
-  "lat": 25.044290999999998,
-  "lng": 121.50570969999998,
-  "status": "OPERATIONAL",
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "峨眉立體停車場",
-   "pid": "ChIJ8fKP5gipQjQRrVykqwZyJAE",
-   "lat": 25.044291,
-   "lng": 121.50571,
-   "m": 0
-  }
- },
- {
   "name": "雅香石頭火鍋（西門總店）",
   "region": "台北萬華區",
   "type": "餐廳",
@@ -3446,56 +3346,6 @@
    "lat": 25.139018,
    "lng": 121.546531,
    "m": 90
-  }
- },
- {
-  "name": "台北大安區樂業街38號（只有地址）",
-  "region": "台北大安區",
-  "type": "待確認",
-  "occ": "待確認",
-  "price": "?",
-  "note": "收藏時只存了地址",
-  "url": "https://www.google.com/maps/place/106%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%AE%89%E5%8D%80%E6%A8%82%E6%A5%AD%E8%A1%9738%E8%99%9F/data=!4m2!3m1!1s0x3442aa31eab0e7d1:0x96e7ebbb595d9f8d",
-  "pid": "ChIJ0eew6jGqQjQRjZ9dWbvr55Y",
-  "gname": "樂業街38號",
-  "addr": "106臺北市大安區虎嘯里樂業街38號",
-  "lat": 25.0231251,
-  "lng": 121.54980879999998,
-  "status": null,
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "168Parking(樂業停車場）",
-   "pid": "ChIJtddM1JGrQjQRqBe6lsDyPpA",
-   "lat": 25.023188,
-   "lng": 121.549966,
-   "m": 17
-  }
- },
- {
-  "name": "Jexer Fitness & SPA",
-  "region": "台北中山區",
-  "type": "其他",
-  "occ": "—",
-  "price": "—",
-  "note": "健身房",
-  "url": "https://www.google.com/maps/place/Jexer+Fitness+%26SPA/data=!4m2!3m1!1s0x3442abd53dceb94b:0x17e10d55966b0a67",
-  "pid": "ChIJS7nOPdWrQjQRZwprllUN4Rc",
-  "gname": "Jexer Fitness &SPA",
-  "addr": "104臺北市中山區復華里南京東路三段133號B2",
-  "lat": 25.052129200000003,
-  "lng": 121.54183560000001,
-  "status": "OPERATIONAL",
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "停車場(俠隱場)",
-   "pid": "ChIJfZ5xBd6rQjQR82zS0UabJQY",
-   "lat": 25.05221,
-   "lng": 121.54214,
-   "m": 32
   }
  },
  {
@@ -4280,31 +4130,6 @@
   }
  },
  {
-  "name": "台北中正區連雲街74巷3-2號（只有地址）",
-  "region": "台北中正區",
-  "type": "待確認",
-  "occ": "待確認",
-  "price": "?",
-  "note": "收藏時只存了地址",
-  "url": "https://www.google.com/maps/place/100%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E6%AD%A3%E5%8D%80%E9%80%A3%E9%9B%B2%E8%A1%9774%E5%B7%B73-2%E8%99%9F/data=!4m2!3m1!1s0x3442a9827553b999:0x326df6e0444f4f7",
-  "pid": "ChIJmblTdYKpQjQR9_REBG7fJgM",
-  "gname": "連雲街74巷3-2號",
-  "addr": "100臺北市中正區三愛里連雲街74巷3-2號",
-  "lat": 25.0344581,
-  "lng": 121.529859,
-  "status": null,
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "鐳銳科技東門停車場",
-   "pid": "ChIJ7fDtJX6pQjQRKVF8wkEiIFY",
-   "lat": 25.034732,
-   "lng": 121.529858,
-   "m": 30
-  }
- },
- {
   "name": "美樂地我家小館",
   "region": "桃園龍潭區",
   "type": "餐廳",
@@ -4403,25 +4228,6 @@
    "lng": 121.497501,
    "m": 183
   }
- },
- {
-  "name": "桃園龍潭區淮子埔路132號（只有地址）",
-  "region": "桃園龍潭區",
-  "type": "待確認",
-  "occ": "待確認",
-  "price": "?",
-  "note": "收藏時只存了地址",
-  "url": "https://www.google.com/maps/place/325%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%8D%E6%BD%AD%E5%8D%80%E6%B7%AE%E5%AD%90%E5%9F%94%E8%B7%AF132%E8%99%9F/data=!4m2!3m1!1s0x34683d72951a1d1b:0xe688bf856e084753",
-  "pid": "ChIJw3X6ugk9aDQRGzDfVVXTtio",
-  "gname": "淮子埔路132號",
-  "addr": "325桃园市龍潭區九龙里淮子埔路132號",
-  "lat": 24.8539192,
-  "lng": 121.24390749999998,
-  "status": null,
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": null
  },
  {
   "name": "師大分部臭豆腐",
@@ -5783,31 +5589,6 @@
   }
  },
  {
-  "name": "台北北投區竹子湖路55-12號（只有地址）",
-  "region": "台北北投區",
-  "type": "待確認",
-  "occ": "待確認",
-  "price": "?",
-  "note": "收藏時只存了地址",
-  "url": "https://www.google.com/maps/place/112%E5%8F%B0%E5%8C%97%E5%B8%82%E5%8C%97%E6%8A%95%E5%8D%80%E7%AB%B9%E5%AD%90%E6%B9%96%E8%B7%AF55-12%E8%99%9F/data=!4m2!3m1!1s0x3442b1f3f8350845:0x7374ccb5160567d5",
-  "pid": "ChIJRQg1-POxQjQR1WcFFrXMdHM",
-  "gname": "竹子湖路55-12號",
-  "addr": "112臺北市北投區湖田里竹子湖路55-12號",
-  "lat": 25.177989099999998,
-  "lng": 121.5311233,
-  "status": null,
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "竹子湖停車",
-   "pid": "ChIJwx5mAemxQjQRZp1dOJEi9bo",
-   "lat": 25.177781,
-   "lng": 121.534476,
-   "m": 338
-  }
- },
- {
   "name": "南港老張燒餅店（南京直營店）",
   "region": "台北南港區",
   "type": "外帶/伴手禮",
@@ -6216,31 +5997,6 @@
    "lat": 25.131186,
    "lng": 121.738338,
    "m": 181
-  }
- },
- {
-  "name": "信二路公有停車場",
-  "region": "基隆中正區",
-  "type": "其他",
-  "occ": "—",
-  "price": "—",
-  "note": "停車場",
-  "url": "https://www.google.com/maps/place/%E4%BF%A1%E4%BA%8C%E8%B7%AF%E5%85%AC%E6%9C%89%E5%81%9C%E8%BB%8A%E5%A0%B4/data=!4m2!3m1!1s0x345d4e3f6e2f3693:0x51a446a7b82d7960",
-  "pid": "ChIJkzYvbj9OXTQRYHktuKdGpFE",
-  "gname": "信二立體停車場",
-  "addr": "202基隆市中正區德義里信二路299號",
-  "lat": 25.130939299999998,
-  "lng": 121.7459597,
-  "status": "OPERATIONAL",
-  "nomatch": false,
-  "checked": "2026-11-07",
-  "reviewed": true,
-  "parking": {
-   "name": "信二立體停車場",
-   "pid": "ChIJkzYvbj9OXTQRYHktuKdGpFE",
-   "lat": 25.130939,
-   "lng": 121.74596,
-   "m": 0
   }
  },
  {

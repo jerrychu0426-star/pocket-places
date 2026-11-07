@@ -29,7 +29,10 @@ saved Google Maps places. A scheduled session runs this weekly. Work in the repo
 
 ## 3. Review (Claude does this by judgment)
 Run `python3 -I scripts/update.py report` and fix every listed row in `data/places.json`:
-- **type**: one of 餐廳 / 咖啡 (cafés, desserts, ice, tea) / 酒吧 / 景點 / 外帶/伴手禮 / 其他 (parking, gas, gym…).
+- **type**: one of 餐廳 / 咖啡 (cafés, desserts, ice, tea) / 酒吧 / 景點 / 外帶/伴手禮.
+- **Not food/café/bar/sight** (bare address pins, parking lots, gas stations, car washes, gyms, shops unrelated to
+  eating out): the owner does not want these. Remove the row from `data/places.json` and append
+  `{"url", "name", "reason"}` to `data/excluded.json` so later exports never re-add it. List them in the report.
 - **occ**: comma-free list joined by `、` from 約會、一個人、帶朋友.
 - **price** per person: `$` ≤150, `$$` 150–400, `$$$` 400–1000, `$$$$` >1000, `—` for non-food.
 - **name mismatch / no match**: if Google matched a different shop, set `lat`, `lng`, `pid`, `status`

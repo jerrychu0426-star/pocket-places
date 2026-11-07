@@ -7,62 +7,77 @@
 <title>附近去哪</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap">
 <style>
+/* Layout: navy header band with title + stats, then a single column of controls and place cards */
 :root{
-  --bg:#f3f6f4; --surface:#fff; --fg:#17231d; --muted:#5d6b64; --line:#d6dfda;
-  --accent:#0f6b4f; --accent-soft:#dcefe6; --price:#a45a00; --warn:#b3261e; --warn-soft:#fbe4e1;
+  --bg:#eef3fa; --surface:#ffffff; --fg:#0f1e33; --muted:#5a6b82; --line:#d5e0ee;
+  --accent:#1f5fbf; --accent-soft:#e3edfb; --band:#123a73; --band-fg:#ffffff; --band-muted:#b9cdee;
+  --price:#b45309; --warn:#b42318; --warn-soft:#fde8e6; --shadow:0 1px 2px rgba(15,30,51,.06),0 4px 14px rgba(15,30,51,.06);
   --display:"Noto Serif TC","Songti TC",serif;
   --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{
-  --bg:#101714; --surface:#17211c; --fg:#e4ece7; --muted:#9aaba2; --line:#2a3832;
-  --accent:#5fcf9f; --accent-soft:#1d3a2e; --price:#f0a94a; --warn:#ff8a80; --warn-soft:#3d1f1c; color-scheme:dark}}
+  --bg:#0b1220; --surface:#131c2e; --fg:#e6edf7; --muted:#93a3ba; --line:#24324a;
+  --accent:#6ea8ff; --accent-soft:#1a2b47; --band:#0f2747; --band-fg:#f1f5fc; --band-muted:#9fb6d9;
+  --price:#f5a54a; --warn:#ff8a80; --warn-soft:#3a1d1f; --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
-.wrap{max-width:760px;margin:0 auto;padding-block:max(20px,env(safe-area-inset-top)) 48px;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
-h1{font-family:var(--display);font-weight:900;font-size:30px;margin:0}
-.stats{display:flex;flex-wrap:wrap;gap:4px 14px;margin:6px 0 0;font-size:13px;color:var(--muted)}
-.stats b{color:var(--fg);font-variant-numeric:tabular-nums}
-.where{color:var(--muted);margin:4px 0 14px;font-size:14px}
-.big{display:block;width:100%;border:0;border-radius:12px;padding:14px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:var(--bg);cursor:pointer}
-.unloc{display:block;margin:8px auto 0;border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
+.band{background:var(--band);color:var(--band-fg);padding-top:env(safe-area-inset-top)}
+.inner{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+.band .inner{padding-block:22px 20px}
+.eyebrow{font-size:12px;letter-spacing:.18em;color:var(--band-muted);font-weight:600}
+h1{font-family:var(--display);font-weight:900;font-size:32px;margin:2px 0 0;letter-spacing:.04em}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.stats span{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:999px;padding:3px 12px;font-size:13px;color:var(--band-muted)}
+.stats b{color:var(--band-fg);font-variant-numeric:tabular-nums;margin-left:2px}
+.wrap{padding-block:16px 48px}
+.where{color:var(--muted);margin:0 0 12px;font-size:14px}
+.big{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;border:0;border-radius:14px;padding:15px;font:inherit;font-size:17px;font-weight:700;background:var(--accent);color:#fff;cursor:pointer;box-shadow:var(--shadow)}
+@media (prefers-color-scheme: dark){.big{color:#0b1220}}
+.big::before{content:"";width:10px;height:10px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px rgba(255,255,255,.3)}
+.unloc{display:block;margin:10px auto 0;border:0;background:none;color:var(--accent);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
 .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:10px}
-.row3 a,.row3 button{display:block;text-align:center;text-decoration:none;border:1px solid var(--accent);color:var(--accent);border-radius:10px;padding:11px 4px;font:inherit;font-weight:700;background:var(--surface);cursor:pointer}
-.row3 a[aria-disabled=true]{opacity:.45;pointer-events:none}
-input[type=search]{width:100%;margin-top:12px;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--fg)}
-details{margin-top:10px}
+.row3 a,.row3 button{display:block;text-align:center;text-decoration:none;border:1px solid var(--line);color:var(--accent);border-radius:12px;padding:11px 4px;font:inherit;font-size:14px;font-weight:700;background:var(--surface);cursor:pointer;box-shadow:var(--shadow)}
+.row3 a[aria-disabled=true]{opacity:.45;pointer-events:none;box-shadow:none}
+.panel{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}
+input[type=search]{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+details{margin-top:8px}
 summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:14px;padding:4px 0}
 .group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
-.group b{font-size:12px;color:var(--muted);width:3em;flex:none;font-weight:600}
+.group b{font-size:12px;color:var(--muted);width:3em;flex:none;font-weight:600;letter-spacing:.05em}
 .chip{border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
-.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
-.chip[hidden]{display:none}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--surface);font-weight:600}
 button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.msg{margin-top:14px;padding:12px 14px;border-radius:10px;background:var(--warn-soft);color:var(--warn);font-size:14px}
-.lucky{margin-top:14px;border:2px solid var(--accent);background:var(--accent-soft);border-radius:12px;padding:10px 14px}
-.lucky .lab{font-size:12px;letter-spacing:.1em;color:var(--accent);font-weight:700}
-.lucky ul{margin:0}.lucky li{border:0;padding:4px 0}
-.count{font-size:13px;color:var(--muted);margin-top:14px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
-.count button{border:0;background:none;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0}
-ul{list-style:none;margin:6px 0 0;padding:0}
-li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;border-bottom:1px solid var(--line)}
+.msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--warn-soft);color:var(--warn);font-size:14px}
+.lucky{margin-top:14px;border:2px solid var(--accent);background:var(--accent-soft);border-radius:16px;padding:12px 14px}
+.lucky .lab{font-size:12px;letter-spacing:.14em;color:var(--accent);font-weight:700}
+.lucky ul{margin:4px 0 0}.lucky li{box-shadow:none;border:0;margin:0;padding:6px 0 0;background:none}
+.count{font-size:13px;color:var(--muted);margin-top:16px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.count button{border:0;background:none;color:var(--accent);font:inherit;font-size:13px;cursor:pointer;padding:0;font-weight:600}
+ul{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:10px}
+li{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow)}
 .nm{font-weight:700;font-size:16px;min-width:0}
-.d{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
-.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 10px;font-size:13px;color:var(--muted)}
-.meta .pr{color:var(--price);font-weight:700}
-.meta .bad{background:var(--warn-soft);color:var(--warn);border-radius:4px;padding:0 6px;font-size:12px}
-.note{grid-column:1/-1;font-size:13px;opacity:.85;min-width:0}
-.acts{grid-column:1/-1;display:flex;gap:14px;font-size:14px}
-.acts a{color:var(--accent);font-weight:600}
-.legend{font-size:12px;color:var(--muted);margin-top:24px}
+.d{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:15px}
+.meta{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:13px;color:var(--muted)}
+.meta .tag{background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:1px 8px;font-weight:600;font-size:12px}
+.meta .pr{color:var(--price);font-weight:700;letter-spacing:.04em}
+.meta .bad{background:var(--warn-soft);color:var(--warn);border-radius:6px;padding:1px 8px;font-size:12px;font-weight:600}
+.note{grid-column:1/-1;font-size:13px;color:var(--fg);opacity:.8;min-width:0}
+.acts{grid-column:1/-1;display:flex;gap:8px;margin-top:4px}
+.acts a{font-size:13px;font-weight:600;text-decoration:none;color:var(--accent);border:1px solid var(--line);border-radius:8px;padding:4px 12px}
+.acts a:first-child{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.legend{font-size:12px;color:var(--muted);margin-top:28px;line-height:1.7}
 </style>
 </head>
 <body>
-<div class="wrap">
+<header class="band"><div class="inner">
+  <div class="eyebrow">口袋名單</div>
   <h1>附近去哪</h1>
   <div class="stats" id="stats"></div>
+</div></header>
+<main class="inner wrap">
   <p class="where" id="where">還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。</p>
   <button class="big" id="locate">用我的位置找附近</button>
   <button class="unloc" id="unlocate" type="button" hidden>取消定位，改看全部清單</button>
@@ -71,6 +86,7 @@ li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;bor
     <a id="gas" aria-disabled="true" target="_blank" rel="noopener">附近加油站</a>
     <button id="pick" type="button">隨機挑一家</button>
   </div>
+  <div class="panel">
   <input type="search" id="q" placeholder="搜尋店名、區域、備註（例：牛肉湯、安平）" aria-label="搜尋">
   <div class="group" id="g-r" hidden><b>距離</b></div>
   <div class="group" id="g-type"><b>類型</b></div>
@@ -80,12 +96,13 @@ li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:12px 2px;bor
     <div class="group" id="g-city"><b>城市</b></div>
     <div class="group" id="g-price"><b>價位</b></div>
   </details>
+  </div>
   <div id="msg" class="msg" hidden></div>
   <div id="lucky" class="lucky" hidden></div>
   <div class="count"><span id="count"></span><button id="reset" type="button">清除篩選</button></div>
   <ul id="list"></ul>
   <p class="legend">每週一自動檢查更新，「共收錄」不含已歇業的店。營業狀態取自 Google 地點資料，已歇業的店不顯示。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
-</div>
+</main>
 <script>
 const D=__DATA__;
 const CITIES=["台北","台南","新北","桃園","基隆","宜蘭","台中"];
@@ -117,7 +134,7 @@ function item(p){
   const nav=p.lat!=null?`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:""):"";
   const bad=p.status==="CLOSED_PERMANENTLY"?'<span class="bad">已歇業</span>':p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
   return `<li><div class="nm">${esc(p.name)}</div><div class="d">${p.d!=null?fmt(p.d):""}</div>
-  <div class="meta"><span>${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
+  <div class="meta"><span class="tag">${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
   ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
   <div class="acts">${nav?`<a href="${esc(nav)}" target="_blank" rel="noopener">導航</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">看店家</a></div></li>`}
 function render(){
@@ -157,7 +174,7 @@ document.getElementById("unlocate").onclick=()=>{
   showMsg("");render()};
 (function(){const open=D.filter(p=>p.status!=="CLOSED_PERMANENTLY").length;
   const [y,m,dd]="__UPDATED__".split("-");
-  document.getElementById("stats").innerHTML=`<span>共收錄 <b>${open}</b> 家</span><span>資料更新 <b>${y}/${+m}/${+dd}</b></span>`})();
+  document.getElementById("stats").innerHTML=`<span>共收錄<b>${open}</b> 家</span><span>資料更新<b>${y}/${+m}/${+dd}</b></span>`})();
 render();
 </script>
 </body>

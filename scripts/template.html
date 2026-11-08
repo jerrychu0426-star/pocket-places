@@ -5,159 +5,212 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#1f3a5f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="附近去哪">
 <title>附近去哪</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@700&display=swap">
 <style>
-/* Layout: travel-journal look. Forest-green header band with mountains, paper body, single column of
-   journal cards (two columns on wide screens). Brick red = primary action, mustard = tape/highlights. */
+/* Layout (mobile-first app shell):
+   compact navy header -> sticky toolbar (search, 附近, 篩選 + scrollable type chips)
+   -> nearby bar (only when located) -> result line -> compact place cards.
+   Less-used filters (場合/城市/價位) live in a bottom sheet. Deep red = actions, navy = state, parchment = ground. */
 :root{
   --paper:#f1e3c2; --card:#fcf6e6; --ink:#2a2418; --muted:#6e604a; --line:#e3cfa3;
-  --forest:#1f3a5f; --forest-2:#2d5283; --on-forest:#f8eed6; --on-forest-muted:#c9d6ea;
-  --brick:#8e2a22; --brick-soft:#f3d9d1; --mustard:#c8962f; --tape:rgba(200,150,47,.5);
-  --sage:#2a5a9a; --sage-soft:#dfe8f4; --blue:#2a5a9a; --blue-soft:#dfe8f4; --plum:#5b3a7a; --plum-soft:#e9e1f1;
-  --price:#8e2a22; --shadow:0 1px 0 rgba(42,36,24,.05),0 6px 16px -8px rgba(90,60,20,.3);
+  --navy:#1f3a5f; --navy-2:#2d5283; --on-navy:#f8eed6; --on-navy-muted:#c9d6ea;
+  --red:#8e2a22; --red-soft:#f3d9d1; --mustard:#c8962f; --tape:rgba(200,150,47,.5);
+  --blue:#2a5a9a; --blue-soft:#dfe8f4; --plum:#5b3a7a; --plum-soft:#e9e1f1; --coffee-bg:#f6e2b0; --coffee:#7a560f; --misc-bg:#efe0c4;
+  --scrim:rgba(20,16,8,.45); --shadow:0 1px 0 rgba(42,36,24,.05),0 4px 12px -6px rgba(90,60,20,.3);
   --hand:"LXGW WenKai TC","Kaiti TC","STKaiti","DFKai-SB",serif;
   --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root{
   --paper:#141a26; --card:#1d2535; --ink:#f2e8d0; --muted:#a9a08a; --line:#2e3a50;
-  --forest:#0f1f38; --forest-2:#1d3558; --on-forest:#f6ecd4; --on-forest-muted:#a9bbd8;
-  --brick:#e5735f; --brick-soft:#3b2220; --mustard:#e2b65a; --tape:rgba(226,182,90,.35);
-  --sage:#8fb4ea; --sage-soft:#1f2d45; --blue:#8fb4ea; --blue-soft:#1f2d45; --plum:#c9a8e6; --plum-soft:#2e2540;
-  --price:#f09a86; --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
+  --navy:#0f1f38; --navy-2:#1d3558; --on-navy:#f6ecd4; --on-navy-muted:#a9bbd8;
+  --red:#e5735f; --red-soft:#3b2220; --mustard:#e2b65a; --tape:rgba(226,182,90,.35);
+  --blue:#8fb4ea; --blue-soft:#1f2d45; --plum:#c9a8e6; --plum-soft:#2e2540; --coffee-bg:#3a3020; --coffee:#e2b65a; --misc-bg:#2a2a2a;
+  --scrim:rgba(0,0,0,.6); --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background-color:var(--paper);
-  background-image:radial-gradient(rgba(120,100,60,.07) 1px,transparent 1.2px),radial-gradient(rgba(120,100,60,.05) 1px,transparent 1.2px);
-  background-size:7px 7px,11px 11px;background-position:0 0,3px 5px;
-  color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
-.inner{max-width:980px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-tap-highlight-color:transparent}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--navy)}
+.inner{max-width:880px;margin:0 auto;padding-left:max(14px,env(safe-area-inset-left));padding-right:max(14px,env(safe-area-inset-right))}
+button{font:inherit;color:inherit;cursor:pointer}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+
 /* header */
-.band{background:var(--forest);color:var(--on-forest);padding-top:env(safe-area-inset-top);position:relative;overflow:hidden}
-.band .inner{padding-block:22px 46px;position:relative;z-index:1}
-.band svg{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:56px;display:block}
-.eyebrow{font-family:var(--hand);font-size:15px;color:var(--on-forest-muted);letter-spacing:.12em}
-h1{font-family:var(--hand);font-weight:700;font-size:40px;line-height:1.15;margin:2px 0 4px;letter-spacing:.06em}
-.sub{font-family:var(--hand);font-size:16px;color:var(--on-forest-muted);margin:0}
-.sub::after{content:"";display:block;width:150px;height:2px;margin-top:6px;background:var(--mustard);border-radius:2px;transform:rotate(-1deg)}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.stamp{font-family:var(--hand);border:1.5px dashed var(--on-forest-muted);border-radius:8px;padding:4px 12px;font-size:14px;color:var(--on-forest-muted);transform:rotate(-1.5deg)}
-.stamp:nth-child(2){transform:rotate(1.2deg)}
-.stamp b{color:var(--on-forest);font-family:var(--body);font-variant-numeric:tabular-nums;font-size:16px;margin:0 3px}
-/* controls */
-main{padding-block:6px 48px}
-.where{color:var(--muted);margin:10px 0 12px;font-size:14px}
-.big{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;border:0;border-radius:14px;padding:15px;font-family:var(--hand);font-size:20px;font-weight:700;letter-spacing:.06em;background:var(--brick);color:#fff8ee;cursor:pointer;box-shadow:0 3px 0 rgba(0,0,0,.18)}
-@media (prefers-color-scheme: dark){.big{color:#1b1410}}
-.big::before{content:"";width:14px;height:14px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:currentColor}
-.big:active{transform:translateY(2px);box-shadow:0 1px 0 rgba(0,0,0,.18)}
-.unloc{display:block;margin:10px auto 0;border:0;background:none;color:var(--brick);font:inherit;font-size:14px;font-weight:600;text-decoration:underline;cursor:pointer}
-.row3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
-.row3 a,.row3 button{display:flex;flex-direction:column;align-items:center;gap:2px;text-decoration:none;border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:9px 4px;font:inherit;font-size:13px;font-weight:600;background:var(--card);cursor:pointer;box-shadow:var(--shadow)}
-.row3 .ic{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:14px;font-family:var(--body)}
-.row3 a[aria-disabled=true]{opacity:.5;pointer-events:none;box-shadow:none}
-.panel{position:relative;margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 14px 12px;box-shadow:var(--shadow)}
-.panel::before,.lucky::before{content:"";position:absolute;top:-9px;left:22px;width:74px;height:18px;background:var(--tape);transform:rotate(-4deg);border-radius:2px}
-.lucky::before{left:auto;right:26px;transform:rotate(5deg)}
-input[type=search]{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
-.group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
-.group b{font-family:var(--hand);font-size:14px;color:var(--muted);width:2.8em;flex:none;font-weight:700}
-.chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
+.hd{background:var(--navy);color:var(--on-navy);padding-top:env(safe-area-inset-top)}
+.hd .inner{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding-block:12px 10px}
+.eyebrow{font-size:11px;letter-spacing:.16em;color:var(--on-navy-muted)}
+h1{font-family:var(--hand);font-weight:700;font-size:26px;line-height:1.1;margin:2px 0 0;letter-spacing:.05em}
+.stats{display:flex;flex-direction:column;align-items:flex-end;gap:2px;font-size:12px;color:var(--on-navy-muted);text-align:right}
+.stats b{color:var(--on-navy);font-size:15px;font-variant-numeric:tabular-nums;margin:0 2px}
+.ridge{display:block;width:100%;height:12px;background:var(--navy)}
+
+/* sticky toolbar */
+.tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:1px solid var(--line);box-shadow:0 6px 10px -10px rgba(0,0,0,.4)}
+.tools .inner{padding-block:10px 8px}
+.row{display:flex;gap:8px;align-items:center}
+.search{flex:1;min-width:0;position:relative}
+.search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--muted)}
+input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 12px 0 34px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);-webkit-appearance:none}
+.tbtn{flex:none;height:40px;display:inline-flex;align-items:center;gap:5px;padding:0 12px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-size:15px;font-weight:600;position:relative;white-space:nowrap}
+.tbtn svg{width:17px;height:17px}
+#locate{background:var(--red);border-color:var(--red);color:var(--card)}
+#locate[aria-pressed=true]{background:var(--card);color:var(--red);border-color:var(--red)}
+.badge{position:absolute;top:-6px;right:-6px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--red);color:var(--card);font-size:11px;font-weight:700;display:grid;place-items:center}
+.scroller{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;margin:8px -14px 0;padding:0 14px 2px;scroll-padding:0 14px}
+.scroller::-webkit-scrollbar{display:none}
+.chip{flex:none;height:34px;padding:0 14px;border-radius:17px;border:1px solid var(--line);background:var(--card);font-size:15px;white-space:nowrap}
 .chip[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:var(--card);font-weight:600}
-button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
-.msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--brick-soft);color:var(--brick);font-size:14px}
-.lucky{position:relative;margin-top:22px;border:2px solid var(--brick);background:var(--card);border-radius:16px;padding:14px 14px 10px}
-.lucky .lab{font-family:var(--hand);font-size:18px;color:var(--brick);font-weight:700}
-.lucky ul{margin:6px 0 0}.lucky li{box-shadow:none;border:0;padding:4px 0 0;background:none}
-.count{margin-top:22px;display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
-.count span{font-family:var(--hand);font-size:18px;font-weight:700}
-.count button{border:0;background:none;color:var(--brick);font:inherit;font-size:13px;cursor:pointer;padding:0;font-weight:600}
-/* cards */
-#list{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:12px}
-@media (min-width:900px){#list{grid-template-columns:1fr 1fr}}
-li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:start;padding:14px 14px 12px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);min-width:0}
-.no{grid-row:span 2;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:var(--brick);color:var(--card);font-weight:700;font-size:13px;font-variant-numeric:tabular-nums}
-.nm{font-weight:700;font-size:16px;min-width:0;line-height:1.35}
-.d{font-family:var(--hand);font-weight:700;color:var(--brick);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;font-size:17px}
-.meta{grid-column:2/-1;display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;font-size:13px;color:var(--muted)}
-.tag{border-radius:6px;padding:1px 8px;font-weight:700;font-size:12px;background:var(--sage-soft);color:var(--sage)}
-.tag[data-t="餐廳"]{background:var(--brick-soft);color:var(--brick)}
-.tag[data-t="咖啡"]{background:#f6e2b0;color:#7a560f}
+@media (prefers-color-scheme: dark){.chip[aria-pressed=true],#locate,.badge{color:#141a26}#locate[aria-pressed=true]{color:var(--red)}}
+
+/* nearby bar */
+.near{margin-top:10px;background:var(--blue-soft);border-radius:14px;padding:10px 12px}
+.near .scroller{margin:0 -12px;padding:0 12px 2px}
+.near .chip{height:30px;font-size:14px;padding:0 12px}
+.near .acts{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:8px}
+.near a,.near .x{height:36px;display:flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;background:var(--card);border:1px solid var(--line);text-decoration:none;font-size:14px;font-weight:600}
+.near .x{padding:0 12px;color:var(--muted)}
+.ic{width:20px;height:20px;border-radius:5px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:12px}
+
+/* results */
+.msg{margin-top:10px;padding:10px 12px;border-radius:12px;background:var(--red-soft);color:var(--red);font-size:14px}
+.res{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:14px 0 8px}
+.res .n{font-size:15px;color:var(--muted)}
+.res .n b{color:var(--ink);font-size:17px}
+.res .lnk{border:0;background:none;color:var(--red);font-size:14px;font-weight:600;padding:6px 0;display:inline-flex;align-items:center;gap:4px}
+.lucky{position:relative;margin:4px 0 12px;border:2px solid var(--red);border-radius:16px;background:var(--card);padding:10px 4px 4px}
+.lucky::before{content:"";position:absolute;top:-8px;right:24px;width:64px;height:16px;background:var(--tape);transform:rotate(4deg)}
+.lucky .lab{font-family:var(--hand);font-size:17px;color:var(--red);padding:0 10px;display:flex;justify-content:space-between}
+.lucky .lab button{border:0;background:none;color:var(--muted);font-family:var(--body);font-size:13px}
+.lucky .card{border:0;box-shadow:none;background:none}
+
+#list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+@media (min-width:760px){#list{grid-template-columns:1fr 1fr}}
+.card{display:grid;grid-template-columns:28px 1fr;gap:0 10px;padding:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);min-width:0}
+.no{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:var(--card);font-size:12px;font-weight:700;font-variant-numeric:tabular-nums;margin-top:1px}
+@media (prefers-color-scheme: dark){.no{color:#141a26}}
+.main{min-width:0}
+.top{display:flex;align-items:baseline;gap:8px}
+.nm{flex:1;min-width:0;font-weight:700;font-size:16px;line-height:1.35;text-decoration:none}
+.nm:active{color:var(--red)}
+.d{flex:none;font-weight:700;color:var(--red);font-size:14px;font-variant-numeric:tabular-nums}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;margin-top:3px;font-size:13px;color:var(--muted)}
+.tag{border-radius:6px;padding:0 7px;font-weight:700;font-size:12px;line-height:20px;background:var(--misc-bg);color:var(--muted)}
+.tag[data-t="餐廳"]{background:var(--red-soft);color:var(--red)}
+.tag[data-t="咖啡"]{background:var(--coffee-bg);color:var(--coffee)}
 .tag[data-t="酒吧"]{background:var(--plum-soft);color:var(--plum)}
 .tag[data-t="景點"]{background:var(--blue-soft);color:var(--blue)}
-.tag[data-t="外帶/伴手禮"]{background:#efe0c4;color:#6e604a}
-@media (prefers-color-scheme: dark){
-  .chip[aria-pressed=true]{color:#141a26}.no,.acts a.go{color:#1b1410}}
-@media (prefers-color-scheme: dark){.tag[data-t="咖啡"]{background:#3a3020;color:var(--mustard)}.tag[data-t="外帶/伴手禮"]{background:#2a2a2a;color:var(--muted)}}
-.pr{color:var(--price);font-weight:700;letter-spacing:.04em}
-.bad{background:var(--brick-soft);color:var(--brick);border-radius:6px;padding:1px 8px;font-size:12px;font-weight:700}
-.note{grid-column:1/-1;font-family:var(--hand);font-size:15px;color:var(--ink);opacity:.85;min-width:0;border-left:3px solid var(--tape);padding-left:8px;margin-top:2px}
-.park{grid-column:1/-1;display:flex;align-items:center;gap:8px;margin-top:6px;padding:7px 10px;border-radius:10px;background:var(--blue-soft);font-size:13px;min-width:0}
-.park .P{flex:none;width:22px;height:22px;border-radius:5px;background:var(--blue);color:var(--card);display:grid;place-items:center;font-weight:800;font-size:13px}
-.park a{color:var(--blue);font-weight:700;text-decoration:none;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.park span.w{margin-left:auto;flex:none;color:var(--muted)}
-.park.none{background:none;padding:0 2px;color:var(--muted)}
-.acts{grid-column:1/-1;display:flex;gap:8px;margin-top:8px}
-.acts a{font-size:13px;font-weight:600;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:5px 14px;background:var(--paper)}
-.acts a.go{background:var(--brick);border-color:var(--brick);color:var(--card)}
-.legend{font-size:12px;color:var(--muted);margin-top:30px;line-height:1.7}
-.foot{font-family:var(--hand);text-align:center;color:var(--muted);font-size:16px;margin-top:18px}
+.pr{color:var(--red);font-weight:700;letter-spacing:.03em}
+.bad{background:var(--red-soft);color:var(--red);border-radius:6px;padding:0 7px;font-size:12px;font-weight:700;line-height:20px}
+.note{margin-top:5px;font-size:13px;color:var(--ink);opacity:.8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.foot{display:flex;align-items:center;gap:8px;margin-top:9px}
+.park{flex:1;min-width:0;height:34px;display:flex;align-items:center;gap:7px;padding:0 9px;border-radius:9px;background:var(--blue-soft);text-decoration:none;font-size:13px}
+.park .P{flex:none;width:20px;height:20px;border-radius:5px;background:var(--blue);color:var(--card);display:grid;place-items:center;font-weight:800;font-size:12px}
+.park .pn{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--blue);font-weight:600}
+.park .w{margin-left:auto;flex:none;color:var(--muted);font-size:12px}
+.park.none{background:none;color:var(--muted);padding:0}
+.go{flex:none;height:34px;display:inline-flex;align-items:center;gap:4px;padding:0 13px;border-radius:9px;background:var(--red);color:var(--card);text-decoration:none;font-size:14px;font-weight:700}
+@media (prefers-color-scheme: dark){.go,.park .P{color:#141a26}}
+.go svg{width:15px;height:15px}
+.empty{padding:40px 10px;text-align:center;color:var(--muted)}
+.legend{font-size:12px;color:var(--muted);margin:26px 0 0;line-height:1.7}
+.foot-note{font-family:var(--hand);text-align:center;color:var(--muted);font-size:15px;margin:14px 0 calc(24px + env(safe-area-inset-bottom))}
+
+/* bottom sheet */
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:40}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;max-height:82vh;display:flex;flex-direction:column;background:var(--card);border-radius:20px 20px 0 0;box-shadow:0 -10px 30px rgba(0,0,0,.25);max-width:620px;margin:0 auto}
+.sheet .grab{width:40px;height:5px;border-radius:3px;background:var(--line);margin:8px auto 2px}
+.sheet .sh{display:flex;justify-content:space-between;align-items:center;padding:6px 18px 4px}
+.sheet h2{font-family:var(--hand);font-size:21px;margin:0}
+.sheet .close{border:0;background:none;font-size:15px;color:var(--muted);padding:6px}
+.sheet .body{overflow-y:auto;padding:4px 18px 8px}
+.grp{padding:12px 0;border-bottom:1px dashed var(--line)}
+.grp:last-child{border-bottom:0}
+.grp h3{margin:0 0 8px;font-size:17px;font-weight:700}
+.grp .wrap{display:flex;flex-wrap:wrap;gap:8px}
+.sheet .bar{display:flex;gap:10px;padding:10px 18px calc(12px + env(safe-area-inset-bottom));border-top:1px solid var(--line)}
+.sheet .bar button{height:46px;border-radius:12px;font-size:16px;font-weight:700}
+#clear{flex:1;border:1px solid var(--line);background:var(--paper)}
+#apply{flex:2;border:0;background:var(--red);color:var(--card)}
+@media (prefers-color-scheme: dark){#apply{color:#141a26}}
+@media (prefers-reduced-motion:no-preference){.sheet{animation:up .22s ease-out}@keyframes up{from{transform:translateY(30px);opacity:.6}}}
 </style>
 </head>
 <body>
-<header class="band"><div class="inner">
-  <div class="eyebrow">我的口袋名單</div>
-  <h1>附近去哪</h1>
-  <p class="sub">收藏過的好店，走到哪、吃到哪</p>
+<header class="hd"><div class="inner">
+  <div><div class="eyebrow">我的口袋名單</div><h1>附近去哪</h1></div>
   <div class="stats" id="stats"></div>
-</div>
-<svg viewBox="0 0 400 56" preserveAspectRatio="none" aria-hidden="true">
-  <path d="M0 56 L0 38 L40 22 L70 34 L110 12 L150 32 L185 20 L220 36 L260 14 L300 30 L335 18 L370 32 L400 24 L400 56 Z" fill="var(--forest-2)"/>
-  <path d="M0 56 L0 46 L50 36 L95 46 L140 34 L190 46 L240 38 L290 48 L340 38 L400 46 L400 56 Z" fill="var(--paper)"/>
-</svg>
-</header>
-<main class="inner">
-  <p class="where" id="where">還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。</p>
-  <button class="big" id="locate">用我的位置找附近</button>
-  <button class="unloc" id="unlocate" type="button" hidden>取消定位，改看全部清單</button>
-  <div class="row3">
-    <a id="park" aria-disabled="true" target="_blank" rel="noopener"><span class="ic" style="background:var(--blue)">P</span>附近停車場</a>
-    <a id="gas" aria-disabled="true" target="_blank" rel="noopener"><span class="ic" style="background:var(--mustard)">⛽</span>附近加油站</a>
-    <button id="pick" type="button"><span class="ic" style="background:var(--brick)">?</span>隨機挑一家</button>
+</div></header>
+<svg class="ridge" viewBox="0 0 400 12" preserveAspectRatio="none" aria-hidden="true"><path d="M0 12 L0 6 L30 2 L60 7 L95 1 L130 6 L170 3 L210 8 L250 2 L290 7 L330 3 L370 7 L400 4 L400 12 Z" fill="var(--paper)"/></svg>
+
+<div class="tools"><div class="inner">
+  <div class="row">
+    <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+      <input type="search" id="q" placeholder="搜尋店名、區域、備註" aria-label="搜尋店名、區域、備註"></label>
+    <button class="tbtn" id="locate" aria-pressed="false"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>附近</button>
+    <button class="tbtn" id="openf" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M7 12h10M10 18h4"/></svg>篩選<span class="badge" id="fbadge" hidden></span></button>
   </div>
-  <div class="panel">
-    <input type="search" id="q" placeholder="搜尋店名、區域、備註（例：牛肉湯、安平）" aria-label="搜尋">
-    <div class="group" id="g-r" hidden><b>距離</b></div>
-    <div class="group" id="g-type"><b>類型</b></div>
-    <div class="group" id="g-occ"><b>場合</b></div>
-    <div class="group" id="g-city"><b>城市</b></div>
-    <div class="group" id="g-price"><b>價位</b></div>
+  <div class="scroller" id="g-type" role="group" aria-label="類型"></div>
+</div></div>
+
+<main class="inner">
+  <div class="near" id="near" hidden>
+    <div class="scroller" id="g-r" role="group" aria-label="距離"></div>
+    <div class="acts">
+      <a id="park" target="_blank" rel="noopener"><span class="ic" style="background:var(--blue)">P</span>附近停車場</a>
+      <a id="gas" target="_blank" rel="noopener"><span class="ic" style="background:var(--mustard)">⛽</span>附近加油站</a>
+      <button class="x" id="unlocate" type="button">取消定位</button>
+    </div>
   </div>
   <div id="msg" class="msg" hidden></div>
+  <div class="res"><span class="n" id="count"></span><button class="lnk" id="pick" type="button">🎲 隨機挑一家</button></div>
   <div id="lucky" class="lucky" hidden></div>
-  <div class="count"><span id="count"></span><button id="reset" type="button">清除篩選</button></div>
   <ul id="list"></ul>
-  <p class="legend">每週一自動檢查更新；「共收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。停車場、加油站按鈕會在 Google Maps 搜尋你目前位置附近的即時結果。價位是每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
-  <p class="foot">下一站，去哪都好吃 ♥</p>
+  <p class="legend">每週一自動檢查更新；「收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。點店名可開啟 Google Maps 店家頁。價位為每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <p class="foot-note">下一站，去哪都好吃 ♥</p>
 </main>
+
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sht" hidden>
+  <div class="grab"></div>
+  <div class="sh"><h2 id="sht">篩選</h2><button class="close" id="closef" type="button">關閉</button></div>
+  <div class="body">
+    <div class="grp"><h3>場合</h3><div class="wrap" id="g-occ"></div></div>
+    <div class="grp"><h3>城市</h3><div class="wrap" id="g-city"></div></div>
+    <div class="grp"><h3>價位</h3><div class="wrap" id="g-price"></div></div>
+  </div>
+  <div class="bar"><button id="clear" type="button">全部清除</button><button id="apply" type="button">顯示結果</button></div>
+</div>
+
 <script>
 const D=__DATA__;
 const CITIES=["台北","台南","新北","桃園","基隆","宜蘭","台中"];
 const cityOf=p=>{const c=(p.region||"").slice(0,2);return CITIES.includes(c)?c:"其他"};
 const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set()};
 let here=null;
+const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function chip(g,label,on,click){const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=label;b.setAttribute("aria-pressed",on);b.onclick=()=>click(b);g.appendChild(b);return b}
-const gr=document.getElementById("g-r");
+
+/* distance */
+const gr=$("g-r");
 function setR(v){S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",+c.dataset.v===v))}
-[["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限",1e9]].forEach(([l,v])=>{chip(gr,l,v===S.r,()=>{setR(v);render()}).dataset.v=v});
+[["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限距離",1e9]].forEach(([l,v])=>{chip(gr,l,v===S.r,()=>{setR(v);render()}).dataset.v=v});
+
+/* type (toolbar) + sheet groups */
 const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"]};
-for(const k in sets){const g=document.getElementById("g-"+k);sets[k].forEach(v=>chip(g,v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));
-  if(k==="city"&&here&&S.city.size&&S.r<1e9){setR(1e9);showMsg("");document.getElementById("where").textContent="已定位，選了城市所以距離改成「不限」，依距離排序。"}
+chip($("g-type"),"全部",true,()=>{S.type.clear();syncType();render()}).dataset.all=1;
+function syncType(){$("g-type").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.all?!S.type.size:S.type.has(c.textContent)))}
+sets.type.forEach(v=>chip($("g-type"),v,false,()=>{S.type.has(v)?S.type.delete(v):S.type.add(v);syncType();render()}));
+for(const k of ["occ","city","price"]){sets[k].forEach(v=>chip($("g-"+k),v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));
+  if(k==="city"&&here&&S.city.size&&S.r<1e9)setR(1e9);
   render()}))}
+
 function km(a,b){const t=Math.PI/180,dl=(b.lat-a.lat)*t,dg=(b.lng-a.lng)*t;const x=Math.sin(dl/2)**2+Math.cos(a.lat*t)*Math.cos(b.lat*t)*Math.sin(dg/2)**2;return 12742*Math.asin(Math.sqrt(x))}
 const fmt=d=>d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km";
 function filtered(){
@@ -170,58 +223,74 @@ function filtered(){
     &&(!S.price.size||S.price.has(p.price)));
   if(here){rows=rows.filter(p=>p.lat!=null).map(p=>({...p,d:km(here,p)})).filter(p=>p.d<=S.r).sort((a,b)=>a.d-b.d)}
   return rows}
+const NAV='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 3 3 10.5l7.5 2.9L13.4 21z"/></svg>';
 function park(p){
-  if(p.type==="其他"||p.lat==null)return "";
+  if(p.lat==null)return "";
   const k=p.park;
-  if(!k)return '<div class="park none">800 公尺內查無停車場</div>';
+  if(!k)return '<span class="park none">800 公尺內查無停車場</span>';
   const nav=`https://www.google.com/maps/dir/?api=1&destination=${k.lat},${k.lng}&destination_place_id=${encodeURIComponent(k.pid)}`;
-  const w=k.m<60?"就在旁邊":`步行約 ${Math.max(1,Math.round(k.m/70))} 分鐘`;
-  return `<div class="park"><span class="P">P</span><a href="${esc(nav)}" target="_blank" rel="noopener">${esc(k.name)}</a><span class="w">${w}</span></div>`}
+  const w=k.m<60?"就在旁邊":`步行 ${Math.max(1,Math.round(k.m/70))} 分`;
+  return `<a class="park" href="${esc(nav)}" target="_blank" rel="noopener" aria-label="導航到停車場 ${esc(k.name)}"><span class="P">P</span><span class="pn">${esc(k.name)}</span><span class="w">${w}</span></a>`}
 function item(p,i){
   const nav=p.lat!=null?`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:""):"";
-  const bad=p.status==="CLOSED_PERMANENTLY"?'<span class="bad">已歇業</span>':p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
-  return `<li><div class="no">${i??"★"}</div><div class="nm">${esc(p.name)}</div><div class="d">${p.d!=null?fmt(p.d):""}</div>
+  const bad=p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
+  return `<li class="card"><div class="no">${i??"★"}</div><div class="main">
+  <div class="top"><a class="nm" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a><span class="d">${p.d!=null?fmt(p.d):""}</span></div>
   <div class="meta"><span class="tag" data-t="${esc(p.type)}">${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
-  ${p.note?`<div class="note">${esc(p.note)}</div>`:""}${park(p)}
-  <div class="acts">${nav?`<a class="go" href="${esc(nav)}" target="_blank" rel="noopener">導航</a>`:""}<a href="${esc(p.url)}" target="_blank" rel="noopener">看店家</a></div></li>`}
+  ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
+  <div class="foot">${park(p)}${nav?`<a class="go" href="${esc(nav)}" target="_blank" rel="noopener">${NAV}導航</a>`:""}</div>
+  </div></li>`}
+function sheetCount(){return S.occ.size+S.city.size+S.price.size}
 function render(){
   const rows=filtered();
-  document.getElementById("count").textContent=(here?(S.r<1e9?`${S.r} 公里內`:"依距離")+`有 ${rows.length} 個收藏`:`共 ${rows.length} 個收藏`)+(rows.length||!here?"":"，試試放大距離");
-  document.getElementById("list").innerHTML=rows.map((p,i)=>item(p,i+1)).join("");
-  document.getElementById("lucky").hidden=true;
+  const where=here?(S.r<1e9?`${S.r} 公里內`:"依距離排序"):"全部收藏";
+  $("count").innerHTML=`${where}・<b>${rows.length}</b> 家`;
+  $("list").innerHTML=rows.length?rows.map((p,i)=>item(p,i+1)).join(""):`<li class="empty">${here&&S.r<1e9?"這個範圍內沒有符合的店，試試放大距離。":"沒有符合的店，試試少選幾個條件。"}</li>`;
+  $("lucky").hidden=true;
+  const n=sheetCount();$("fbadge").hidden=!n;$("fbadge").textContent=n;
+  $("apply").textContent=`顯示 ${rows.length} 家`;
 }
-document.getElementById("q").addEventListener("input",e=>{S.q=e.target.value.trim();render()});
-document.getElementById("reset").onclick=()=>{
-  ["type","occ","city","price"].forEach(k=>S[k].clear());S.q="";document.getElementById("q").value="";
-  document.querySelectorAll("#g-type .chip,#g-occ .chip,#g-city .chip,#g-price .chip").forEach(c=>c.setAttribute("aria-pressed","false"));render()};
-document.getElementById("pick").onclick=()=>{
-  const pool=filtered().filter(p=>p.status==="OPERATIONAL"&&p.type!=="其他");const L=document.getElementById("lucky");L.hidden=false;
-  if(!pool.length){L.innerHTML='<div class="lab">隨機挑選</div>目前條件下沒有可挑的店，試試少選幾個篩選。';return}
+$("q").addEventListener("input",e=>{S.q=e.target.value.trim();render()});
+
+/* sheet */
+let lastFocus=null;
+function openSheet(){lastFocus=document.activeElement;$("scrim").hidden=false;$("sheet").hidden=false;$("closef").focus();document.body.style.overflow="hidden"}
+function closeSheet(){$("scrim").hidden=true;$("sheet").hidden=true;document.body.style.overflow="";lastFocus&&lastFocus.focus()}
+$("openf").onclick=openSheet;$("closef").onclick=closeSheet;$("scrim").onclick=closeSheet;
+$("apply").onclick=()=>{closeSheet();window.scrollTo({top:0,behavior:"smooth"})};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("sheet").hidden)closeSheet()});
+$("clear").onclick=()=>{["occ","city","price"].forEach(k=>S[k].clear());$("sheet").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));render()};
+
+/* random */
+$("pick").onclick=()=>{
+  const pool=filtered().filter(p=>p.status==="OPERATIONAL");const L=$("lucky");L.hidden=false;
+  const close='<button type="button" onclick="this.closest(\'.lucky\').hidden=true">收起</button>';
+  if(!pool.length){L.innerHTML=`<div class="lab">隨機挑選${close}</div><div class="empty" style="padding:14px">目前條件下沒有可挑的店。</div>`;return}
   const p=pool[Math.floor(Math.random()*pool.length)];
-  L.innerHTML=`<div class="lab">就去這家</div><ul>${item(p)}</ul>`;L.scrollIntoView({block:"nearest",behavior:"smooth"})};
+  L.innerHTML=`<div class="lab">就去這家！${close}</div><ul style="list-style:none;margin:0;padding:0">${item(p)}</ul>`;
+  L.scrollIntoView({block:"center",behavior:"smooth"})};
+
+/* location */
+function showMsg(t){$("msg").textContent=t;$("msg").hidden=!t}
 function setQuick(){
   const q=w=>`https://www.google.com/maps/search/${encodeURIComponent(w)}/@${here.lat},${here.lng},15z`;
-  for(const [id,w] of [["park","停車場"],["gas","加油站"]]){const a=document.getElementById(id);a.href=q(w);a.removeAttribute("aria-disabled")}}
-function showMsg(t){const m=document.getElementById("msg");m.textContent=t;m.hidden=!t}
-document.getElementById("locate").onclick=()=>{
+  $("park").href=q("停車場");$("gas").href=q("加油站")}
+function unlocate(){here=null;setR(3);$("near").hidden=true;$("locate").setAttribute("aria-pressed","false");showMsg("");render()}
+$("unlocate").onclick=unlocate;
+$("locate").onclick=()=>{
+  if(here){unlocate();return}
   if(!navigator.geolocation){showMsg("這個瀏覽器不支援定位。");return}
-  showMsg("");document.getElementById("where").textContent="定位中…";
+  showMsg("");$("count").textContent="定位中…";
   navigator.geolocation.getCurrentPosition(pos=>{
     here={lat:pos.coords.latitude,lng:pos.coords.longitude};
-    document.getElementById("where").textContent=`已定位（誤差約 ${Math.round(pos.coords.accuracy)} 公尺），依距離排序。`;
-    document.getElementById("locate").textContent="重新定位";gr.hidden=false;document.getElementById("unlocate").hidden=false;setQuick();render()},
-  err=>{document.getElementById("where").textContent="還沒定位：下面是你收藏的全部地點。";
-    showMsg(err.code===1?"定位被拒絕了。請到手機設定允許瀏覽器使用位置，再按一次。":"暫時抓不到位置，請到空曠處再試一次。")},
+    if(S.city.size)setR(1e9);
+    $("near").hidden=false;$("locate").setAttribute("aria-pressed","true");setQuick();render();window.scrollTo({top:0,behavior:"smooth"})},
+  err=>{render();showMsg(err.code===1?"定位被拒絕了。請到手機設定允許瀏覽器使用位置，再按一次「附近」。":"暫時抓不到位置，請到空曠處再試一次。")},
   {enableHighAccuracy:true,timeout:15000,maximumAge:60000})};
-document.getElementById("unlocate").onclick=()=>{
-  here=null;setR(3);gr.hidden=true;document.getElementById("unlocate").hidden=true;
-  document.getElementById("locate").textContent="用我的位置找附近";
-  document.getElementById("where").textContent="還沒定位：下面是你收藏的全部地點。按按鈕改成依距離排序。";
-  for(const id of ["park","gas"]){const a=document.getElementById(id);a.removeAttribute("href");a.setAttribute("aria-disabled","true")}
-  showMsg("");render()};
+
 (function(){const open=D.filter(p=>p.status!=="CLOSED_PERMANENTLY").length;
   const [y,m,dd]="__UPDATED__".split("-");
-  document.getElementById("stats").innerHTML=`<span class="stamp">共收錄<b>${open}</b>家</span><span class="stamp">資料更新<b>${y}/${+m}/${+dd}</b></span>`})();
+  $("stats").innerHTML=`<span>收錄<b>${open}</b>家</span><span>${+m}/${+dd} 更新</span>`})();
 render();
 </script>
 </body>

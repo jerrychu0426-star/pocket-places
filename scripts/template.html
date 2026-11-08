@@ -63,13 +63,11 @@ main{padding-block:6px 48px}
 .panel::before,.lucky::before{content:"";position:absolute;top:-9px;left:22px;width:74px;height:18px;background:var(--tape);transform:rotate(-4deg);border-radius:2px}
 .lucky::before{left:auto;right:26px;transform:rotate(5deg)}
 input[type=search]{width:100%;font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
-details{margin-top:8px}
-summary{cursor:pointer;color:var(--brick);font-weight:600;font-size:14px;padding:4px 0}
 .group{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
 .group b{font-family:var(--hand);font-size:14px;color:var(--muted);width:2.8em;flex:none;font-weight:700}
 .chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:4px 12px;font:inherit;font-size:13px;cursor:pointer}
 .chip[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:var(--card);font-weight:600}
-button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
 .msg{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--brick-soft);color:var(--brick);font-size:14px}
 .lucky{position:relative;margin-top:22px;border:2px solid var(--brick);background:var(--card);border-radius:16px;padding:14px 14px 10px}
 .lucky .lab{font-family:var(--hand);font-size:18px;color:var(--brick);font-weight:700}
@@ -135,11 +133,8 @@ li{display:grid;grid-template-columns:auto 1fr auto;gap:4px 12px;align-items:sta
     <div class="group" id="g-r" hidden><b>距離</b></div>
     <div class="group" id="g-type"><b>類型</b></div>
     <div class="group" id="g-occ"><b>場合</b></div>
-    <details id="more">
-      <summary>更多篩選（城市、價位）</summary>
-      <div class="group" id="g-city"><b>城市</b></div>
-      <div class="group" id="g-price"><b>價位</b></div>
-    </details>
+    <div class="group" id="g-city"><b>城市</b></div>
+    <div class="group" id="g-price"><b>價位</b></div>
   </div>
   <div id="msg" class="msg" hidden></div>
   <div id="lucky" class="lucky" hidden></div>

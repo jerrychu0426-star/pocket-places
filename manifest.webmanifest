@@ -1,0 +1,16 @@
+{
+  "name": "附近去哪",
+  "short_name": "附近去哪",
+  "description": "我的口袋名單：依目前位置找收藏過的餐廳、咖啡與景點",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f1e3c2",
+  "theme_color": "#1f3a5f",
+  "lang": "zh-Hant",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

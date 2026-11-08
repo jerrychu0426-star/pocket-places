@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26466f"/><stop offset="1" stop-color="#1b3354"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0b1626" flood-opacity=".45"/></filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="112" r="26" fill="#f1e3c2" opacity=".9"/>
+  <path d="M0 372 L70 300 L120 336 L190 262 L250 322 L318 254 L380 318 L440 280 L512 332 L512 512 L0 512Z" fill="#2d5283"/>
+  <path d="M0 410 C90 386 160 420 256 404 C350 388 420 418 512 398 L512 512 L0 512Z" fill="#f1e3c2"/>
+  <path d="M0 440 C110 428 170 452 256 440 C350 428 420 450 512 436" stroke="#c8962f" stroke-width="6" fill="none" stroke-dasharray="18 14" stroke-linecap="round" opacity=".8"/>
+  <g filter="url(#sh)">
+    <path d="M256 88c-70 0-126 55-126 124 0 92 126 214 126 214s126-122 126-214c0-69-56-124-126-124z" fill="#fcf6e6"/>
+  </g>
+  <circle cx="256" cy="212" r="78" fill="#8e2a22"/>
+  <path d="M206 210h100a50 50 0 0 1-100 0z" fill="#fcf6e6"/>
+  <rect x="198" y="203" width="116" height="10" rx="5" fill="#fcf6e6"/>
+  <path d="M236 192c-8-10 8-16 0-28M256 190c-8-10 8-16 0-30M276 192c-8-10 8-16 0-28" stroke="#fcf6e6" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M292 150 L330 196 M304 142 L338 190" stroke="#c8962f" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -126,6 +126,19 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
 .legend{font-size:12px;color:var(--muted);margin:26px 0 0;line-height:1.7}
 .foot-note{font-family:var(--hand);text-align:center;color:var(--muted);font-size:15px;margin:14px 0 calc(24px + env(safe-area-inset-bottom))}
 
+/* tabs */
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:12px;padding:4px;background:var(--line);border-radius:12px}
+.tabs button{height:36px;border:0;border-radius:9px;background:none;font-size:14px;font-weight:600;color:var(--muted);display:flex;align-items:center;justify-content:center;gap:4px;white-space:nowrap}
+.tabs button[aria-selected=true]{background:var(--card);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.tabs b{font-size:12px;font-weight:700;color:var(--red);font-variant-numeric:tabular-nums}
+.bib{display:inline-flex;align-items:center;gap:3px;border-radius:6px;padding:0 7px;line-height:20px;font-size:12px;font-weight:700;background:#c0392b;color:#fff}
+.bib::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;box-shadow:inset 0 0 0 2px #c0392b,0 0 0 1px #fff}
+.star{color:var(--mustard);font-weight:700}
+.addr{flex:1;min-width:0;font-size:13px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hint{margin:0 0 10px;padding:10px 12px;border-radius:12px;background:var(--card);border:1px dashed var(--line);font-size:13px;color:var(--muted)}
+.hint a{color:var(--red);font-weight:600}
+.more{display:block;text-align:center;margin:12px 0 0;padding:11px;border-radius:12px;border:1px solid var(--line);background:var(--card);text-decoration:none;font-weight:600;color:var(--red)}
+
 /* bottom sheet */
 .scrim{position:fixed;inset:0;background:var(--scrim);z-index:40}
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;max-height:82vh;display:flex;flex-direction:column;background:var(--card);border-radius:20px 20px 0 0;box-shadow:0 -10px 30px rgba(0,0,0,.25);max-width:620px;margin:0 auto}
@@ -173,10 +186,17 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
     </div>
   </div>
   <div id="msg" class="msg" hidden></div>
+  <div class="tabs" id="tabs" role="tablist" aria-label="清單">
+    <button type="button" role="tab" data-m="mine" aria-selected="true">我的收藏<b id="c-mine"></b></button>
+    <button type="button" role="tab" data-m="bib" aria-selected="false">必比登<b id="c-bib"></b></button>
+    <button type="button" role="tab" data-m="gg" aria-selected="false">附近推薦<b id="c-gg"></b></button>
+  </div>
+  <div id="hint" class="hint" hidden></div>
   <div class="res"><span class="n" id="count"></span><button class="lnk" id="pick" type="button">🎲 隨機挑一家</button></div>
   <div id="lucky" class="lucky" hidden></div>
   <ul id="list"></ul>
-  <p class="legend">每週一自動檢查更新；「收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。點店名可開啟 Google Maps 店家頁。價位為每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <a id="more" class="more" target="_blank" rel="noopener" hidden>在 Google Maps 看更多附近好店 ›</a>
+  <p class="legend">每週一自動檢查更新；「收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。點店名可開啟 Google Maps 店家頁。「必比登」為米其林指南臺灣 2024–2026 年必比登推介（名單整理自食尚玩家報導），「附近推薦」為 Google 地點資料中評分 4.2 以上、評論 200 則以上、目前營業中的店家。價位為每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
   <p class="foot-note">下一站，去哪都好吃 ♥</p>
 </main>
 
@@ -188,15 +208,18 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
     <div class="grp"><h3>場合</h3><div class="wrap" id="g-occ"></div></div>
     <div class="grp"><h3>城市</h3><div class="wrap" id="g-city"></div></div>
     <div class="grp"><h3>價位</h3><div class="wrap" id="g-price"></div></div>
+    <div class="grp"><h3>標籤</h3><div class="wrap" id="g-tag"></div></div>
   </div>
   <div class="bar"><button id="clear" type="button">全部清除</button><button id="apply" type="button">顯示結果</button></div>
 </div>
 
 <script>
 const D=__DATA__;
-const CITIES=["台北","台南","新北","桃園","基隆","宜蘭","台中"];
+const BIB=__BIB__;
+let mode="mine",GG=null,ggKey=null,ggErr="";
+const CITIES=["台北","台南","新北","桃園","台中","高雄","新竹","基隆","宜蘭"];
 const cityOf=p=>{const c=(p.region||"").slice(0,2);return CITIES.includes(c)?c:"其他"};
-const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set()};
+const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set(),tag:new Set()};
 let here=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -208,11 +231,11 @@ function setR(v){S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("a
 [["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限距離",1e9]].forEach(([l,v])=>{chip(gr,l,v===S.r,()=>{setR(v);render()}).dataset.v=v});
 
 /* type (toolbar) + sheet groups */
-const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"]};
+const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"],tag:["必比登"]};
 chip($("g-type"),"全部",true,()=>{S.type.clear();syncType();render()}).dataset.all=1;
 function syncType(){$("g-type").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.all?!S.type.size:S.type.has(c.textContent)))}
 sets.type.forEach(v=>chip($("g-type"),v,false,()=>{S.type.has(v)?S.type.delete(v):S.type.add(v);syncType();render()}));
-for(const k of ["occ","city","price"]){sets[k].forEach(v=>chip($("g-"+k),v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));
+for(const k of ["occ","city","price","tag"]){sets[k].forEach(v=>chip($("g-"+k),v,false,b=>{S[k].has(v)?S[k].delete(v):S[k].add(v);b.setAttribute("aria-pressed",S[k].has(v));
   if(k==="city"&&here&&S.city.size&&S.r<1e9)setR(1e9);
   render()}))}
 
@@ -225,7 +248,8 @@ function filtered(){
     &&(!S.type.size||S.type.has(p.type))
     &&(!S.occ.size||[...S.occ].some(o=>(p.occ||"").includes(o)))
     &&(!S.city.size||S.city.has(cityOf(p)))
-    &&(!S.price.size||S.price.has(p.price)));
+    &&(!S.price.size||S.price.has(p.price))
+    &&(!S.tag.size||p.bib));
   if(here){rows=rows.filter(p=>p.lat!=null).map(p=>({...p,d:km(here,p)})).filter(p=>p.d<=S.r).sort((a,b)=>a.d-b.d)}
   return rows}
 const NAV='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 3 3 10.5l7.5 2.9L13.4 21z"/></svg>';
@@ -241,21 +265,87 @@ function item(p,i){
   const bad=p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
   return `<li class="card"><div class="no">${i??"★"}</div><div class="main">
   <div class="top"><a class="nm" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a><span class="d">${p.d!=null?fmt(p.d):""}</span></div>
-  <div class="meta"><span class="tag" data-t="${esc(p.type)}">${esc(p.type)}</span><span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
+  <div class="meta"><span class="tag" data-t="${esc(p.type)}">${esc(p.type)}</span>${p.bib?`<span class="bib">${yrs(p.bib)}</span>`:""}<span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
   ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
   <div class="foot">${park(p)}${nav?`<a class="go" href="${esc(nav)}" target="_blank" rel="noopener">${NAV}導航</a>`:""}</div>
   </div></li>`}
-function sheetCount(){return S.occ.size+S.city.size+S.price.size}
+function sheetCount(){return S.occ.size+S.city.size+S.price.size+S.tag.size}
+const yrs=y=>"必比登 "+y.map(v=>"’"+String(v).slice(2)).join("・");
+function bibRows(){
+  const q=S.q.toLowerCase();
+  let rows=BIB.filter(b=>(!q||(b.name+b.addr).toLowerCase().includes(q))&&(!S.city.size||S.city.has(cityOf(b))));
+  if(here){rows=rows.map(b=>({...b,d:km(here,b)})).filter(b=>b.d<=S.r).sort((a,b)=>a.d-b.d)}
+  else rows=rows.slice().sort((a,b)=>b.years.length-a.years.length||a.city.localeCompare(b.city));
+  return rows}
+function extItem(b,i){
+  const nav=`https://www.google.com/maps/dir/?api=1&destination=${b.lat},${b.lng}`+(b.pid?`&destination_place_id=${encodeURIComponent(b.pid)}`:"");
+  const meta=[b.years?`<span class="bib">${yrs(b.years)}</span>`:"",
+    b.rating?`<span class="star">★ ${b.rating.toFixed(1)}</span><span>${b.count.toLocaleString()} 則評論</span>`:"",
+    b.kind?`<span class="tag">${esc(b.kind)}</span>`:"",`<span>${esc(b.region||"")}</span>`,
+    b.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':""].join("");
+  return `<li class="card"><div class="no">${i}</div><div class="main">
+  <div class="top"><a class="nm" href="${esc(b.url||nav)}" target="_blank" rel="noopener">${esc(b.name)}</a><span class="d">${b.d!=null?fmt(b.d):""}</span></div>
+  <div class="meta">${meta}</div>
+  <div class="foot"><span class="addr">${esc(b.addr||"")}</span><a class="go" href="${esc(nav)}" target="_blank" rel="noopener">${NAV}導航</a></div></div></li>`}
+/* Google nearby recommendations (needs browser_key.txt next to this page) */
+const GTYPES={"餐廳":["restaurant"],"咖啡":["cafe","coffee_shop","dessert_shop","bakery"],"酒吧":["bar","pub","wine_bar"],"景點":["tourist_attraction"],"外帶/伴手禮":["bakery","dessert_shop"]};
+const savedPids=new Set(D.map(p=>p.pid).filter(Boolean)),bibByPid=new Map(BIB.map(b=>[b.pid,b]));
+async function loadKey(){if(ggKey!==null)return ggKey;try{const r=await fetch("browser_key.txt",{cache:"no-store"});ggKey=r.ok?(await r.text()).trim():""}catch(e){ggKey=""}return ggKey}
+let ggSig="";
+async function fetchGG(){
+  if(!here)return;
+  const types=S.type.size?[...new Set([...S.type].flatMap(t=>GTYPES[t]))]:["restaurant","cafe","bar"];
+  const radius=Math.min(S.r,5)*1000;
+  const sig=[here.lat.toFixed(3),here.lng.toFixed(3),types.join(),radius].join("|");
+  if(sig===ggSig)return;ggSig=sig;GG=null;ggErr="";
+  const key=await loadKey();
+  if(!key){ggErr="nokey";render();return}
+  render();
+  try{
+    const r=await fetch("https://places.googleapis.com/v1/places:searchNearby",{method:"POST",headers:{"Content-Type":"application/json","X-Goog-Api-Key":key,
+      "X-Goog-FieldMask":"places.id,places.displayName,places.location,places.rating,places.userRatingCount,places.currentOpeningHours.openNow,places.primaryTypeDisplayName,places.googleMapsUri,places.shortFormattedAddress"},
+      body:JSON.stringify({includedTypes:types,maxResultCount:20,rankPreference:"POPULARITY",languageCode:"zh-TW",regionCode:"TW",
+        locationRestriction:{circle:{center:{latitude:here.lat,longitude:here.lng},radius}}})});
+    if(!r.ok)throw new Error(r.status);
+    const j=await r.json();
+    GG=(j.places||[]).filter(g=>!savedPids.has(g.id)&&(g.rating||0)>=4.2&&(g.userRatingCount||0)>=200&&g.currentOpeningHours?.openNow!==false)
+      .map(g=>({name:g.displayName?.text||"",pid:g.id,lat:g.location.latitude,lng:g.location.longitude,rating:g.rating,count:g.userRatingCount,
+        kind:g.primaryTypeDisplayName?.text||"",url:g.googleMapsUri,region:g.shortFormattedAddress||"",years:bibByPid.get(g.id)?.years}))
+      .map(g=>({...g,d:km(here,g)})).sort((a,b)=>a.d-b.d).slice(0,10);
+  }catch(e){ggErr="fail";GG=[]}
+  render()}
 function render(){
-  const rows=filtered();
-  const where=here?(S.r<1e9?`${S.r} 公里內`:"依距離排序"):"全部收藏";
-  $("count").innerHTML=`${where}・<b>${rows.length}</b> 家`;
-  $("list").innerHTML=rows.length?rows.map((p,i)=>item(p,i+1)).join(""):`<li class="empty">${here&&S.r<1e9?"這個範圍內沒有符合的店，試試放大距離。":"沒有符合的店，試試少選幾個條件。"}</li>`;
+  const rows=filtered(),brows=bibRows();
+  $("c-mine").textContent=rows.length;$("c-bib").textContent=brows.length;$("c-gg").textContent=GG&&here?GG.length:"";
+  document.querySelectorAll("#tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.m===mode));
+  const where=here?(S.r<1e9?`${S.r} 公里內`:"依距離排序"):"全部";
+  const H=$("hint"),M=$("more");H.hidden=true;M.hidden=true;$("pick").hidden=mode!=="mine";
+  if(here){M.href=`https://www.google.com/maps/search/${encodeURIComponent((S.type.size?[...S.type][0]:"美食"))}/@${here.lat},${here.lng},15z`}
+  if(mode==="mine"){
+    $("count").innerHTML=`我的收藏・${where}・<b>${rows.length}</b> 家`;
+    $("list").innerHTML=rows.length?rows.map((p,i)=>item(p,i+1)).join(""):`<li class="empty">${here&&S.r<1e9?"這個範圍內沒有符合的店，試試放大距離。":"沒有符合的店，試試少選幾個條件。"}</li>`;
+  }else if(mode==="bib"){
+    $("count").innerHTML=`必比登（未收藏）・${where}・<b>${brows.length}</b> 家`;
+    if(!here){H.hidden=false;H.innerHTML="按「附近」可依距離排序；用「篩選 › 城市」挑地區。已收藏的必比登店家會在「我的收藏」裡顯示紅色標籤。"}
+    $("list").innerHTML=brows.length?brows.map((b,i)=>extItem(b,i+1)).join(""):`<li class="empty">${here&&S.r<1e9?"這個範圍內沒有必比登，試試放大距離。":"沒有符合的必比登店家。"}</li>`;
+  }else{
+    $("list").innerHTML="";
+    if(!here){$("count").innerHTML="附近推薦";H.hidden=false;H.innerHTML="先按上方的「附近」定位，才能推薦你附近評價好、現在有營業的店。"}
+    else if(ggErr==="nokey"){$("count").innerHTML="附近推薦";H.hidden=false;H.innerHTML="附近推薦還沒啟用（尚未設定 Google 網頁金鑰）。可以先用下面的連結在 Google Maps 查看。";M.hidden=false}
+    else if(GG===null){$("count").innerHTML="附近推薦・搜尋中…"}
+    else{
+      $("count").innerHTML=`附近推薦・${Math.min(S.r,5)} 公里內・<b>${GG.length}</b> 家`;
+      if(ggErr==="fail"){H.hidden=false;H.innerHTML="暫時查不到推薦，請稍後再試。"}
+      $("list").innerHTML=GG.length?GG.map((b,i)=>extItem(b,i+1)).join(""):(ggErr?"":'<li class="empty">附近沒有符合條件的推薦（評分 4.2+、200 則評論以上、營業中）。</li>');
+      M.hidden=false}
+  }
   $("lucky").hidden=true;
   const n=sheetCount();$("fbadge").hidden=!n;$("fbadge").textContent=n;
   $("apply").textContent=`顯示 ${rows.length} 家`;
 }
 $("q").addEventListener("input",e=>{S.q=e.target.value.trim();render()});
+document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{mode=b.dataset.m;if(mode==="gg")fetchGG();render();window.scrollTo({top:0,behavior:"smooth"})});
+const _render=render;render=function(){_render();if(mode==="gg"&&here)fetchGG()};
 
 /* sheet */
 let lastFocus=null;
@@ -280,7 +370,7 @@ function showMsg(t){$("msg").textContent=t;$("msg").hidden=!t}
 function setQuick(){
   const q=w=>`https://www.google.com/maps/search/${encodeURIComponent(w)}/@${here.lat},${here.lng},15z`;
   $("park").href=q("停車場");$("gas").href=q("加油站")}
-function unlocate(){here=null;setR(3);$("near").hidden=true;$("locate").setAttribute("aria-pressed","false");showMsg("");render()}
+function unlocate(){here=null;GG=null;ggSig="";setR(3);$("near").hidden=true;$("locate").setAttribute("aria-pressed","false");showMsg("");render()}
 $("unlocate").onclick=unlocate;
 $("locate").onclick=()=>{
   if(here){unlocate();return}

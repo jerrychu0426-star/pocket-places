@@ -1,0 +1,2744 @@
+[
+ {
+  "name": "雞家莊 （長春路）",
+  "gname": "雞家莊本店",
+  "addr": "台北市中山區長春路55號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ0aRZ3GepQjQRc_WIUd_mZiY",
+  "lat": 25.055024,
+  "lng": 121.526088,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2767152867885774195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "隱食家（雙城街）",
+  "gname": "隱食家 Inns+",
+  "addr": "台北市中山區雙城街28巷8號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJQffxkOipQjQRabwA1GkxMMU",
+  "lat": 25.065773,
+  "lng": 121.523764,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=14208911154952060009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "人和園",
+  "gname": "人和園餐廳",
+  "addr": "台北市中山區中山北路二段112號2樓",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ5zRYGEOpQjQRVbzt4SRfUY4",
+  "lat": 25.060726,
+  "lng": 121.522761,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10255082438513245269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小酌之家",
+  "gname": "小酌之家",
+  "addr": "台北市中山區吉林路420號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJPczFdPTQDRQR7szVg5HOzhI",
+  "lat": 25.065931,
+  "lng": 121.530315,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1355247662262504686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "軟食力",
+  "gname": "軟食力 行天宮店",
+  "addr": "台北市中山區民權東路二段135巷30弄21號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJg5CffQqpQjQRGC-w8J-69mg",
+  "lat": 25.0643,
+  "lng": 121.53413,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7563437820315971352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "黃記魯肉飯",
+  "gname": "黃記魯肉飯",
+  "addr": "台北市中山區中山北路二段183巷28號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJEfV83ESpQjQR3vn1gz8qbKY",
+  "lat": 25.06367,
+  "lng": 121.524142,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11992006360066030046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "有有1969【NEW】",
+  "gname": "有有1969 - 一店",
+  "addr": "台北市中山區力行里遼寧街48號",
+  "city": "台北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJUVfSk46rQjQRjSYEdTmKW8Q",
+  "lat": 25.048975,
+  "lng": 121.542074,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=14149054633695520397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小小樹食 (大安路)",
+  "gname": "小小樹食 大安店",
+  "addr": "台北市大安區大安路一段116巷17號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJHZH-7dCrQjQRw6QdtI-grOE",
+  "lat": 25.039901,
+  "lng": 121.544823,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=16261548893590627523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "天下三絕",
+  "gname": "天下三絕麵食館",
+  "addr": "台北市大安區仁愛路四段27巷3號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ6REc_tCrQjQR7g-IYs0CYgA",
+  "lat": 25.03888,
+  "lng": 121.545317,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=27587628862279662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鼎泰豐 (信義路)",
+  "gname": "鼎泰豐 新生店",
+  "addr": "台北市大安區信義路二段277號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJA-U6X-epQjQR-T9BLmEfUlc",
+  "lat": 25.033889,
+  "lng": 121.532134,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6292126131638321145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "巷子龍家常菜",
+  "gname": "巷子龍家常菜",
+  "addr": "台北市大安區四維路25號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJW3STls2rQjQRlinh2eNHEzY",
+  "lat": 25.035469,
+  "lng": 121.548253,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3896537146544171414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "杭州小籠湯包 (大安)",
+  "gname": "杭州小籠湯包",
+  "addr": "台北市大安區杭州南路二段19號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJDw3oEJ2pQjQRdDHV1cDJmkM",
+  "lat": 25.034069,
+  "lng": 121.523723,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4871427777013035380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "Pàng 胖塔可",
+  "gname": "Pang Taco 胖塔可 信義安和",
+  "addr": "台北市大安區文昌街181號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ3Z4HxHurQjQRnx4_tgoRhjU",
+  "lat": 25.032569,
+  "lng": 121.553654,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3856788868594343583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "Tableau by Craig Yang",
+  "gname": "TABLEAU by Craig Yang",
+  "addr": "台北市大安區安和路一段78巷33號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJs-r9gfWrQjQRlJBK9ImcCYI",
+  "lat": 25.035113,
+  "lng": 121.550347,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9370192616044007572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "金賞軒",
+  "gname": "金賞軒 精緻海鮮台菜",
+  "addr": "台北市松山區敦化北路155巷111號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJqRf5r5CrQjQRCwBCLDO4Mys",
+  "lat": 25.054147,
+  "lng": 121.552511,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3113034297368510475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "醉楓園小館",
+  "gname": "醉楓園小館",
+  "addr": "台北市松山區八德路三段8巷5號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJJaeSPcOrQjQR73XFXXh_zLs",
+  "lat": 25.047456,
+  "lng": 121.54978,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13532331135287522799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "雲川水月 蔬食餐酒館 Clavius",
+  "gname": "雲川水月 蔬食餐酒館",
+  "addr": "台北市松山區富錦街120號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJu4WdyiOrQjQRAhfyZ_FXs-k",
+  "lat": 25.059743,
+  "lng": 121.553166,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=16839900126011070210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "武田咖哩【NEW】",
+  "gname": "武田咖哩食堂",
+  "addr": "台北市松山區富錦里三民路146號",
+  "city": "台北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJDcrHdQCrQjQRHoBQFEVfUJI",
+  "lat": 25.060825,
+  "lng": 121.563384,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10543031477972533278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "HUGH dessert dining",
+  "gname": "HUGH dessert dining",
+  "addr": "台北市大同區重慶北路三段136巷56號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJK5VjEnSpQjQRi-nEK9-k92U",
+  "lat": 25.067576,
+  "lng": 121.512189,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7347522595497240971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "大橋頭老牌筒仔米糕",
+  "gname": "大橋頭米糕",
+  "addr": "台北市大同區延平北路三段41號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJR8001j6pQjQRVcm-gqkBQDo",
+  "lat": 25.064897,
+  "lng": 121.511231,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4197356680263944533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "賣麵炎仔",
+  "gname": "賣麵炎仔",
+  "addr": "台北市大同區安西街106號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ93f2Fz6pQjQRm_xbWngyakM",
+  "lat": 25.061099,
+  "lng": 121.509786,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4857750640565943451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "祥和蔬食 (中正)",
+  "gname": "祥和蔬食料理（鎮江店）",
+  "addr": "台北市中正區鎮江街1巷1號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJxYaXp3GpQjQRqzk1SrmR-e4",
+  "lat": 25.044362,
+  "lng": 121.521792,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17219954875227781547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "雙月食品 (青島東路)",
+  "gname": "雙月食品社 青島店",
+  "addr": "台北市中正區青島東路6之2號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJgbsfD3GpQjQR7z5ZO22KdVQ",
+  "lat": 25.043702,
+  "lng": 121.522038,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6085922673212866287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "雄記蔥抓餅",
+  "gname": "雄記蔥抓餅",
+  "addr": "台北市中正區羅斯福路四段108巷2號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJVw8E6oqpQjQRybre60oV_g4",
+  "lat": 25.013444,
+  "lng": 121.53534,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1080324372144503497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "無名推車燒餅",
+  "gname": "無名推車燒餅",
+  "addr": "台北市中正區中華路二段315巷5弄（南機場夜市）",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ56-COrupQjQRggNd7rtSK1U",
+  "lat": 25.028444,
+  "lng": 121.506733,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6137089884333867906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "吾旺再季",
+  "gname": "吾旺再季 潤餅捲專賣(原松青潤餅)",
+  "addr": "台北市中正區中華路二段313巷29號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJadljKbupQjQRcmEIOwolJQA",
+  "lat": 25.028758,
+  "lng": 121.506724,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10455300008599922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "青嬌【NEW】",
+  "gname": "青嬌膠原麵館",
+  "addr": "台北市中正區幸福里濟南路二段9號1樓",
+  "city": "台北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJ41PutE-pQjQRHVgiNEdORIs",
+  "lat": 25.041433,
+  "lng": 121.5272,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10035231937412618269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小王煮瓜",
+  "gname": "小王煮瓜",
+  "addr": "台北市萬華區華西街17-4號（153號攤位）",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJGaiHCqmpQjQReQD8Dmqjdvk",
+  "lat": 25.039219,
+  "lng": 121.498604,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17975734638609170553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "源芳刈包",
+  "gname": "源芳刈包.",
+  "addr": "台北市萬華區華西街17-2號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJY4KDoKmpQjQR2RFjiDc6c2Y",
+  "lat": 25.039406,
+  "lng": 121.498584,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7382308224376181209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "一甲子餐飲",
+  "gname": "一甲子餐飲",
+  "addr": "台北市萬華區康定路79號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJT81rBaipQjQR6Jc9USFITI8",
+  "lat": 25.040402,
+  "lng": 121.502171,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10325707353587816424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "老山東牛肉家常麵店",
+  "gname": "老山東牛肉麵",
+  "addr": "台北市萬華區西寧南路70號B1之15室",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJsSC8HAmpQjQR7uCNzzunDRw",
+  "lat": 25.04358,
+  "lng": 121.506086,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2021455683086311662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "蘇來傳",
+  "gname": "露店 蘇來傳",
+  "addr": "台北市萬華區和平西路三段176巷4號",
+  "city": "台北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJAfyChVypQjQRByrS2ASVSts",
+  "lat": 25.035,
+  "lng": 121.497693,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15801606090632866311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "心潮飯店",
+  "gname": "心潮飯店｜台北微風信義店 SINCHAO RICE SHOPPE",
+  "addr": "台北市信義區忠孝東路五段68號2樓",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJI-uHec6rQjQRolls8XbSbdY",
+  "lat": 25.040501,
+  "lng": 121.566569,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15451237304876423586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "開囍",
+  "gname": "開囍滷肉專賣店 opensmile",
+  "addr": "台北市信義區三張里莊敬路441號",
+  "city": "台北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJRzED6xerQjQR848nEXAScXA",
+  "lat": 25.02715,
+  "lng": 121.567124,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8102277477149675507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鍾家原上海生煎包",
+  "gname": "鍾原上海生煎包",
+  "addr": "台北市士林區小東街38號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJT0BnUKWuQjQRQFaV0bBOpf0",
+  "lat": 25.089445,
+  "lng": 121.526342,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=18277101184090461760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "番紅花印度美饌",
+  "gname": "番紅花印度美饌 Saffron Fine Indian Cuisine",
+  "addr": "台北市士林區天母東路38-6號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ11DJlYCuQjQRJpsYGByi8tQ",
+  "lat": 25.117531,
+  "lng": 121.532989,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15344505121951750950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "松竹園",
+  "gname": "松竹園",
+  "addr": "台北市士林區永公路546號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJx9woppGtQjQRicnTas_LX-w",
+  "lat": 25.139812,
+  "lng": 121.567616,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17032556407449438601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "蓮霧腳羊肉湯",
+  "gname": "蓮霧腳羊肉",
+  "addr": "台南市新化區中正路361號",
+  "city": "台南",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJcUl9hXpwbjQR26YmRmKV4wc",
+  "lat": 23.034491,
+  "lng": 120.308268,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=568462227295086299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿美飯店",
+  "gname": "阿美飯店",
+  "addr": "台南市中西區民權路二段98號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJc6JGFGJ2bjQRYxZBVvVHV_A",
+  "lat": 22.994746,
+  "lng": 120.204106,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17318390011116197475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "福泰飯桌第三代",
+  "gname": "福泰飯桌 第三代",
+  "addr": "台南市中西區民族路二段219號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ54Pf_2F2bjQRAMH-nhBgbAQ",
+  "lat": 22.995794,
+  "lng": 120.205094,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=318735298139701504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "落成米糕",
+  "gname": "落成米糕",
+  "addr": "台南市中西區民族路二段241號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJy3nZ-2F2bjQRAfpYzggB2k8",
+  "lat": 22.995973,
+  "lng": 120.204687,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5753912611252533761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "博仁堂",
+  "gname": "博仁堂(最後點餐last order至19:30）",
+  "addr": "台南市中西區西門路二段300巷27號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJYZYP4mN2bjQRVvKY0Fl3zzg",
+  "lat": 22.99661,
+  "lng": 120.200434,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4093621813938549334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小公園擔仔麵",
+  "gname": "小公園擔仔麵",
+  "addr": "台南市中西區西門路二段321號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJOQURVGF2bjQRDx8EQOisObM",
+  "lat": 22.997165,
+  "lng": 120.199605,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12914543519968009999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "一味品",
+  "gname": "台南一味品碗粿魚羹",
+  "addr": "台南市中西區國華街三段177號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJPas6rmZ2bjQRPxhFrp7gRAI",
+  "lat": 22.997551,
+  "lng": 120.198899,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=163502458625398847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿星鹹粥",
+  "gname": "阿星鹹粥",
+  "addr": "台南市中西區民族路三段289號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJd2V9k2h2bjQR2QrUIg9vI0M",
+  "lat": 23.000007,
+  "lng": 120.192241,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4837832535525559001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "黃家蝦捲",
+  "gname": "府城黃家蝦捲",
+  "addr": "台南市中西區西和路268號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJV3ZsEWh2bjQRkQbqvfUelHE",
+  "lat": 23.002747,
+  "lng": 120.192597,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8184200463641085585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "誠實鍋燒意麵",
+  "gname": "誠實鍋燒",
+  "addr": "台南市中西區西門路一段702巷12號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJZRrYXOR3bjQRnoXOHnhzTMs",
+  "lat": 22.989409,
+  "lng": 120.198105,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=14649210647679501726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "葉家小卷米粉",
+  "gname": "葉家小卷米粉",
+  "addr": "台南市中西區國華街二段142號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJZ1Zt6WR2bjQRjVZEVRzkFoU",
+  "lat": 22.991075,
+  "lng": 120.19696,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9590103266872809101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "八寶彬圓仔惠",
+  "gname": "八寶彬 圓仔惠",
+  "addr": "台南市中西區國華街二段99號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJD9bBHnt2bjQRYDVWdoxKwFg",
+  "lat": 22.990453,
+  "lng": 120.196678,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6395193438007342432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "(大菜市)",
+  "gname": "無名羊肉湯-大菜市",
+  "addr": "台南市中西區府前路二段144號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJsW5tZnB2bjQRzbg_ZbxJ_WA",
+  "lat": 22.991343,
+  "lng": 120.194461,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6988823270250232013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "大勇街無名鹹粥",
+  "gname": "大勇街無名鹹粥",
+  "addr": "台南市中西區大勇街85號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJBdE76mR2bjQR6IyJZo_F5vU",
+  "lat": 22.989842,
+  "lng": 120.193308,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17719067003627080936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿文米粿",
+  "gname": "阿文米粿",
+  "addr": "台南市中西區保安路74號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJUaIJ5Hp2bjQRkNIhVzOVI34",
+  "lat": 22.990478,
+  "lng": 120.196082,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9089272520701498000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "吃麵吧",
+  "gname": "吃麵吧 詳細營業時間請見FB或IG粉絲專頁",
+  "addr": "台南市中西區保安路159之1號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJTU10m3p2bjQR4Q5Nn5MJVKM",
+  "lat": 22.990774,
+  "lng": 120.193764,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11769042255863418593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "三好一公道當歸鴨",
+  "gname": "三好一公道當歸鴨",
+  "addr": "台南市中西區府前路一段2號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJt4a4_4V2bjQRHPNnXK-lU0U",
+  "lat": 22.989152,
+  "lng": 120.210832,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4995518584272188188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "添厚",
+  "gname": "添厚家常手路",
+  "addr": "台南市中西區新美街125巷3號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJMbVL13h3bjQRst7cZ_NFymM",
+  "lat": 22.996947,
+  "lng": 120.200472,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7190636666772315826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "竹記冬菜鴨【NEW】",
+  "gname": "竹記冬菜鴨",
+  "addr": "台南市中西區赤嵌里中山路47號",
+  "city": "台南",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJBxyzx4l2bjQRWkYl5OdTg40",
+  "lat": 22.993599,
+  "lng": 120.206289,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10197086236727133786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鮮蒸蝦仁肉圓",
+  "gname": "鮮蒸蝦仁肉圓",
+  "addr": "台南市東區裕農路609號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJhYfE77t2bjQRHmuOLTYwWVc",
+  "lat": 22.988751,
+  "lng": 120.235225,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6294114963477654302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "葉桑生炒鴨肉焿",
+  "gname": "葉桑生炒鴨肉羹",
+  "addr": "台南市東區林森路2段216號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJr226Sjl3bjQRwvxFVvo5tNY",
+  "lat": 22.990284,
+  "lng": 120.224548,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15471054367276530882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "詹記-家常飯桌鮮魚湯【NEW】",
+  "gname": "詹記-家常飯桌鮮魚湯",
+  "addr": "台南市東區東明里東安路59號",
+  "city": "台南",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJyQq01Tp3bjQRGizpkfEOlcU",
+  "lat": 22.992299,
+  "lng": 120.226244,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=14237302227699575834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿興虱目魚",
+  "gname": "阿興虱目魚",
+  "addr": "台南市北區文賢路252號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJuxJOSF12bjQRpgwW8ihY0JA",
+  "lat": 23.006545,
+  "lng": 120.193437,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10434937269500906662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "開元紅燒土魠魚羮",
+  "gname": "開元紅燒𩵚魠魚羹",
+  "addr": "台南市北區開元路307號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ5R6mXu92bjQRAZ252zZvhyE",
+  "lat": 23.008099,
+  "lng": 120.221414,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2416022006512852225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "尚好吃牛肉湯",
+  "gname": "尚好吃牛肉湯",
+  "addr": "台南市北區北安路一段6號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJF4kWjPt2bjQRQJ0r4Q0BVmY",
+  "lat": 23.015209,
+  "lng": 120.212632,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7374082598989700416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "西羅殿牛肉湯",
+  "gname": "西羅殿牛肉湯",
+  "addr": "台南市北區公園南路98號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJoTun0PR2bjQRhyGcuZAEZnQ",
+  "lat": 23.001528,
+  "lng": 120.207444,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8387396375659946375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "好農家米糕",
+  "gname": "好農家米糕",
+  "addr": "台南市南區健康路二段66號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJt66NeHh2bjQRZv_oQHTXTYE",
+  "lat": 22.98169,
+  "lng": 120.196063,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9317340098404613990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "謝掌櫃",
+  "gname": "謝掌櫃虱目魚海鮮粥［安平總店］",
+  "addr": "台南市安平區運河路23巷5號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJHdqbRZR3bjQRcNPEhGdyx6Y",
+  "lat": 22.999239,
+  "lng": 120.161743,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12017699919596147568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "長盈海味屋",
+  "gname": "田媽媽 長盈海味屋-米其林必比登推介、十大神農獎）",
+  "addr": "台南市北門區484號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJdReTBd_UbTQRXzbKcMeVt6s",
+  "lat": 23.238787,
+  "lng": 120.110644,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12373523185047058015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "咩灣裡羊肉店【NEW】",
+  "gname": "咩灣裡羊肉店",
+  "addr": "台南市南區同安里興南街36號",
+  "city": "台南",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJncdagRR1bjQRvO-Cu5_dgiw",
+  "lat": 22.924337,
+  "lng": 120.184326,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3207369562756673468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿爸の芋圓",
+  "gname": "阿爸の芋圓 樂華店",
+  "addr": "新北市永和區保平路18巷1號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJaSiY_9ypQjQRFpJ-BCmLrVE",
+  "lat": 25.007648,
+  "lng": 121.512336,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5885513296328430102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "客家小館",
+  "gname": "客家小館",
+  "addr": "新北市永和區智光街22號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJUzP_O-GpQjQRx6eg6q6pzfA",
+  "lat": 24.999234,
+  "lng": 121.518071,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17351711508054190023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "宋朝",
+  "gname": "宋朝",
+  "addr": "新北市永和區復興街72號1樓",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJIb0vcpepQjQR6RTqks9oVTw",
+  "lat": 25.013407,
+  "lng": 121.517142,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4347496256028415209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "永和佳香豆漿",
+  "gname": "永和佳香豆漿",
+  "addr": "新北市永和區民治街57號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJx4-ADuGpQjQRdVVnOFd_WZo",
+  "lat": 24.997739,
+  "lng": 121.518722,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11122060767353329013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "上好雞肉",
+  "gname": "上好雞肉",
+  "addr": "新北市中和區民治街8巷1號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJHVqKATADaDQR5GIuap1vifA",
+  "lat": 25.004955,
+  "lng": 121.474879,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17332507362794037988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "蔡家牛肉麵",
+  "gname": "蔡家牛肉麵",
+  "addr": "新北市中和區秀朗路三段153巷16弄12號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ6VWF3wcCaDQRg1JIwfKAxTE",
+  "lat": 24.99156,
+  "lng": 121.525584,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3586414458383651459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "大碗公當歸羊肉",
+  "gname": "大碗公當歸羊肉",
+  "addr": "新北市板橋區四維路112巷2號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJEziblBSoQjQRi6gYBFEEfKA",
+  "lat": 25.024765,
+  "lng": 121.465731,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11564122689188178059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "葉家藥燉排骨",
+  "gname": "葉家藥燉排骨",
+  "addr": "新北市板橋區中山路二段441號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJkWRJRzeoQjQRgvwfqqGcURM",
+  "lat": 25.020214,
+  "lng": 121.481355,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1392065977992084610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "店小二(大同北路)",
+  "gname": "店小二魯肉飯",
+  "addr": "新北市三重區大同北路27號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJD2RRah-pQjQR_kGam6Yv3dQ",
+  "lat": 25.062654,
+  "lng": 121.495494,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15338468298515431934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "光興腿庫",
+  "gname": "光興腿庫",
+  "addr": "新北市三重區光興街223號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ357ijYSpQjQR4_u_1ST-_7k",
+  "lat": 25.074807,
+  "lng": 121.494936,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13402710450236292067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "珍品餐飲坊",
+  "gname": "珍品餐飲坊（鴨肉專賣店）",
+  "addr": "新北市新莊區復興路一段97號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJRUwK1nmoQjQRY8GP0Sy4Qrw",
+  "lat": 25.042986,
+  "lng": 121.448849,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13565607530227286371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "賴岡山羊肉",
+  "gname": "賴岡山羊肉",
+  "addr": "新北市新店區中正路244-4號1樓",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJEy29Bx0CaDQRSoTUvKDmbVY",
+  "lat": 24.973377,
+  "lng": 121.539661,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6227887437760463946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "山東小館",
+  "gname": "山東小館",
+  "addr": "新北市新店區中央路133巷19號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJDbeb1B4CaDQR09_3NBlR3UA",
+  "lat": 24.973507,
+  "lng": 121.531371,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4673981156985135059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "超人鱸魚",
+  "gname": "超人鱸魚",
+  "addr": "新北市新店區北新路一段349號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJhW9fIPYBaDQRpHMkjt1gsSM",
+  "lat": 24.969193,
+  "lng": 121.541763,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2571943366894056356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "新店北鴨鴨肉羹【NEW】",
+  "gname": "新店北鴨鴨肉羹",
+  "addr": "新北市新店區光明街169號",
+  "city": "新北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJ4VD4gokBaDQRxF6JPiIOa5w",
+  "lat": 24.962676,
+  "lng": 121.539674,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11271118032665665220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "碧潭橋頭鵝肉【NEW】",
+  "gname": "碧潭橋頭鵝肉專賣店",
+  "addr": "新北市新店區北新路一段127號",
+  "city": "新北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJgxz6ookBaDQRo5DQEhH17T0",
+  "lat": 24.962817,
+  "lng": 121.539447,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4462492259472937123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "三姐妹農家樂",
+  "gname": "三姐妹農家樂",
+  "addr": "新北市萬里區大坪23號",
+  "city": "新北",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJO2AnMldNXTQRvWVmHIE1GQs",
+  "lat": 25.167757,
+  "lng": 121.633901,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=799729237478499773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿爸的客家菜【NEW】",
+  "gname": "阿爸的客家菜",
+  "addr": "新北市三峽區鳶山里中山路118號",
+  "city": "新北",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJ6xviC_AbaDQRKYlkjGLZyF0",
+  "lat": 24.936074,
+  "lng": 121.365834,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6757890258154850601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "北港蔡三代筒仔米糕",
+  "gname": "北港蔡三代筒仔米糕",
+  "addr": "高雄市鹽埕區河西路167號",
+  "city": "高雄",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ6wtOkG8EbjQRx0OVgPS7_hU",
+  "lat": 22.631918,
+  "lng": 120.285005,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1584910777684673479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小燉食室",
+  "gname": "小燉食室",
+  "addr": "高雄市前鎮區廣西路226號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJjQdF36AFbjQRLs-Cavfa1Pg",
+  "lat": 22.615461,
+  "lng": 120.316864,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17930196772647522094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "牛老大涮牛肉（高雄總店）",
+  "gname": "牛老大涮牛肉-高雄總店",
+  "addr": "高雄市前金區自強二路18號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJPZOZ4n0EbjQRbguYs_2BG6E",
+  "lat": 22.622246,
+  "lng": 120.296626,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11609015391117380462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "昭明海產家庭料理",
+  "gname": "昭明海產家庭料理",
+  "addr": "高雄市前金區自強一路53號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ_RbZDGMEbjQR6OndQhSFpps",
+  "lat": 22.63058,
+  "lng": 120.293155,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11215798244080478696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "前金肉燥飯",
+  "gname": "前金肉燥飯",
+  "addr": "高雄市前金區大同二路26號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJKa-6MH0EbjQRKmXGv94Dn9k",
+  "lat": 22.627214,
+  "lng": 120.295439,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15681256682762429738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "永筵小館",
+  "gname": "永筵小館",
+  "addr": "高雄市前金區成功一路528號",
+  "city": "高雄",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJOztxHgAFbjQR_q881MkXOL4",
+  "lat": 22.63303,
+  "lng": 120.290459,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13706731621518716926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "米院子油飯",
+  "gname": "米院子油飯",
+  "addr": "高雄市新興區南海街30號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJRaMxALMFbjQRK-FskWtk4Q8",
+  "lat": 22.628401,
+  "lng": 120.310599,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1144306193492926763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "春蘭割包",
+  "gname": "春蘭割包",
+  "addr": "高雄市新興區復興一路5號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJp1Y0y48EbjQRFjMm3pHP238",
+  "lat": 22.628023,
+  "lng": 120.307806,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9213185688120734486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "泰元",
+  "gname": "泰元THAIYUAN",
+  "addr": "高雄市苓雅區苓雅二路53號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJF1RK1V8FbjQRVq7L4K7Gbw0",
+  "lat": 22.617879,
+  "lng": 120.301394,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=968210899305999958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "菜粽李",
+  "gname": "菜粽李粽店",
+  "addr": "高雄市苓雅區成功一路159號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJK0w6GoADbjQRHmAAccOYDDg",
+  "lat": 22.615941,
+  "lng": 120.296824,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4038770931026386974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "侯記鴨肉飯",
+  "gname": "侯記鴨肉飯",
+  "addr": "高雄市三民區自強一路201號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJD7uHrWYEbjQRQbb4O-yp_YY",
+  "lat": 22.634748,
+  "lng": 120.291548,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9727117602273670721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "良佳豬腳",
+  "gname": "良佳豬腳 最新消息請看FB及哀居",
+  "addr": "高雄市三民區陽明路229號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJqRQ489IEbjQRsksWuzra-bw",
+  "lat": 22.64188,
+  "lng": 120.341789,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13617154894113164210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "貳哥食堂",
+  "gname": "貳哥食堂",
+  "addr": "高雄市鼓山區青海路145號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJNyBlC1AEbjQRg0b14Jf9tnk",
+  "lat": 22.651221,
+  "lng": 120.288329,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8770476153106679427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "弘記肉燥飯舖",
+  "gname": "弘記肉燥飯舖",
+  "addr": "高雄市左營區立文路96號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJUZv1PvkFbjQR5L0nTMYoi_o",
+  "lat": 22.664603,
+  "lng": 120.304314,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=18053568363391073764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "楊寶寶蒸餃（朝明路）",
+  "gname": "北平楊寶寶蒸餃 總店",
+  "addr": "高雄市楠梓區朝明路106號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJh8ujbMQPbjQRl5tszB93wG4",
+  "lat": 22.724212,
+  "lng": 120.327735,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7980509518157880215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "橋仔頭黃家肉燥飯",
+  "gname": "橋仔頭黃家肉燥飯總店",
+  "addr": "高雄市橋頭區橋南路106號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJB0fCkUUObjQRKSoFMziNpgE",
+  "lat": 22.754704,
+  "lng": 120.312261,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=118937712685558313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "廖記米糕",
+  "gname": "廖記米糕",
+  "addr": "高雄市橋頭區橋南路119號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJSVUWmUUObjQRB0eMQvJjSxQ",
+  "lat": 22.754325,
+  "lng": 120.312299,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1462372396161582855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "湖東牛肉館",
+  "gname": "湖東牛肉館",
+  "addr": "高雄市湖內區中山路一段107號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJA-d4mrYMbjQRJGQ4do-0hsg",
+  "lat": 22.877725,
+  "lng": 120.251756,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=14449434982721545252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "舊市羊肉（岡山）",
+  "gname": "舊市羊肉",
+  "addr": "高雄市岡山區河華路111號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJSx8QoyUMbjQR88GZ1bJq5bk",
+  "lat": 22.798521,
+  "lng": 120.284096,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13395229983003754995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿香的廚房",
+  "gname": "阿香的廚房 Ibu Kitchen",
+  "addr": "高雄市美濃區中山路二段629號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJu0z80BJqbjQRVQQRdWdoKP8",
+  "lat": 22.893724,
+  "lng": 120.514202,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=18386060272295019605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "秀明豬心冬粉",
+  "gname": "旗山秀明豬心冬粉",
+  "addr": "高雄市旗山區永平街41號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ0fcFOJRrbjQRBb2q_wwqB44",
+  "lat": 22.885401,
+  "lng": 120.48145,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10234194913540095237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "東沐。食在【NEW】",
+  "gname": "東沐。食在",
+  "addr": "台中市北區英才路317號",
+  "city": "台中",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJK5at3Hk9aTQRmevsCA8LOx4",
+  "lat": 24.155562,
+  "lng": 120.669997,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2178347003965926297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿坤麵",
+  "gname": "阿坤麵",
+  "addr": "台中市中區平等街142號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ07Xalmw9aTQRwSFttFZ1Ja0",
+  "lat": 24.143021,
+  "lng": 120.682419,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12476507357954515393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "范記金之園",
+  "gname": "范記金之園草袋飯 總店",
+  "addr": "台中市中區成功路170號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJAQAAABM9aTQRZdROGV5yztA",
+  "lat": 24.141351,
+  "lng": 120.682454,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15046089153568494693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "富鼎旺",
+  "gname": "富鼎旺豬腳-中正店",
+  "addr": "台中市中區台灣大道一段560號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJpyvTjnI9aTQRtA_jFlvl6jY",
+  "lat": 24.145249,
+  "lng": 120.67659,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3957227401987166132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "富貴亭",
+  "gname": "富貴亭飲食店",
+  "addr": "台中市中區三民路二段18巷31號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ6euChRI9aTQRFWbtofrK26w",
+  "lat": 24.140146,
+  "lng": 120.678243,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12455772372230563349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "醉月樓",
+  "gname": "醉月樓台灣菜",
+  "addr": "台中市中區中山路20號2樓",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJKwprdxQ9aTQR9MjfBgkoKDE",
+  "lat": 24.137835,
+  "lng": 120.683559,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3542125126162041076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "上海未名麵點",
+  "gname": "上海未名麵點酸梅湯",
+  "addr": "台中市中區市府路69號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJa9uC_hI9aTQRrQNezN_g0G0",
+  "lat": 24.139666,
+  "lng": 120.680056,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7913071797101003693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "繡球",
+  "gname": "繡球麵店",
+  "addr": "台中市西區中興街102號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ73Fo2iY9aTQRBn3Wjl_mi9U",
+  "lat": 24.147651,
+  "lng": 120.663264,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15387645849934134534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "富狀元豬腳",
+  "gname": "富狀元豬腳（台中市）",
+  "addr": "台中市西區美村路一段203號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJkUX96p49aTQR42chcU81MLw",
+  "lat": 24.149862,
+  "lng": 120.661792,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13560397093329266659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "夜間部爌肉飯",
+  "gname": "夜間部爌肉飯",
+  "addr": "台中市西區精誠路109號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJXTd00pk9aTQRC1JnKc_ByaI",
+  "lat": 24.150426,
+  "lng": 120.655237,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11730119799960195595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "馨苑",
+  "gname": "馨苑台菜咖啡※西區店",
+  "addr": "台中市西區民生北路106號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ5XBhggg9aTQRw_Ywe0gD8ac",
+  "lat": 24.148189,
+  "lng": 120.668389,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12101457283560568515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "好菜",
+  "gname": "好菜KÜISINE模範總店",
+  "addr": "台中市西區模範街24巷1號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJt3xYknU9aTQRkFvjUeAZLaM",
+  "lat": 24.148677,
+  "lng": 120.666765,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11758082653371456400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "功夫上海手工魚丸",
+  "gname": "功夫上海手工魚丸",
+  "addr": "台中市西區中美街380號",
+  "city": "台中",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJOXyrAJw9aTQR5x-TDva1zhg",
+  "lat": 24.151935,
+  "lng": 120.660271,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1787566170523770855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "曙光居",
+  "gname": "曙光居",
+  "addr": "台中市西屯區大墩十八街104號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJweC7h5E9aTQRsPuHoP38vN4",
+  "lat": 24.157495,
+  "lng": 120.648911,
+  "status": "CLOSED_TEMPORARILY",
+  "gurl": "https://maps.google.com/?cid=16049981338291796912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "可口牛肉麵",
+  "gname": "可口牛肉麵（必比登推介）",
+  "addr": "台中市西屯區大墩路911號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ0QIWopE9aTQRBJ0GEbLQUCs",
+  "lat": 24.156975,
+  "lng": 120.650445,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3121224004976155908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "裡小樓",
+  "gname": "裡小樓小料理",
+  "addr": "台中市西屯區西屯路2段293巷50號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJm-n-bfcXaTQRU_McJ1CBNyI",
+  "lat": 24.176626,
+  "lng": 120.642561,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2465581502262211411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "羅家古早味",
+  "gname": "羅家古早味",
+  "addr": "台中市南屯區向上路三段65號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJkWfDesQ9aTQRDbJc944c3nc",
+  "lat": 24.146224,
+  "lng": 120.634869,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8637372535704171021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "滬舍餘味",
+  "gname": "滬舍餘味",
+  "addr": "台中市南屯區公益路二段537號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ9U2YcsI9aTQR7fBVMRKGF0k",
+  "lat": 24.151153,
+  "lng": 120.635738,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5266825701928333549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "牛稼莊",
+  "gname": "東勢牛稼莊",
+  "addr": "台中市東勢區新豐街7號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJmyVHBYscaTQRORsgkKn_TeI",
+  "lat": 24.262918,
+  "lng": 120.824697,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=16306970929511013177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "台中肉員",
+  "gname": "台中肉員",
+  "addr": "台中市南區復興路３段529號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJc1OUoAU9aTQRoiRrunp3FDU",
+  "lat": 24.134469,
+  "lng": 120.682571,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3824813352541693090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "彭城堂",
+  "gname": "彭城堂台菜海鮮餐廳",
+  "addr": "台中市太平區宜昌路377號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJyTbQw7IiaTQReFCGAoq7abU",
+  "lat": 24.144833,
+  "lng": 120.713621,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13072185594841813112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鳳記鵝肉老店",
+  "gname": "鳳記鵝肉老店（沙鹿本店）",
+  "addr": "台中市沙鹿區屏西路170號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ1W_4TQsVaTQRxTaZh5GG5KE",
+  "lat": 24.20963,
+  "lng": 120.569153,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11665596894399772357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "老士官擀麵",
+  "gname": "老士官擀麵",
+  "addr": "台中市清水區鎮南街81之12號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025,
+   2026
+  ],
+  "pid": "ChIJ2weMyIAUaTQRdDDpyXXmA1E",
+  "lat": 24.26834,
+  "lng": 120.57211,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5837762935575359604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "貓的堅持",
+  "gname": "貓的堅持（新竹店）創意輕藥膳養生料理",
+  "addr": "新竹市東區西大路63號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ_8VTWwA1aDQR5F5Ix7-dd6w",
+  "lat": 24.795661,
+  "lng": 120.971196,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12427575143759896292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "東門米粉攤",
+  "gname": "東門米粉攤（新竹東門市場店）",
+  "addr": "新竹市東區大同路86號東門市場1116、1117攤號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ5YPUncE1aDQRvMdEz71mfVg",
+  "lat": 24.805135,
+  "lng": 120.968814,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6376365612838733756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "菜園",
+  "gname": "菜園上海餐廳",
+  "addr": "新竹市東區東大路一段136號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJRU8ga8Q1aDQRtHRng5DN6V4",
+  "lat": 24.808519,
+  "lng": 120.972112,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6839223529702388916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "禾日香",
+  "gname": "禾日香古早味魯肉飯",
+  "addr": "新竹市東區民族路163號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ_Z-fVMc1aDQRT3hEKm0RQH8",
+  "lat": 24.809119,
+  "lng": 120.978944,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9169348001884567631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "原味鴨肉麵",
+  "gname": "原味鴨肉麵",
+  "addr": "新竹市東區勝利路59號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJvZU_Teo1aDQRbwKXyGAfAXA",
+  "lat": 24.800525,
+  "lng": 120.968416,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8070766507767300719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "九添福牛肉麵館",
+  "gname": "九添福牛肉麵館新竹城隍店",
+  "addr": "新竹市北區西大路436號1樓",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJLxxFIJo1aDQRN0MUgc5o5kk",
+  "lat": 24.803777,
+  "lng": 120.964309,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5325058845550330679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "弄味小廚",
+  "gname": "弄味小廚 客家菜系",
+  "addr": "新竹市香山區經國路三段92巷56號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ21Hs6Zo1aDQRY6gqjBvK5Gc",
+  "lat": 24.797736,
+  "lng": 120.951301,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7486330700261140579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鄒記菜包",
+  "gname": "鄒記菜包（中正店）",
+  "addr": "新竹縣北埔鄉中正路49號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJWTq9KetIaDQRRWMTmOReH7A",
+  "lat": 24.700611,
+  "lng": 121.055987,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12690966610850308933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "春嬌粄條",
+  "gname": "Bebu春嬌粄條",
+  "addr": "新竹縣北埔鄉公園街16巷1號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJbW83wTNJaDQRhD5qdRfXqr0",
+  "lat": 24.698612,
+  "lng": 121.058287,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13666972514963308164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "季風Monsoon",
+  "gname": "monsoon (reservations only)",
+  "addr": "新竹縣竹北市成功一街20號",
+  "city": "新竹",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJPbONgnqvQjQRPTHzgJV-BV4",
+  "lat": 24.820663,
+  "lng": 121.023102,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6774960395027427645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "善菓堂",
+  "gname": "善菓堂",
+  "addr": "新竹縣竹北市莊敬南路188號1樓",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJOfP3M8mrQjQR203-5WyM9ww",
+  "lat": 24.815494,
+  "lng": 121.019333,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=934369847045672411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "首烏廚EAT",
+  "gname": "首烏廚EAT",
+  "addr": "新竹縣竹北市成功二街31號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJg0GBi_o2aDQRot4mFUfz0pg",
+  "lat": 24.820185,
+  "lng": 121.023294,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11012131525497380514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "唐草園",
+  "gname": "唐草園精緻麵食TANG TSAO YUAN",
+  "addr": "新竹縣竹北市台科路113號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJgVLPRCs3aDQRn0K3lHtyDmM",
+  "lat": 24.820223,
+  "lng": 121.009389,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7137768334530396831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "ㄤ咕麵",
+  "gname": "ㄤ咕麵",
+  "addr": "新竹縣關西鎮光復路35號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ3yvfUck-aDQRhL-pSEyuPr8",
+  "lat": 24.792814,
+  "lng": 121.177379,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13780643552460128132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鴻金食堂",
+  "gname": "鴻金食堂",
+  "addr": "新竹縣竹東鎮柯湖路三段312號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJ_UuPwHE2aDQRf8gcUdOnB_8",
+  "lat": 24.759939,
+  "lng": 121.036119,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=18376841330549377151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "晌午粄食",
+  "gname": "晌午粄食",
+  "addr": "新竹縣橫山鄉河堤大道8號",
+  "city": "新竹",
+  "years": [
+   2025,
+   2026
+  ],
+  "pid": "ChIJU9JOjv5HaDQRTZYMIHTMeVE",
+  "lat": 24.716665,
+  "lng": 121.140395,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5870948388380120653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "茂園",
+  "gname": "茂園餐廳",
+  "addr": "台北市中山區長安東路二段185號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJcQiIHdyrQjQR-LHoSixrQR8",
+  "lat": 25.048428,
+  "lng": 121.542637,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=2252199126641455608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小品雅廚",
+  "gname": "小品雅廚",
+  "addr": "台北市中山區中原街130號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJ1fZCpFupQjQRY1uxY8_T5Uw",
+  "lat": 25.063075,
+  "lng": 121.528867,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5541067804233522019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "好朋友涼麵",
+  "gname": "好朋友涼麵",
+  "addr": "台北市士林區大南路31號",
+  "city": "台北",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJa7IwrbquQjQRwbCoO1HggbA",
+  "lat": 25.089091,
+  "lng": 121.525537,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12718693462168875201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "欣葉小聚",
+  "gname": "欣葉小聚 南港店",
+  "addr": "台北市南港區經貿二路166號A棟1樓（中國信託金融園區）",
+  "city": "台北",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJqX7CxKesQjQRWduxZ7juYTM",
+  "lat": 25.058584,
+  "lng": 121.616067,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3702502844456360793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "木公麥麵",
+  "gname": "木公麥面",
+  "addr": "台中市東區富貴街37號",
+  "city": "台中",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJI9hV5qo9aTQRgTF7hl5d3F4",
+  "lat": 24.149856,
+  "lng": 120.695673,
+  "status": "CLOSED_TEMPORARILY",
+  "gurl": "https://maps.google.com/?cid=6835440995006099841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "筑馨居",
+  "gname": "筑馨居",
+  "addr": "台南市中西區信義街69號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJaejzSmZ2bjQRc6LSni-tl0s",
+  "lat": 23.000299,
+  "lng": 120.194981,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5447012694367576691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "麥謎食驗室",
+  "gname": "麥謎食驗室 Bue mi .Lab",
+  "addr": "台南市中西區青年路90號1樓",
+  "city": "台南",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJzwou4SV3bjQRwQr-XUGhkrw",
+  "lat": 22.99197,
+  "lng": 120.208186,
+  "status": "CLOSED_PERMANENTLY",
+  "gurl": "https://maps.google.com/?cid=13588100327852083905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "東香台菜海味料理",
+  "gname": "東香台菜海味料理",
+  "addr": "台南市安南區安中路六段217號",
+  "city": "台南",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJbeHweRXYbTQRKeLnzSbRpAs",
+  "lat": 23.06075,
+  "lng": 120.136655,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=839025395191243305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "白玉樓",
+  "gname": "白玉樓經典台菜(夢時代6F)",
+  "addr": "高雄市前鎮區中華五路789號（夢時代購物中心6樓）",
+  "city": "高雄",
+  "years": [
+   2025
+  ],
+  "pid": "ChIJhck_VQADbjQRm375UmMUVp8",
+  "lat": 22.595408,
+  "lng": 120.3071,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11481386716854058651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "賣塩順台菜",
+  "gname": "賣塩順台菜-正宗台菜",
+  "addr": "高雄市鼓山區青海路173號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJO0VqAFAEbjQRq_CBowdRI98",
+  "lat": 22.651313,
+  "lng": 120.287,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=16078784187892625579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "正宗鴨肉飯",
+  "gname": "正宗鴨肉飯",
+  "addr": "高雄市左營區裕誠路245號",
+  "city": "高雄",
+  "years": [
+   2024,
+   2025
+  ],
+  "pid": "ChIJX9LKMRsFbjQRcf6BMItRgDc",
+  "lat": 22.664611,
+  "lng": 120.309543,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=3999286127361130097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "泰姬",
+  "gname": "泰姬印度餐廳",
+  "addr": "台北市大安區市民大道四段48巷1號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJR8oqZMWrQjQR1ecGLvALNJM",
+  "lat": 25.044736,
+  "lng": 121.545842,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10607116148556621781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "昶鴻麵點",
+  "gname": "昶鴻麵點",
+  "addr": "台北市萬華區華西街171號攤",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJ3wSXQKmpQjQR6V89kvuhU5o",
+  "lat": 25.039475,
+  "lng": 121.498591,
+  "status": "CLOSED_PERMANENTLY",
+  "gurl": "https://maps.google.com/?cid=11120410006770245609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "都一處 (信義)",
+  "gname": "都一處(仁愛店)",
+  "addr": "台北市信義區仁愛路四段506號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJvctP8rerQjQRGfwXMTJiCt4",
+  "lat": 25.037242,
+  "lng": 121.561047,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=15999708593898650649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "清真中國牛肉麵食館 (大安)",
+  "gname": "清真中國牛肉麵食館 (大安)",
+  "addr": "台北市大安區延吉街137巷7弄1號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJ13TOiMarQjQRGCtxcxV5rUo",
+  "lat": 25.042071,
+  "lng": 121.554957,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=5381090262815681304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "鼎泰豐 (信義路)",
+  "gname": "鼎泰豐 信義店",
+  "addr": "台北市大安區信義路二段194號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJbTKSE4KpQjQRXDZZI57v-pM",
+  "lat": 25.033503,
+  "lng": 121.530118,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10663098530229991004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "磐石坊",
+  "gname": "磐石坊",
+  "addr": "台北市大安區樂利路15號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJbfjiHzOqQjQRPuzWRe_U_bA",
+  "lat": 25.028066,
+  "lng": 121.55128,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12753583843917098046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "榮榮園",
+  "gname": "榮榮園浙寧餐廳",
+  "addr": "台北市大安區信義路四段25號2樓",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJ5dx9LMyrQjQRDq6ebMxrhlM",
+  "lat": 25.033579,
+  "lng": 121.544639,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6018616477767085582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "麵鋪-芋頭米粉",
+  "gname": "麵舖",
+  "addr": "台北市信義區虎林街232巷75號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJAfCuuaWrQjQRGIvzcsEuvHM",
+  "lat": 25.035552,
+  "lng": 121.57569,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=8339592018375445272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "元味料理",
+  "gname": "元味料理",
+  "addr": "台北市大同區華陰街227巷2號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJwUAi9vapQjQRkHT_qA280kA",
+  "lat": 25.050783,
+  "lng": 121.514121,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=4671002530392536208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "軟食力",
+  "gname": "軟食力 行天宮店",
+  "addr": "台北市中山區民權東路2段135巷30弄21號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJg5CffQqpQjQRGC-w8J-69mg",
+  "lat": 25.0643,
+  "lng": 121.53413,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=7563437820315971352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "阿城鵝肉 (中山)",
+  "gname": "台北中山阿城鵝肉吉林總店",
+  "addr": "台北市中山區吉林路105號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJj50p7F2pQjQR4PKzyg50owk",
+  "lat": 25.056406,
+  "lng": 121.530362,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=694526374424343264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "黃記魯肉飯",
+  "gname": "黃記魯肉飯",
+  "addr": "台北市中山區中山北路2段183巷28號",
+  "city": "台北",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJEfV83ESpQjQR3vn1gz8qbKY",
+  "lat": 25.06367,
+  "lng": 121.524142,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=11992006360066030046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "黑琵食堂",
+  "gname": "黑琵食堂餐廳",
+  "addr": "台南市七股區十份里海埔17之18號",
+  "city": "台南",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJeXPQ8uXZbTQRSArdFeTVZIU",
+  "lat": 23.082691,
+  "lng": 120.062898,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9612042680311548488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "永通虱目魚粥",
+  "gname": "永通虱目魚粥_學甲",
+  "addr": "台南市學甲區民權路60號",
+  "city": "台南",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJh1NVc-h_bjQRu1RjurJLhr0",
+  "lat": 23.231401,
+  "lng": 120.180514,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=13656686151050941627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "沁園春",
+  "gname": "沁園春 創始店",
+  "addr": "台中市中區台灣大道一段129號",
+  "city": "台中",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJc6j3ZBM9aTQRe4uIUepPgok",
+  "lat": 24.139553,
+  "lng": 120.682638,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=9908569997977357179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "咕嚕咕嚕原住民音樂餐廳",
+  "gname": "咕嚕咕嚕南島首都旗艦餐廳",
+  "addr": "台中市西區五權西四街13巷2號",
+  "city": "台中",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJK36156Y9aTQRcKyAiDyI7BI",
+  "lat": 24.13902,
+  "lng": 120.662504,
+  "status": "CLOSED_PERMANENTLY",
+  "gurl": "https://maps.google.com/?cid=1363614580755967088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "小初店",
+  "gname": "台中南屯-小初店",
+  "addr": "台中市南屯區大業路243號",
+  "city": "台中",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJXQ9dYuE9aTQRbumiVRTA-gg",
+  "lat": 24.153494,
+  "lng": 120.648922,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=647040690049706350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "沙卡燒酒雞餐館",
+  "gname": "沙卡燒酒雞餐館",
+  "addr": "台中市大雅區中山路大同巷9弄7號",
+  "city": "台中",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJ68YVnl0WaTQR1Q1MGWg69t4",
+  "lat": 24.204871,
+  "lng": 120.64418,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=16066092939466247637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "北港蔡三代筒仔米糕 (鹽埕)",
+  "gname": "北港蔡三代筒仔米糕",
+  "addr": "高雄市鹽埕區河西路166號",
+  "city": "高雄",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJ6wtOkG8EbjQRx0OVgPS7_hU",
+  "lat": 22.631918,
+  "lng": 120.285005,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=1584910777684673479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "Apis Grill",
+  "gname": "APIS Grill",
+  "addr": "高雄市三民區褒揚東街80號",
+  "city": "高雄",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJz4QS3F0bbjQRcn3f1Sf6n60",
+  "lat": 22.639828,
+  "lng": 120.347721,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=12510993338857389426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "老新台菜 (九如二路)",
+  "gname": "老新台菜 (九如創始店)",
+  "addr": "高雄市三民區九如二路227號",
+  "city": "高雄",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJk6uoPfIEbjQRJUV7tWQEflM",
+  "lat": 22.640678,
+  "lng": 120.307486,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=6016250982801556773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "老爺美食館 （鳳山）",
+  "gname": "老爺美食館-鼎山店",
+  "addr": "高雄市鳳山區海洋一路54-56號",
+  "city": "高雄",
+  "years": [
+   2024
+  ],
+  "pid": "ChIJKaraMbYFbjQR0JY_yj33dpQ",
+  "lat": 22.650586,
+  "lng": 120.318569,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=10698009809623422672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
+  "name": "一哥炊粉",
+  "gname": "ㄧ哥炊粉",
+  "addr": "新竹縣芎林鄉福昌街621號",
+  "city": "新竹",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJTQxMCwk4aDQRwOJsQOC3aPA",
+  "lat": 24.75505,
+  "lng": 121.095415,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17323298140462047936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ }
+]

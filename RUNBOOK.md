@@ -40,6 +40,11 @@ Run `python3 -I scripts/update.py report` and fix every listed row in `data/plac
   name, keep it.
 - Set `reviewed: true` on each row you checked. Then `report` must print nothing.
 
+## 3b. Bib Gourmand
+`data/bib.json` holds the MICHELIN Bib Gourmand lists (2024–2026) with Google place ids. Each July a new
+edition is published; when the owner asks, add the new year's list (source used: supertaste.tvbs.com.tw
+per-city articles) and geocode new entries. Saved places are tagged by matching `pid` (or `bib_pid`).
+
 ## 4. Publish
 - `python3 -I scripts/update.py build`
 - Commit only if something changed; message like `Weekly update: +3 places, 1 closed`.

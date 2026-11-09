@@ -142,15 +142,24 @@ def report():
 
 def build():
     d = load()
+    bp = os.path.join(ROOT, "data", "bib.json")
+    bib = json.load(open(bp, encoding="utf-8")) if os.path.exists(bp) else []
+    bib_years = {b["pid"]: b["years"] for b in bib if b.get("pid")}
     view = [dict(name=p["name"], region=p["region"], type=p["type"], occ=p["occ"], price=p["price"], note=p["note"],
                  url=p["url"], pid=p.get("pid"), status=p.get("status"), park=p.get("parking"),
+                 bib=bib_years.get(p.get("bib_pid") or p.get("pid")),
                  lat=None if p.get("nomatch") or p.get("lat") is None else round(p["lat"], 6),
                  lng=None if p.get("nomatch") or p.get("lng") is None else round(p["lng"], 6)) for p in d]
     # last date the data actually changed or was rechecked; stable across no-op weekly runs
+    saved_bib = {p.get("bib_pid") or p.get("pid") for p in d}
+    bib_view = [dict(name=b["name"], addr=b["addr"], city=b["city"], region=region(b["addr"]) or b["city"], years=b["years"],
+                     pid=b["pid"], lat=b["lat"], lng=b["lng"], url=b.get("gurl"), status=b.get("status"))
+                for b in bib if b.get("pid") and b["pid"] not in saved_bib and b.get("status") != "CLOSED_PERMANENTLY"]
     updated = max((p.get("checked") or "" for p in d), default=TODAY) or TODAY
     tpl = open(os.path.join(ROOT, "scripts", "template.html"), encoding="utf-8").read()
     open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(
-        tpl.replace("__DATA__", json.dumps(view, ensure_ascii=False)).replace("__UPDATED__", updated))
+        tpl.replace("__DATA__", json.dumps(view, ensure_ascii=False)).replace("__UPDATED__", updated)
+        .replace("__BIB__", json.dumps(bib_view, ensure_ascii=False)))
     with open(os.path.join(ROOT, "data", "places.csv"), "w", encoding="utf-8-sig", newline="") as f:
         w = csv.writer(f)
         w.writerow(["店名", "區域", "類型", "適合場合", "價位", "狀態", "備註", "地址", "Google Maps"])

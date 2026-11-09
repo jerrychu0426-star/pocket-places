@@ -53,5 +53,15 @@
   "url": "https://www.google.com/maps/place/%E6%B5%B7%E7%81%A3%E6%98%9F%E7%A9%BA/data=!4m2!3m1!1s0x3442a1ba20fe17e7:0x1c19f16bf8deafbd",
   "name": "海灣星空咖啡館",
   "reason": "擁有者要求移除（Google 地點資料查無此店）"
+ },
+ {
+  "url": "https://www.google.com/maps/place/%E7%A9%BA%E8%BB%8D%E4%B8%80%E8%99%9F%E5%92%96%E5%95%A1%E5%BB%B3/data=!4m2!3m1!1s0x3442ac0a8e7b28bd:0x90079fb36d9d5ce0",
+  "name": "空軍一號咖啡廳",
+  "reason": "擁有者確認已停業，要求移除"
+ },
+ {
+  "url": "https://www.google.com/maps/place/%E7%94%98%E6%A6%9C%E9%A6%B3%E5%90%8D%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF/data=!4m2!3m1!1s0x3442a92e6ebfcfb9:0x866b2f3364ee4676",
+  "name": "甘榜馳名海南雞飯",
+  "reason": "擁有者確認已停業，要求移除"
  }
 ]

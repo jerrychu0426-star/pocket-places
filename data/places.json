@@ -6583,24 +6583,6 @@
   }
  },
  {
-  "name": "空軍一號咖啡廳",
-  "region": "台北（松山機場一帶）",
-  "type": "咖啡",
-  "occ": "約會、帶朋友",
-  "price": "$$",
-  "note": "看飛機",
-  "url": "https://www.google.com/maps/place/%E7%A9%BA%E8%BB%8D%E4%B8%80%E8%99%9F%E5%92%96%E5%95%A1%E5%BB%B3/data=!4m2!3m1!1s0x3442ac0a8e7b28bd:0x90079fb36d9d5ce0",
-  "pid": null,
-  "gname": null,
-  "addr": null,
-  "lat": null,
-  "lng": null,
-  "status": null,
-  "nomatch": true,
-  "checked": "2026-11-07",
-  "reviewed": true
- },
- {
   "name": "銘記越南美食",
   "region": "新北汐止區",
   "type": "餐廳",
@@ -7099,24 +7081,6 @@
    "lng": 121.459168,
    "m": 52
   }
- },
- {
-  "name": "甘榜馳名海南雞飯",
-  "region": "台北",
-  "type": "餐廳",
-  "occ": "一個人",
-  "price": "$$",
-  "note": "",
-  "url": "https://www.google.com/maps/place/%E7%94%98%E6%A6%9C%E9%A6%B3%E5%90%8D%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF/data=!4m2!3m1!1s0x3442a92e6ebfcfb9:0x866b2f3364ee4676",
-  "pid": null,
-  "gname": null,
-  "addr": null,
-  "lat": null,
-  "lng": null,
-  "status": null,
-  "nomatch": true,
-  "checked": "2026-11-07",
-  "reviewed": true
  },
  {
   "name": "216粉圓大王",

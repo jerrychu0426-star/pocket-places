@@ -69,6 +69,7 @@
   "addr": "台北市中山區民權東路二段135巷30弄21號",
   "city": "台北",
   "years": [
+   2024,
    2025,
    2026
   ],
@@ -84,6 +85,7 @@
   "addr": "台北市中山區中山北路二段183巷28號",
   "city": "台北",
   "years": [
+   2024,
    2025,
    2026
   ],
@@ -145,6 +147,7 @@
   "addr": "台北市大安區信義路二段277號",
   "city": "台北",
   "years": [
+   2024,
    2025,
    2026
   ],
@@ -1323,6 +1326,7 @@
   "addr": "高雄市鹽埕區河西路167號",
   "city": "高雄",
   "years": [
+   2024,
    2025,
    2026
   ],
@@ -2256,6 +2260,20 @@
   "gurl": "https://maps.google.com/?cid=5870948388380120653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  },
  {
+  "name": "一哥炊粉",
+  "gname": "ㄧ哥炊粉",
+  "addr": "新竹縣芎林鄉福昌街621號",
+  "city": "新竹",
+  "years": [
+   2026
+  ],
+  "pid": "ChIJTQxMCwk4aDQRwOJsQOC3aPA",
+  "lat": 24.75505,
+  "lng": 121.095415,
+  "status": "OPERATIONAL",
+  "gurl": "https://maps.google.com/?cid=17323298140462047936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+ },
+ {
   "name": "茂園",
   "gname": "茂園餐廳",
   "addr": "台北市中山區長安東路二段185號",
@@ -2476,20 +2494,6 @@
   "gurl": "https://maps.google.com/?cid=5381090262815681304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  },
  {
-  "name": "鼎泰豐 (信義路)",
-  "gname": "鼎泰豐 信義店",
-  "addr": "台北市大安區信義路二段194號",
-  "city": "台北",
-  "years": [
-   2024
-  ],
-  "pid": "ChIJbTKSE4KpQjQRXDZZI57v-pM",
-  "lat": 25.033503,
-  "lng": 121.530118,
-  "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10663098530229991004&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
- },
- {
   "name": "磐石坊",
   "gname": "磐石坊",
   "addr": "台北市大安區樂利路15號",
@@ -2546,20 +2550,6 @@
   "gurl": "https://maps.google.com/?cid=4671002530392536208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  },
  {
-  "name": "軟食力",
-  "gname": "軟食力 行天宮店",
-  "addr": "台北市中山區民權東路2段135巷30弄21號",
-  "city": "台北",
-  "years": [
-   2024
-  ],
-  "pid": "ChIJg5CffQqpQjQRGC-w8J-69mg",
-  "lat": 25.0643,
-  "lng": 121.53413,
-  "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7563437820315971352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
- },
- {
   "name": "阿城鵝肉 (中山)",
   "gname": "台北中山阿城鵝肉吉林總店",
   "addr": "台北市中山區吉林路105號",
@@ -2572,20 +2562,6 @@
   "lng": 121.530362,
   "status": "OPERATIONAL",
   "gurl": "https://maps.google.com/?cid=694526374424343264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
- },
- {
-  "name": "黃記魯肉飯",
-  "gname": "黃記魯肉飯",
-  "addr": "台北市中山區中山北路2段183巷28號",
-  "city": "台北",
-  "years": [
-   2024
-  ],
-  "pid": "ChIJEfV83ESpQjQR3vn1gz8qbKY",
-  "lat": 25.06367,
-  "lng": 121.524142,
-  "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11992006360066030046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  },
  {
   "name": "黑琵食堂",
@@ -2672,20 +2648,6 @@
   "gurl": "https://maps.google.com/?cid=16066092939466247637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  },
  {
-  "name": "北港蔡三代筒仔米糕 (鹽埕)",
-  "gname": "北港蔡三代筒仔米糕",
-  "addr": "高雄市鹽埕區河西路166號",
-  "city": "高雄",
-  "years": [
-   2024
-  ],
-  "pid": "ChIJ6wtOkG8EbjQRx0OVgPS7_hU",
-  "lat": 22.631918,
-  "lng": 120.285005,
-  "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1584910777684673479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
- },
- {
   "name": "Apis Grill",
   "gname": "APIS Grill",
   "addr": "高雄市三民區褒揚東街80號",
@@ -2726,19 +2688,5 @@
   "lng": 120.318569,
   "status": "OPERATIONAL",
   "gurl": "https://maps.google.com/?cid=10698009809623422672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
- },
- {
-  "name": "一哥炊粉",
-  "gname": "ㄧ哥炊粉",
-  "addr": "新竹縣芎林鄉福昌街621號",
-  "city": "新竹",
-  "years": [
-   2026
-  ],
-  "pid": "ChIJTQxMCwk4aDQRwOJsQOC3aPA",
-  "lat": 24.75505,
-  "lng": 121.095415,
-  "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17323298140462047936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
  }
 ]

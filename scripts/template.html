@@ -216,7 +216,7 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
 <script>
 const D=__DATA__;
 const BIB=__BIB__;
-let mode="mine",GG=null,ggKey=null,ggErr="";
+let mode="mine",GG=null,ggKey=null,ggErr="",ggMsg="";
 const CITIES=["台北","台南","新北","桃園","台中","高雄","新竹","基隆","宜蘭"];
 const cityOf=p=>{const c=(p.region||"").slice(0,2);return CITIES.includes(c)?c:"其他"};
 const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set(),tag:new Set()};
@@ -306,13 +306,13 @@ async function fetchGG(){
       "X-Goog-FieldMask":"places.id,places.displayName,places.location,places.rating,places.userRatingCount,places.currentOpeningHours.openNow,places.primaryTypeDisplayName,places.googleMapsUri,places.shortFormattedAddress"},
       body:JSON.stringify({includedTypes:types,maxResultCount:20,rankPreference:"POPULARITY",languageCode:"zh-TW",regionCode:"TW",
         locationRestriction:{circle:{center:{latitude:here.lat,longitude:here.lng},radius}}})});
-    if(!r.ok)throw new Error(r.status);
+    if(!r.ok){let m="";try{m=(await r.json()).error?.message||""}catch(_){}throw new Error(r.status+(m?"："+m:""))}
     const j=await r.json();
     GG=(j.places||[]).filter(g=>!savedPids.has(g.id)&&(g.rating||0)>=4.2&&(g.userRatingCount||0)>=200&&g.currentOpeningHours?.openNow!==false)
       .map(g=>({name:g.displayName?.text||"",pid:g.id,lat:g.location.latitude,lng:g.location.longitude,rating:g.rating,count:g.userRatingCount,
         kind:g.primaryTypeDisplayName?.text||"",url:g.googleMapsUri,region:g.shortFormattedAddress||"",years:bibByPid.get(g.id)?.years}))
       .map(g=>({...g,d:km(here,g)})).sort((a,b)=>a.d-b.d).slice(0,10);
-  }catch(e){ggErr="fail";GG=[]}
+  }catch(e){ggErr="fail";ggMsg=String(e.message||e);GG=[]}
   render()}
 function render(){
   const rows=filtered(),brows=bibRows();
@@ -335,7 +335,7 @@ function render(){
     else if(GG===null){$("count").innerHTML="附近推薦・搜尋中…"}
     else{
       $("count").innerHTML=`附近推薦・${Math.min(S.r,5)} 公里內・<b>${GG.length}</b> 家`;
-      if(ggErr==="fail"){H.hidden=false;H.innerHTML="暫時查不到推薦，請稍後再試。"}
+      if(ggErr==="fail"){H.hidden=false;H.innerHTML=`暫時查不到推薦（錯誤代碼 ${esc(ggMsg).slice(0,160)}）。可以先用下面的連結在 Google Maps 查看。`}
       $("list").innerHTML=GG.length?GG.map((b,i)=>extItem(b,i+1)).join(""):(ggErr?"":'<li class="empty">附近沒有符合條件的推薦（評分 4.2+、200 則評論以上、營業中）。</li>');
       M.hidden=false}
   }

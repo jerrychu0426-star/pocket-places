@@ -40,10 +40,21 @@ Run `python3 -I scripts/update.py report` and fix every listed row in `data/plac
   name, keep it.
 - Set `reviewed: true` on each row you checked. Then `report` must print nothing.
 
-## 3b. Bib Gourmand
-`data/bib.json` holds the MICHELIN Bib Gourmand lists (2024–2026) with Google place ids. Each July a new
-edition is published; when the owner asks, add the new year's list (source used: supertaste.tvbs.com.tw
-per-city articles) and geocode new entries. Saved places are tagged by matching `pid` (or `bib_pid`).
+## 3b. Bib Gourmand (yearly, automatic in August)
+`data/bib.json` holds MICHELIN Guide Taiwan Bib Gourmand editions with Google place ids; saved places are
+tagged by matching `pid` (or `bib_pid`). The guide publishes each July. **On any run in August** (month == 8),
+if no entry in `data/bib.json` has the current year in `years`, add that edition:
+1. Find TVBS 食尚玩家 per-city list articles for the current year, e.g. web-search
+   `site:supertaste.tvbs.com.tw <year> 必比登 完整名單` for 台北, 新北, 台中, 台南, 高雄, 新竹 (and any new city).
+   Each article title states the city's count; also note the national total from an overview article.
+   guide.michelin.com blocks automated reads, so use these articles.
+2. `python3 -I scripts/bib.py add <year> <url> [<url> ...]` (all city articles in one call).
+3. Compare its per-city counts with the counts the articles state. If a city is off, open that article's
+   text and fix by hand (add/remove rows in `data/bib.json`). Review every `NAME DIFFERS` / `NO MATCH` line:
+   a moved or renamed shop is fine; a wrong match must be fixed or removed (the page must never show a
+   wrong place). Shops that appear twice (same place id or obvious move) must be one row with all years.
+4. Build and push as usual; in the report list the new edition's total, newly added and dropped shops.
+If no current-year articles exist yet, say so and retry next week (the check repeats every August run).
 
 ## 4. Publish
 - `python3 -I scripts/update.py build`

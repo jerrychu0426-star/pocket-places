@@ -970,21 +970,28 @@
  },
  {
   "name": "Tim castella",
-  "region": "桃園（推測）",
+  "region": "台北士林區",
   "type": "外帶/伴手禮",
   "occ": "一個人",
   "price": "$$",
   "note": "",
   "url": "https://www.google.com/maps/place/Tim+castella/data=!4m2!3m1!1s0x34681fdf2ad9d52b:0xf801e7ab63e7880e",
-  "pid": null,
-  "gname": null,
-  "addr": null,
-  "lat": null,
-  "lng": null,
-  "status": null,
-  "nomatch": true,
-  "checked": "2026-11-07",
-  "reviewed": true
+  "pid": "ChIJK9XZKt8faDQRDojnY6vnAfg",
+  "gname": "Tim castella",
+  "addr": "111臺北市士林區德行里福國路47巷2-1號",
+  "lat": 25.1016114,
+  "lng": 121.52370739999999,
+  "status": "CLOSED_TEMPORARILY",
+  "nomatch": false,
+  "checked": "2026-11-09",
+  "reviewed": true,
+  "parking": {
+   "name": "嘟嘟房停車場-捷運芝山站",
+   "pid": "ChIJueAcKgCvQjQRXKnyqu-GbdM",
+   "lat": 25.101233,
+   "lng": 121.523125,
+   "m": 72
+  }
  },
  {
   "name": "ByJane 簡 比利時鬆餅",

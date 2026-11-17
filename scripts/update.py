@@ -3,7 +3,8 @@
 
   python3 -I scripts/update.py merge <takeout.csv>   add new saved places, drop removed ones
   python3 -I scripts/update.py geocode               look up places that have no coordinates yet
-  python3 -I scripts/update.py recheck               refresh business status of every known place
+  python3 -I scripts/update.py details               fetch hours/rating/price for records that have none yet
+  python3 -I scripts/update.py recheck               refresh status, hours, rating, price of everything (monthly)
   python3 -I scripts/update.py parking               find the nearest parking lot for places missing one
   python3 -I scripts/update.py report                list places needing human/Claude review
   python3 -I scripts/update.py build                 regenerate index.html and places.csv
@@ -103,28 +104,84 @@ def geocode():
     print(f"geocoded {n}")
 
 
-def recheck():
+DETAIL_MASK = "businessStatus,rating,userRatingCount,priceLevel,priceRange,regularOpeningHours.periods"
+PRICE_LEVEL = {"PRICE_LEVEL_FREE": "$", "PRICE_LEVEL_INEXPENSIVE": "$", "PRICE_LEVEL_MODERATE": "$$",
+               "PRICE_LEVEL_EXPENSIVE": "$$$", "PRICE_LEVEL_VERY_EXPENSIVE": "$$$$"}
+
+
+def week_minutes(g):
+    """Opening periods as [open, close] minutes from Sunday 00:00 (close < open means it wraps past Saturday)."""
+    periods = (g.get("regularOpeningHours") or {}).get("periods")
+    if periods is None:
+        return None
+    out = []
+    for q in periods:
+        o = q["open"]["day"] * 1440 + q["open"].get("hour", 0) * 60 + q["open"].get("minute", 0)
+        if "close" not in q:
+            return [[0, 10080]]                                  # open 24 hours
+        c = q["close"]["day"] * 1440 + q["close"].get("hour", 0) * 60 + q["close"].get("minute", 0)
+        out.append([o, c])
+    return out
+
+
+def google_price(g):
+    """Per-person price bucket from Google's price range (TWD) or price level; None when Google has neither."""
+    r = g.get("priceRange") or {}
+    lo = int((r.get("startPrice") or {}).get("units", 0) or 0)
+    hi = int((r.get("endPrice") or {}).get("units", 0) or 0)
+    if lo or hi:
+        mid = (lo + hi) / 2 if hi else lo
+        return "$" if mid <= 150 else "$$" if mid <= 400 else "$$$" if mid <= 1000 else "$$$$"
+    return PRICE_LEVEL.get(g.get("priceLevel"))
+
+
+def fetch_details(p):
+    """Update one record in place from Place Details. Returns the old->new status string if status changed."""
+    try:
+        g = api(f"https://places.googleapis.com/v1/places/{p['pid']}", mask=DETAIL_MASK)
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            g = {"businessStatus": "CLOSED_PERMANENTLY"}
+        else:
+            sys.exit(f"Places API error {e.code}: {e.read()[:300]!r}")
+    change = None
+    s = g.get("businessStatus")
+    if s and s != p.get("status"):
+        change = f"{p['name']}: {STATUS_ZH.get(p.get('status'), p.get('status'))} -> {STATUS_ZH.get(s, s)}"
+        p["status"] = s
+    p["hours"] = week_minutes(g)
+    p["rating"] = g.get("rating")
+    p["rating_count"] = g.get("userRatingCount")
+    p["gprice"] = google_price(g)
+    p["checked"] = TODAY
+    time.sleep(0.05)
+    return change
+
+
+def details(everything=False):
+    """Refresh status, opening hours, rating and price from Google for saved places and Bib Gourmand entries.
+    Default: only records never fetched. `recheck` passes everything=True (monthly)."""
+    changed, n = [], 0
     d = load()
-    changed = []
     for p in d:
-        if not p.get("pid"):
-            continue
-        try:
-            g = api(f"https://places.googleapis.com/v1/places/{p['pid']}", mask="businessStatus")
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                g = {"businessStatus": "CLOSED_PERMANENTLY"}
-            else:
-                sys.exit(f"Places API error {e.code}: {e.read()[:300]!r}")
-        s = g.get("businessStatus")
-        if s and s != p.get("status"):
-            changed.append(f"{p['name']}: {STATUS_ZH.get(p.get('status'), p.get('status'))} -> {STATUS_ZH.get(s, s)}")
-            p["status"] = s
-        p["checked"] = TODAY
-        time.sleep(0.05)
+        if p.get("pid") and (everything or "hours" not in p):
+            c = fetch_details(p); n += 1
+            if c: changed.append(c)
     save(d)
-    print(f"status changes: {len(changed)}")
+    bp = os.path.join(ROOT, "data", "bib.json")
+    if os.path.exists(bp):
+        b = json.load(open(bp, encoding="utf-8"))
+        for p in b:
+            if p.get("pid") and (everything or "hours" not in p):
+                c = fetch_details(p); n += 1
+                if c: changed.append("必比登 " + c)
+        json.dump(b, open(bp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"details fetched for {n} records | status changes: {len(changed)}")
     for c in changed: print("  " + c)
+
+
+def recheck():
+    details(everything=True)
 
 
 def report():
@@ -145,7 +202,8 @@ def build():
     bp = os.path.join(ROOT, "data", "bib.json")
     bib = json.load(open(bp, encoding="utf-8")) if os.path.exists(bp) else []
     bib_years = {b["pid"]: b["years"] for b in bib if b.get("pid")}
-    view = [dict(name=p["name"], region=p["region"], type=p["type"], occ=p["occ"], price=p["price"], note=p["note"],
+    view = [dict(name=p["name"], region=p["region"], type=p["type"], occ=p["occ"], price=p.get("gprice") or p["price"], note=p["note"],
+                 h=p.get("hours"), rt=p.get("rating"), rc=p.get("rating_count"),
                  url=p["url"], pid=p.get("pid"), status=p.get("status"), park=p.get("parking"),
                  bib=bib_years.get(p.get("bib_pid") or p.get("pid")),
                  lat=None if p.get("nomatch") or p.get("lat") is None else round(p["lat"], 6),
@@ -153,7 +211,8 @@ def build():
     # last date the data actually changed or was rechecked; stable across no-op weekly runs
     saved_bib = {p.get("bib_pid") or p.get("pid") for p in d}
     bib_view = [dict(name=b["name"], addr=b["addr"], city=b["city"], region=region(b["addr"]) or b["city"], years=b["years"],
-                     pid=b["pid"], lat=b["lat"], lng=b["lng"], url=b.get("gurl"), status=b.get("status"))
+                     pid=b["pid"], lat=b["lat"], lng=b["lng"], url=b.get("gurl"), status=b.get("status"),
+                     h=b.get("hours"), rating=b.get("rating"), count=b.get("rating_count"), price=b.get("gprice"))
                 for b in bib if b.get("pid") and b["pid"] not in saved_bib and b.get("status") != "CLOSED_PERMANENTLY"]
     updated = max((p.get("checked") or "" for p in d), default=TODAY) or TODAY
     tpl = open(os.path.join(ROOT, "scripts", "template.html"), encoding="utf-8").read()
@@ -199,5 +258,5 @@ def parking():
 
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
-    {"merge": lambda: merge(sys.argv[2]), "geocode": geocode, "recheck": recheck, "report": report, "build": build, "parking": parking}.get(
+    {"merge": lambda: merge(sys.argv[2]), "geocode": geocode, "recheck": recheck, "report": report, "build": build, "parking": parking, "details": details}.get(
         cmd, lambda: sys.exit(__doc__))()

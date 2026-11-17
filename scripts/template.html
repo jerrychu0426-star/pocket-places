@@ -25,7 +25,7 @@
   --navy:#1f3a5f; --navy-2:#2d5283; --on-navy:#f8eed6; --on-navy-muted:#c9d6ea;
   --red:#8e2a22; --red-soft:#f3d9d1; --mustard:#c8962f; --tape:rgba(200,150,47,.5);
   --blue:#2a5a9a; --blue-soft:#dfe8f4; --plum:#5b3a7a; --plum-soft:#e9e1f1; --coffee-bg:#f6e2b0; --coffee:#7a560f; --misc-bg:#efe0c4;
-  --scrim:rgba(20,16,8,.45); --shadow:0 1px 0 rgba(42,36,24,.05),0 4px 12px -6px rgba(90,60,20,.3);
+  --ok:#2e7d4f; --scrim:rgba(20,16,8,.45); --shadow:0 1px 0 rgba(42,36,24,.05),0 4px 12px -6px rgba(90,60,20,.3);
   --hand:"LXGW WenKai TC","Kaiti TC","STKaiti","DFKai-SB",serif;
   --body:-apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif;
   color-scheme:light;
@@ -35,7 +35,7 @@
   --navy:#0f1f38; --navy-2:#1d3558; --on-navy:#f6ecd4; --on-navy-muted:#a9bbd8;
   --red:#e5735f; --red-soft:#3b2220; --mustard:#e2b65a; --tape:rgba(226,182,90,.35);
   --blue:#8fb4ea; --blue-soft:#1f2d45; --plum:#c9a8e6; --plum-soft:#2e2540; --coffee-bg:#3a3020; --coffee:#e2b65a; --misc-bg:#2a2a2a;
-  --scrim:rgba(0,0,0,.6); --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
+  --ok:#7fd3a0; --scrim:rgba(0,0,0,.6); --shadow:0 1px 0 rgba(0,0,0,.3); color-scheme:dark}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%}
@@ -122,6 +122,17 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
 .go{flex:none;height:34px;display:inline-flex;align-items:center;gap:4px;padding:0 13px;border-radius:9px;background:var(--red);color:var(--card);text-decoration:none;font-size:14px;font-weight:700}
 @media (prefers-color-scheme: dark){.go,.park .P{color:#141a26}}
 .go svg{width:15px;height:15px}
+.st{display:flex;flex-wrap:wrap;align-items:center;gap:2px 10px;margin-top:3px;font-size:13px;color:var(--muted)}
+.op{font-weight:700;display:inline-flex;align-items:center;gap:5px}
+.op::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.op.y{color:var(--ok)}.op.n{color:var(--muted)}
+.res .btns{display:flex;gap:14px;flex:none}
+#map{height:68vh;min-height:360px;border-radius:14px;border:1px solid var(--line);position:relative;z-index:0;isolation:isolate;background:var(--card)}
+.mapnote{font-size:12px;color:var(--muted);margin:6px 2px 0}
+.leaflet-popup-content{margin:10px 12px;font-family:var(--body);font-size:13px;line-height:1.5;color:#2a2418}
+.leaflet-popup-content b{font-size:15px}
+.leaflet-popup-content a.pgo{display:inline-block;margin-top:6px;padding:4px 12px;border-radius:8px;background:#8e2a22;color:#fff;text-decoration:none;font-weight:700}
+.leaflet-popup-content a.pnm{color:#2a2418;text-decoration:none}
 .empty{padding:40px 10px;text-align:center;color:var(--muted)}
 .legend{font-size:12px;color:var(--muted);margin:26px 0 0;line-height:1.7}
 .foot-note{font-family:var(--hand);text-align:center;color:var(--muted);font-size:15px;margin:14px 0 calc(24px + env(safe-area-inset-bottom))}
@@ -192,11 +203,12 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
     <button type="button" role="tab" data-m="gg" aria-selected="false">附近推薦<b id="c-gg"></b></button>
   </div>
   <div id="hint" class="hint" hidden></div>
-  <div class="res"><span class="n" id="count"></span><button class="lnk" id="pick" type="button">🎲 隨機挑一家</button></div>
+  <div class="res"><span class="n" id="count"></span><span class="btns"><button class="lnk" id="vmap" type="button" aria-pressed="false">🗺 地圖</button><button class="lnk" id="pick" type="button">🎲 隨機</button></span></div>
   <div id="lucky" class="lucky" hidden></div>
+  <div id="mapwrap" hidden><div id="map"></div><p class="mapnote">紅色＝營業中，灰色＝休息中或時間不明，藍色＝你的位置。點圓點看店名與導航。</p></div>
   <ul id="list"></ul>
   <a id="more" class="more" target="_blank" rel="noopener" hidden>在 Google Maps 看更多附近好店 ›</a>
-  <p class="legend">每週一自動檢查更新；「收錄」不含已歇業的店。營業狀態與最近停車場（800 公尺內）取自 Google 地點資料，步行時間以每分鐘 70 公尺估算。點店名可開啟 Google Maps 店家頁。「必比登」為米其林指南臺灣 2024–2026 年必比登推介（名單整理自食尚玩家報導），「附近推薦」為 Google 地點資料中評分 4.2 以上、評論 200 則以上、目前營業中的店家。價位為每人估算：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上。</p>
+  <p class="legend">每週一自動檢查更新；「收錄」不含已歇業的店。營業時間、評分、價位與最近停車場（800 公尺內）取自 Google 地點資料，每月更新一次；「營業中」是依店家平常的營業時間推算，遇到臨時店休或國定假日可能不準。步行時間以每分鐘 70 公尺估算。點店名可開啟 Google Maps 店家頁。「必比登」為米其林指南臺灣 2024–2026 年必比登推介（名單整理自食尚玩家報導），「附近推薦」為 Google 地點資料中評分 4.2 以上、評論 200 則以上、目前營業中的店家。價位為每人大約花費：$ 150 內、$$ 150–400、$$$ 400–1000、$$$$ 1000 以上；Google 沒有資料的店用估算。地圖底圖 © OpenStreetMap 貢獻者。</p>
   <p class="foot-note">下一站，去哪都好吃 ♥</p>
 </main>
 
@@ -209,6 +221,7 @@ input[type=search]{width:100%;height:40px;font:inherit;font-size:16px;padding:0 
     <div class="grp"><h3>城市</h3><div class="wrap" id="g-city"></div></div>
     <div class="grp"><h3>價位</h3><div class="wrap" id="g-price"></div></div>
     <div class="grp"><h3>標籤</h3><div class="wrap" id="g-tag"></div></div>
+    <div class="grp"><h3>排序</h3><div class="wrap" id="g-sort"></div></div>
   </div>
   <div class="bar"><button id="clear" type="button">全部清除</button><button id="apply" type="button">顯示結果</button></div>
 </div>
@@ -219,7 +232,29 @@ const BIB=__BIB__;
 let mode="mine",GG=null,ggKey=null,ggErr="",ggMsg="";
 const CITIES=["台北","台南","新北","桃園","台中","高雄","新竹","基隆","宜蘭"];
 const cityOf=p=>{const c=(p.region||"").slice(0,2);return CITIES.includes(c)?c:"其他"};
-const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set(),tag:new Set()};
+const S={r:3,q:"",type:new Set(),occ:new Set(),city:new Set(),price:new Set(),tag:new Set(),sort:"d"};
+let view="list",CUR=[];
+/* opening hours: h = [[open,close],...] in minutes from Sunday 00:00, Taipei time */
+const DOW=["週日","週一","週二","週三","週四","週五","週六"];
+function nowMin(){const f=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Taipei",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date());
+  const g=k=>f.find(x=>x.type===k).value;return ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].indexOf(g("weekday"))*1440+(+g("hour"))*60+(+g("minute"))}
+const hm=m=>{m=((m%1440)+1440)%1440;return String(Math.floor(m/60)).padStart(2,"0")+":"+String(m%60).padStart(2,"0")};
+function openInfo(p,t){
+  if(p.status==="CLOSED_TEMPORARILY")return{open:false,text:"暫停營業"};
+  const h=p.h;if(!h)return{open:null,text:""};
+  if(!h.length)return{open:false,text:"休息中"};
+  const W=10080;
+  for(const [o,c0] of h){const c=c0<=o?c0+W:c0;
+    for(const x of [t,t+W]){if(x>=o&&x<c){if(c-o>=W)return{open:true,text:"24 小時營業"};return{open:true,text:"營業中・至 "+hm(c)}}}}
+  let best=null;for(const [o] of h){const dlt=((o-t)%W+W)%W;if(best===null||dlt<best.d)best={d:dlt,o}}
+  const today=Math.floor(t/1440),od=Math.floor(best.o/1440);
+  const opensToday=h.some(([o])=>Math.floor(o/1440)===today);
+  if(od===today&&best.o>t)return{open:false,text:"休息中・"+hm(best.o)+" 開"};
+  const when=(od===(today+1)%7?"明天":DOW[od])+" "+hm(best.o)+" 開";
+  return{open:false,text:(opensToday?"已打烊・":"今日公休・")+when}}
+const stHtml=(p,t)=>{const s=openInfo(p,t);return s.text?`<span class="op ${s.open?"y":"n"}">${s.text}</span>`:""};
+const rtHtml=(r,c)=>r?`<span class="star">★ ${r.toFixed(1)}</span><span>${c>=10000?(c/10000).toFixed(1)+" 萬":(c||0).toLocaleString()} 則</span>`:"";
+function sortRows(rows,rk){if(S.sort==="r")rows.sort((a,b)=>(b[rk]||0)-(a[rk]||0)||(a.d??0)-(b.d??0));return rows}
 let here=null;
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -231,7 +266,8 @@ function setR(v){S.r=v;gr.querySelectorAll(".chip").forEach(c=>c.setAttribute("a
 [["1 公里",1],["3 公里",3],["10 公里",10],["30 公里",30],["不限距離",1e9]].forEach(([l,v])=>{chip(gr,l,v===S.r,()=>{setR(v);render()}).dataset.v=v});
 
 /* type (toolbar) + sheet groups */
-const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"],tag:["必比登"]};
+const sets={type:["餐廳","咖啡","酒吧","景點","外帶/伴手禮"],occ:["約會","一個人","帶朋友"],city:[...CITIES,"其他"],price:["$","$$","$$$","$$$$"],tag:["營業中","必比登"]};
+[["距離／預設","d"],["評分高到低","r"]].forEach(([l,v])=>{chip($("g-sort"),l,v===S.sort,()=>{S.sort=v;$("g-sort").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.v===v));render()}).dataset.v=v});
 chip($("g-type"),"全部",true,()=>{S.type.clear();syncType();render()}).dataset.all=1;
 function syncType(){$("g-type").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.all?!S.type.size:S.type.has(c.textContent)))}
 sets.type.forEach(v=>chip($("g-type"),v,false,()=>{S.type.has(v)?S.type.delete(v):S.type.add(v);syncType();render()}));
@@ -242,16 +278,18 @@ for(const k of ["occ","city","price","tag"]){sets[k].forEach(v=>chip($("g-"+k),v
 function km(a,b){const t=Math.PI/180,dl=(b.lat-a.lat)*t,dg=(b.lng-a.lng)*t;const x=Math.sin(dl/2)**2+Math.cos(a.lat*t)*Math.cos(b.lat*t)*Math.sin(dg/2)**2;return 12742*Math.asin(Math.sqrt(x))}
 const fmt=d=>d<1?Math.round(d*1000)+" m":d.toFixed(1)+" km";
 function filtered(){
-  const q=S.q.toLowerCase();
+  const q=S.q.toLowerCase(),T=nowMin();
   let rows=D.filter(p=>p.status!=="CLOSED_PERMANENTLY"
     &&(!q||(p.name+p.region+p.note+p.type).toLowerCase().includes(q))
     &&(!S.type.size||S.type.has(p.type))
     &&(!S.occ.size||[...S.occ].some(o=>(p.occ||"").includes(o)))
     &&(!S.city.size||S.city.has(cityOf(p)))
     &&(!S.price.size||S.price.has(p.price))
-    &&(!S.tag.size||p.bib));
+    &&(!S.tag.has("必比登")||p.bib)
+    &&(!S.tag.has("營業中")||openInfo(p,T).open===true));
   if(here){rows=rows.filter(p=>p.lat!=null).map(p=>({...p,d:km(here,p)})).filter(p=>p.d<=S.r).sort((a,b)=>a.d-b.d)}
-  return rows}
+  else rows=rows.slice();
+  return sortRows(rows,"rt")}
 const NAV='<svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 3 3 10.5l7.5 2.9L13.4 21z"/></svg>';
 function park(p){
   if(p.lat==null)return "";
@@ -262,30 +300,34 @@ function park(p){
   return `<a class="park" href="${esc(nav)}" target="_blank" rel="noopener" aria-label="導航到停車場 ${esc(k.name)}"><span class="P">P</span><span class="pn">${esc(k.name)}</span><span class="w">${w}</span></a>`}
 function item(p,i){
   const nav=p.lat!=null?`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:""):"";
-  const bad=p.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':p.lat==null?'<span class="bad">查不到位置</span>':"";
+  const bad=p.lat==null?'<span class="bad">查不到位置</span>':"";
+  const st=stHtml(p,nowMin())+rtHtml(p.rt,p.rc);
   return `<li class="card"><div class="no">${i??"★"}</div><div class="main">
   <div class="top"><a class="nm" href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a><span class="d">${p.d!=null?fmt(p.d):""}</span></div>
   <div class="meta"><span class="tag" data-t="${esc(p.type)}">${esc(p.type)}</span>${p.bib?`<span class="bib">${yrs(p.bib)}</span>`:""}<span>${esc(p.region)}</span><span class="pr">${esc(p.price)}</span><span>${esc(p.occ)}</span>${bad}</div>
+  ${st?`<div class="st">${st}</div>`:""}
   ${p.note?`<div class="note">${esc(p.note)}</div>`:""}
   <div class="foot">${park(p)}${nav?`<a class="go" href="${esc(nav)}" target="_blank" rel="noopener">${NAV}導航</a>`:""}</div>
   </div></li>`}
-function sheetCount(){return S.occ.size+S.city.size+S.price.size+S.tag.size}
+function sheetCount(){return S.occ.size+S.city.size+S.price.size+S.tag.size+(S.sort!=="d"?1:0)}
 const yrs=y=>"必比登 "+y.map(v=>"’"+String(v).slice(2)).join("・");
 function bibRows(){
   const q=S.q.toLowerCase();
-  let rows=BIB.filter(b=>(!q||(b.name+b.addr).toLowerCase().includes(q))&&(!S.city.size||S.city.has(cityOf(b))));
+  const T=nowMin();
+  let rows=BIB.filter(b=>(!q||(b.name+b.addr).toLowerCase().includes(q))&&(!S.city.size||S.city.has(cityOf(b)))
+    &&(!S.price.size||S.price.has(b.price))&&(!S.tag.has("營業中")||openInfo(b,T).open===true));
   if(here){rows=rows.map(b=>({...b,d:km(here,b)})).filter(b=>b.d<=S.r).sort((a,b)=>a.d-b.d)}
   else rows=rows.slice().sort((a,b)=>b.years.length-a.years.length||a.city.localeCompare(b.city));
-  return rows}
+  return sortRows(rows,"rating")}
 function extItem(b,i){
   const nav=`https://www.google.com/maps/dir/?api=1&destination=${b.lat},${b.lng}`+(b.pid?`&destination_place_id=${encodeURIComponent(b.pid)}`:"");
   const meta=[b.years?`<span class="bib">${yrs(b.years)}</span>`:"",
-    b.rating?`<span class="star">★ ${b.rating.toFixed(1)}</span><span>${b.count.toLocaleString()} 則評論</span>`:"",
-    b.kind?`<span class="tag">${esc(b.kind)}</span>`:"",`<span>${esc(b.region||"")}</span>`,
-    b.status==="CLOSED_TEMPORARILY"?'<span class="bad">暫停營業</span>':""].join("");
+    b.kind?`<span class="tag">${esc(b.kind)}</span>`:"",`<span>${esc(b.region||"")}</span>`,b.price?`<span class="pr">${esc(b.price)}</span>`:""].join("");
+  const st=(b.gg?'<span class="op y">營業中</span>':stHtml(b,nowMin()))+rtHtml(b.rating,b.count);
   return `<li class="card"><div class="no">${i}</div><div class="main">
   <div class="top"><a class="nm" href="${esc(b.url||nav)}" target="_blank" rel="noopener">${esc(b.name)}</a><span class="d">${b.d!=null?fmt(b.d):""}</span></div>
   <div class="meta">${meta}</div>
+  ${st?`<div class="st">${st}</div>`:""}
   <div class="foot"><span class="addr">${esc(b.addr||"")}</span><a class="go" href="${esc(nav)}" target="_blank" rel="noopener">${NAV}導航</a></div></div></li>`}
 /* Google nearby recommendations (needs browser_key.txt next to this page) */
 const GTYPES={"餐廳":["restaurant"],"咖啡":["cafe","coffee_shop","dessert_shop","bakery"],"酒吧":["bar","pub","wine_bar"],"景點":["tourist_attraction"],"外帶/伴手禮":["bakery","dessert_shop"]};
@@ -310,7 +352,7 @@ async function fetchGG(){
     const j=await r.json();
     GG=(j.places||[]).filter(g=>!savedPids.has(g.id)&&(g.rating||0)>=4.2&&(g.userRatingCount||0)>=200&&g.currentOpeningHours?.openNow!==false)
       .map(g=>({name:g.displayName?.text||"",pid:g.id,lat:g.location.latitude,lng:g.location.longitude,rating:g.rating,count:g.userRatingCount,
-        kind:g.primaryTypeDisplayName?.text||"",url:g.googleMapsUri,region:g.shortFormattedAddress||"",years:bibByPid.get(g.id)?.years}))
+        kind:g.primaryTypeDisplayName?.text||"",gg:g.currentOpeningHours?.openNow===true,url:g.googleMapsUri,region:g.shortFormattedAddress||"",years:bibByPid.get(g.id)?.years}))
       .map(g=>({...g,d:km(here,g)})).sort((a,b)=>a.d-b.d).slice(0,10);
   }catch(e){ggErr="fail";ggMsg=String(e.message||e);GG=[]}
   render()}
@@ -339,6 +381,10 @@ function render(){
       $("list").innerHTML=GG.length?GG.map((b,i)=>extItem(b,i+1)).join(""):(ggErr?"":'<li class="empty">附近沒有符合條件的推薦（評分 4.2+、200 則評論以上、營業中）。</li>');
       M.hidden=false}
   }
+  CUR=mode==="mine"?rows:mode==="bib"?brows:(here&&GG?GG:[]);
+  $("vmap").setAttribute("aria-pressed",view==="map");$("vmap").textContent=view==="map"?"☰ 清單":"🗺 地圖";
+  $("mapwrap").hidden=view!=="map";$("list").hidden=view==="map";
+  if(view==="map")drawMap();
   $("lucky").hidden=true;
   const n=sheetCount();$("fbadge").hidden=!n;$("fbadge").textContent=n;
   $("apply").textContent=`顯示 ${rows.length} 家`;
@@ -354,11 +400,35 @@ function closeSheet(){$("scrim").hidden=true;$("sheet").hidden=true;document.bod
 $("openf").onclick=openSheet;$("closef").onclick=closeSheet;$("scrim").onclick=closeSheet;
 $("apply").onclick=()=>{closeSheet();window.scrollTo({top:0,behavior:"smooth"})};
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("sheet").hidden)closeSheet()});
-$("clear").onclick=()=>{["occ","city","price"].forEach(k=>S[k].clear());$("sheet").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed","false"));render()};
+$("clear").onclick=()=>{["occ","city","price","tag"].forEach(k=>S[k].clear());S.sort="d";$("sheet").querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.v==="d"));render()};
+/* map view (Leaflet, loaded on first use) */
+let LMAP=null,LLAYER=null,LLOAD=null,LFIT="";
+function loadLeaflet(){return LLOAD||(LLOAD=new Promise((ok,no)=>{const c=document.createElement("link");c.rel="stylesheet";c.href="vendor/leaflet.css";document.head.appendChild(c);
+  const s=document.createElement("script");s.src="vendor/leaflet.js";s.onload=ok;s.onerror=no;document.head.appendChild(s)}))}
+async function drawMap(){
+  try{await loadLeaflet()}catch(e){$("map").textContent="地圖載入失敗，請重新整理再試。";return}
+  if(view!=="map")return;
+  if(!LMAP){LMAP=L.map("map",{zoomControl:true,attributionControl:true}).setView([23.7,121],7);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(LMAP);
+    LLAYER=L.layerGroup().addTo(LMAP)}
+  LMAP.invalidateSize();LLAYER.clearLayers();
+  const T=nowMin(),pts=[];
+  CUR.filter(p=>p.lat!=null).slice().reverse().forEach(p=>{
+    const s=p.gg?{open:true,text:"營業中"}:openInfo(p,T),rt=p.rt??p.rating,rc=p.rc??p.count;
+    const nav=`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`+(p.pid?`&destination_place_id=${encodeURIComponent(p.pid)}`:"");
+    L.circleMarker([p.lat,p.lng],{radius:8,weight:2,color:"#fff",fillColor:s.open?"#8e2a22":"#8a8577",fillOpacity:.95}).addTo(LLAYER)
+     .bindPopup(`<a class="pnm" href="${esc(p.url||nav)}" target="_blank" rel="noopener"><b>${esc(p.name)}</b></a><br>${esc([p.type||p.kind,p.price,p.d!=null?fmt(p.d):""].filter(Boolean).join("・"))}`
+       +(s.text?`<br>${esc(s.text)}`:"")+(rt?`<br>★ ${rt.toFixed(1)}（${(rc||0).toLocaleString()} 則）`:"")+`<br><a class="pgo" href="${esc(nav)}" target="_blank" rel="noopener">導航</a>`);
+    pts.push([p.lat,p.lng])});
+  if(here){L.circleMarker([here.lat,here.lng],{radius:7,weight:3,color:"#fff",fillColor:"#2a5a9a",fillOpacity:1}).addTo(LLAYER).bindPopup("你的位置");pts.push([here.lat,here.lng])}
+  const sig=mode+"|"+pts.length+"|"+(here?here.lat.toFixed(3)+here.lng.toFixed(3):"")+"|"+S.r+"|"+[...S.city].join()+"|"+[...S.type].join();
+  if(pts.length&&sig!==LFIT){LFIT=sig;LMAP.fitBounds(pts,{padding:[30,30],maxZoom:16})}}
+$("vmap").onclick=()=>{view=view==="map"?"list":"map";render()};
 
 /* random */
 $("pick").onclick=()=>{
-  const pool=filtered().filter(p=>p.status==="OPERATIONAL");const L=$("lucky");L.hidden=false;
+  const T0=nowMin(),all=filtered().filter(p=>p.status==="OPERATIONAL"),on=all.filter(p=>openInfo(p,T0).open===true);
+  const pool=on.length?on:all;const L=$("lucky");L.hidden=false;
   const close='<button type="button" onclick="this.closest(\'.lucky\').hidden=true">收起</button>';
   if(!pool.length){L.innerHTML=`<div class="lab">隨機挑選${close}</div><div class="empty" style="padding:14px">目前條件下沒有可挑的店。</div>`;return}
   const p=pool[Math.floor(Math.random()*pool.length)];

@@ -13,7 +13,41 @@
   "lat": 25.055024,
   "lng": 121.526088,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2767152867885774195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2767152867885774195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1290
+   ],
+   [
+    2130,
+    2730
+   ],
+   [
+    3570,
+    4170
+   ],
+   [
+    5010,
+    5610
+   ],
+   [
+    6450,
+    7050
+   ],
+   [
+    7890,
+    8490
+   ],
+   [
+    9330,
+    9930
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 4833,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "隱食家（雙城街）",
@@ -29,7 +63,53 @@
   "lat": 25.065773,
   "lng": 121.523764,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=14208911154952060009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=14208911154952060009&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3570,
+    3720
+   ],
+   [
+    3960,
+    4170
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5400,
+    5610
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6840,
+    7050
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8280,
+    8490
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9720,
+    9930
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 529,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "人和園",
@@ -45,7 +125,69 @@
   "lat": 25.060726,
   "lng": 121.522761,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10255082438513245269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10255082438513245269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2612,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小酌之家",
@@ -61,7 +203,45 @@
   "lat": 25.065931,
   "lng": 121.530315,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1355247662262504686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1355247662262504686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 616,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "軟食力",
@@ -77,7 +257,41 @@
   "lat": 25.0643,
   "lng": 121.53413,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7563437820315971352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7563437820315971352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    420,
+    840
+   ],
+   [
+    1860,
+    2280
+   ],
+   [
+    3300,
+    3720
+   ],
+   [
+    4740,
+    5160
+   ],
+   [
+    6180,
+    6600
+   ],
+   [
+    7620,
+    8040
+   ],
+   [
+    9060,
+    9480
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 2459,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "黃記魯肉飯",
@@ -93,7 +307,33 @@
   "lat": 25.06367,
   "lng": 121.524142,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11992006360066030046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11992006360066030046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1200
+   ],
+   [
+    3570,
+    4080
+   ],
+   [
+    5010,
+    5520
+   ],
+   [
+    7890,
+    8400
+   ],
+   [
+    9330,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 6472,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "有有1969【NEW】",
@@ -107,7 +347,61 @@
   "lat": 25.048975,
   "lng": 121.542074,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=14149054633695520397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=14149054633695520397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2730
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4170
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5610
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    7050
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8490
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9930
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1750,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小小樹食 (大安路)",
@@ -123,7 +417,41 @@
   "lat": 25.039901,
   "lng": 121.544823,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=16261548893590627523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16261548893590627523&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    1260
+   ],
+   [
+    2160,
+    2700
+   ],
+   [
+    3600,
+    4140
+   ],
+   [
+    5040,
+    5580
+   ],
+   [
+    6480,
+    7020
+   ],
+   [
+    7920,
+    8460
+   ],
+   [
+    9360,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 2757,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "天下三絕",
@@ -139,7 +467,69 @@
   "lat": 25.03888,
   "lng": 121.545317,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=27587628862279662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=27587628862279662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    870
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2310
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    3570,
+    3750
+   ],
+   [
+    3930,
+    4110
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5550
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 3159,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鼎泰豐 (信義路)",
@@ -155,7 +545,41 @@
   "lat": 25.033889,
   "lng": 121.532134,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6292126131638321145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6292126131638321145&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    1230
+   ],
+   [
+    2100,
+    2670
+   ],
+   [
+    3540,
+    4110
+   ],
+   [
+    4980,
+    5550
+   ],
+   [
+    6420,
+    6990
+   ],
+   [
+    7860,
+    8430
+   ],
+   [
+    9270,
+    9870
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 7301,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "巷子龍家常菜",
@@ -171,7 +595,61 @@
   "lat": 25.035469,
   "lng": 121.548253,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3896537146544171414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3896537146544171414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 3.9,
+  "rating_count": 839,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "杭州小籠湯包 (大安)",
@@ -187,7 +665,69 @@
   "lat": 25.034069,
   "lng": 121.523723,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4871427777013035380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4871427777013035380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    990,
+    1260
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2430,
+    2700
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3870,
+    4140
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5310,
+    5580
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6750,
+    7020
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8190,
+    8460
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9630,
+    9900
+   ]
+  ],
+  "rating": 3.8,
+  "rating_count": 9255,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "Pàng 胖塔可",
@@ -203,7 +743,41 @@
   "lat": 25.032569,
   "lng": 121.553654,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3856788868594343583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3856788868594343583&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1260
+   ],
+   [
+    2130,
+    2700
+   ],
+   [
+    3570,
+    4140
+   ],
+   [
+    5010,
+    5580
+   ],
+   [
+    6450,
+    7020
+   ],
+   [
+    7890,
+    8490
+   ],
+   [
+    9330,
+    9930
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1138,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "Tableau by Craig Yang",
@@ -218,7 +792,41 @@
   "lat": 25.035113,
   "lng": 121.550347,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9370192616044007572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9370192616044007572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3960,
+    4170
+   ],
+   [
+    5040,
+    5220
+   ],
+   [
+    5400,
+    5610
+   ],
+   [
+    6840,
+    7050
+   ],
+   [
+    8280,
+    8490
+   ],
+   [
+    9360,
+    9540
+   ],
+   [
+    9720,
+    9930
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 197,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "金賞軒",
@@ -234,7 +842,53 @@
   "lat": 25.054147,
   "lng": 121.552511,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3113034297368510475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3113034297368510475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    5040,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6480,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7920,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9360,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 1156,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "醉楓園小館",
@@ -250,7 +904,61 @@
   "lat": 25.047456,
   "lng": 121.54978,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13532331135287522799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13532331135287522799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    700,
+    840
+   ],
+   [
+    1060,
+    1260
+   ],
+   [
+    3580,
+    3720
+   ],
+   [
+    3940,
+    4140
+   ],
+   [
+    5020,
+    5160
+   ],
+   [
+    5380,
+    5580
+   ],
+   [
+    6460,
+    6600
+   ],
+   [
+    6820,
+    7020
+   ],
+   [
+    7900,
+    8040
+   ],
+   [
+    8260,
+    8460
+   ],
+   [
+    9340,
+    9480
+   ],
+   [
+    9700,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1839,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "雲川水月 蔬食餐酒館 Clavius",
@@ -265,7 +973,49 @@
   "lat": 25.059743,
   "lng": 121.553166,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=16839900126011070210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16839900126011070210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    1020
+   ],
+   [
+    1080,
+    1320
+   ],
+   [
+    3960,
+    4200
+   ],
+   [
+    5400,
+    5640
+   ],
+   [
+    6840,
+    7080
+   ],
+   [
+    7920,
+    8220
+   ],
+   [
+    8280,
+    8520
+   ],
+   [
+    9360,
+    9660
+   ],
+   [
+    9720,
+    9960
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 365,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "武田咖哩【NEW】",
@@ -279,7 +1029,69 @@
   "lat": 25.060825,
   "lng": 121.563384,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10543031477972533278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10543031477972533278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    930
+   ],
+   [
+    1080,
+    1230
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2520,
+    2610
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3960,
+    4050
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5400,
+    5490
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6840,
+    6930
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8280,
+    8370
+   ],
+   [
+    9360,
+    9570
+   ],
+   [
+    9720,
+    9870
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 291,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "HUGH dessert dining",
@@ -295,7 +1107,45 @@
   "lat": 25.067576,
   "lng": 121.512189,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7347522595497240971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7347522595497240971&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    780,
+    930
+   ],
+   [
+    960,
+    1110
+   ],
+   [
+    6540,
+    6690
+   ],
+   [
+    6720,
+    6870
+   ],
+   [
+    7980,
+    8130
+   ],
+   [
+    8160,
+    8310
+   ],
+   [
+    9420,
+    9570
+   ],
+   [
+    9600,
+    9750
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 214,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "大橋頭老牌筒仔米糕",
@@ -311,7 +1161,37 @@
   "lat": 25.064897,
   "lng": 121.511231,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4197356680263944533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4197356680263944533&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    420,
+    960
+   ],
+   [
+    1860,
+    2400
+   ],
+   [
+    4740,
+    5280
+   ],
+   [
+    6180,
+    6720
+   ],
+   [
+    7620,
+    8160
+   ],
+   [
+    9060,
+    9600
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 5472,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "賣麵炎仔",
@@ -327,7 +1207,41 @@
   "lat": 25.061099,
   "lng": 121.509786,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4857750640565943451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4857750640565943451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    420,
+    870
+   ],
+   [
+    1860,
+    2310
+   ],
+   [
+    3300,
+    3750
+   ],
+   [
+    4740,
+    5190
+   ],
+   [
+    6180,
+    6630
+   ],
+   [
+    7620,
+    8070
+   ],
+   [
+    9060,
+    9510
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 5995,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "祥和蔬食 (中正)",
@@ -343,7 +1257,69 @@
   "lat": 25.044362,
   "lng": 121.521792,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17219954875227781547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17219954875227781547&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2700
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4140
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1739,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "雙月食品 (青島東路)",
@@ -359,7 +1335,69 @@
   "lat": 25.043702,
   "lng": 121.522038,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6085922673212866287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6085922673212866287&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.8,
+  "rating_count": 25681,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "雄記蔥抓餅",
@@ -375,7 +1413,33 @@
   "lat": 25.013444,
   "lng": 121.53534,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1080324372144503497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1080324372144503497&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3840,
+    4290
+   ],
+   [
+    5280,
+    5730
+   ],
+   [
+    6720,
+    7170
+   ],
+   [
+    8160,
+    8610
+   ],
+   [
+    9600,
+    10050
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1000,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "無名推車燒餅",
@@ -391,7 +1455,41 @@
   "lat": 25.028444,
   "lng": 121.506733,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6137089884333867906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6137089884333867906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    990,
+    1200
+   ],
+   [
+    2430,
+    2640
+   ],
+   [
+    3870,
+    4080
+   ],
+   [
+    5310,
+    5520
+   ],
+   [
+    6750,
+    6960
+   ],
+   [
+    8190,
+    8400
+   ],
+   [
+    9630,
+    9840
+   ]
+  ],
+  "rating": 3.6,
+  "rating_count": 929,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "吾旺再季",
@@ -407,7 +1505,37 @@
   "lat": 25.028758,
   "lng": 121.506724,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10455300008599922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10455300008599922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    930,
+    1290
+   ],
+   [
+    3810,
+    4170
+   ],
+   [
+    5250,
+    5610
+   ],
+   [
+    6690,
+    7050
+   ],
+   [
+    8130,
+    8490
+   ],
+   [
+    9570,
+    9930
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1118,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "青嬌【NEW】",
@@ -421,7 +1549,41 @@
   "lat": 25.041433,
   "lng": 121.5272,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10035231937412618269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10035231937412618269&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1260
+   ],
+   [
+    2100,
+    2700
+   ],
+   [
+    3540,
+    4140
+   ],
+   [
+    4980,
+    5580
+   ],
+   [
+    6420,
+    7020
+   ],
+   [
+    7860,
+    8460
+   ],
+   [
+    9300,
+    9900
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 770,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小王煮瓜",
@@ -437,7 +1599,37 @@
   "lat": 25.039219,
   "lng": 121.498604,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17975734638609170553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17975734638609170553&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    570,
+    1200
+   ],
+   [
+    2010,
+    2640
+   ],
+   [
+    4890,
+    5520
+   ],
+   [
+    6330,
+    6960
+   ],
+   [
+    7770,
+    8400
+   ],
+   [
+    9210,
+    9840
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 14699,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "源芳刈包",
@@ -453,7 +1645,37 @@
   "lat": 25.039406,
   "lng": 121.498584,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7382308224376181209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7382308224376181209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1200
+   ],
+   [
+    3570,
+    4080
+   ],
+   [
+    5010,
+    5520
+   ],
+   [
+    6450,
+    6960
+   ],
+   [
+    7890,
+    8400
+   ],
+   [
+    9330,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 3022,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "一甲子餐飲",
@@ -469,7 +1691,37 @@
   "lat": 25.040402,
   "lng": 121.502171,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10325707353587816424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10325707353587816424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1980,
+    2580
+   ],
+   [
+    3420,
+    4020
+   ],
+   [
+    4860,
+    5460
+   ],
+   [
+    6300,
+    6900
+   ],
+   [
+    7740,
+    8340
+   ],
+   [
+    9180,
+    9480
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 7057,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "老山東牛肉家常麵店",
@@ -485,7 +1737,41 @@
   "lat": 25.04358,
   "lng": 121.506086,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2021455683086311662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2021455683086311662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    1290
+   ],
+   [
+    2070,
+    2730
+   ],
+   [
+    3510,
+    4170
+   ],
+   [
+    4950,
+    5610
+   ],
+   [
+    6390,
+    7050
+   ],
+   [
+    7830,
+    8490
+   ],
+   [
+    9270,
+    9930
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 5915,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "蘇來傳",
@@ -500,7 +1786,37 @@
   "lat": 25.035,
   "lng": 121.497693,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15801606090632866311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15801606090632866311&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1050
+   ],
+   [
+    3570,
+    3930
+   ],
+   [
+    5010,
+    5370
+   ],
+   [
+    6450,
+    6810
+   ],
+   [
+    7890,
+    8250
+   ],
+   [
+    9330,
+    9690
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 2254,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "心潮飯店",
@@ -516,7 +1832,41 @@
   "lat": 25.040501,
   "lng": 121.566569,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15451237304876423586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15451237304876423586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1290
+   ],
+   [
+    2100,
+    2730
+   ],
+   [
+    3540,
+    4170
+   ],
+   [
+    4980,
+    5610
+   ],
+   [
+    6420,
+    7080
+   ],
+   [
+    7860,
+    8520
+   ],
+   [
+    9300,
+    9960
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 3521,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "開囍",
@@ -530,7 +1880,69 @@
   "lat": 25.02715,
   "lng": 121.567124,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8102277477149675507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8102277477149675507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    870
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2310
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    3570,
+    3750
+   ],
+   [
+    3930,
+    4110
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5550
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8430
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9870
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 962,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鍾家原上海生煎包",
@@ -546,7 +1958,37 @@
   "lat": 25.089445,
   "lng": 121.526342,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=18277101184090461760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=18277101184090461760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    840,
+    1200
+   ],
+   [
+    2340,
+    2640
+   ],
+   [
+    3780,
+    4080
+   ],
+   [
+    6660,
+    6960
+   ],
+   [
+    8100,
+    8400
+   ],
+   [
+    9480,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1759,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "番紅花印度美饌",
@@ -562,7 +2004,65 @@
   "lat": 25.117531,
   "lng": 121.532989,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15344505121951750950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15344505121951750950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8490
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9930
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1713,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "松竹園",
@@ -578,7 +2078,69 @@
   "lat": 25.139812,
   "lng": 121.567616,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17032556407449438601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17032556407449438601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    960
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2130,
+    2400
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    3570,
+    3840
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    5010,
+    5280
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6450,
+    6720
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7890,
+    8160
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9600
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 6578,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "蓮霧腳羊肉湯",
@@ -593,7 +2155,37 @@
   "lat": 23.034491,
   "lng": 120.308268,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=568462227295086299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=568462227295086299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    300,
+    780
+   ],
+   [
+    1740,
+    2220
+   ],
+   [
+    3180,
+    3660
+   ],
+   [
+    6060,
+    6540
+   ],
+   [
+    7500,
+    7980
+   ],
+   [
+    8940,
+    9420
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 444,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿美飯店",
@@ -609,7 +2201,53 @@
   "lat": 22.994746,
   "lng": 120.204106,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17318390011116197475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17318390011116197475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2276,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "福泰飯桌第三代",
@@ -625,7 +2263,49 @@
   "lat": 22.995794,
   "lng": 120.205094,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=318735298139701504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=318735298139701504&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3480,
+    3690
+   ],
+   [
+    3870,
+    3990
+   ],
+   [
+    4920,
+    5130
+   ],
+   [
+    5310,
+    5430
+   ],
+   [
+    6360,
+    6570
+   ],
+   [
+    6750,
+    6870
+   ],
+   [
+    7800,
+    8010
+   ],
+   [
+    8190,
+    8310
+   ],
+   [
+    9240,
+    9450
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1331,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "落成米糕",
@@ -641,7 +2321,33 @@
   "lat": 22.995973,
   "lng": 120.204687,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5753912611252533761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5753912611252533761&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    1110
+   ],
+   [
+    2070,
+    2550
+   ],
+   [
+    3510,
+    3990
+   ],
+   [
+    7830,
+    8310
+   ],
+   [
+    9270,
+    9750
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2368,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "博仁堂",
@@ -657,7 +2363,41 @@
   "lat": 22.99661,
   "lng": 120.200434,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4093621813938549334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4093621813938549334&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    1230
+   ],
+   [
+    2160,
+    2670
+   ],
+   [
+    3600,
+    4110
+   ],
+   [
+    5040,
+    5550
+   ],
+   [
+    6480,
+    6990
+   ],
+   [
+    7920,
+    8430
+   ],
+   [
+    9360,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1287,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小公園擔仔麵",
@@ -673,7 +2413,33 @@
   "lat": 22.997165,
   "lng": 120.199605,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12914543519968009999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12914543519968009999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    980,
+    1320
+   ],
+   [
+    2420,
+    2760
+   ],
+   [
+    6740,
+    7080
+   ],
+   [
+    8180,
+    8520
+   ],
+   [
+    9620,
+    9960
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1376,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "一味品",
@@ -689,7 +2455,37 @@
   "lat": 22.997551,
   "lng": 120.198899,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=163502458625398847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=163502458625398847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    300,
+    1020
+   ],
+   [
+    1740,
+    2460
+   ],
+   [
+    4620,
+    5340
+   ],
+   [
+    6060,
+    6780
+   ],
+   [
+    7500,
+    8220
+   ],
+   [
+    8940,
+    9660
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 4092,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿星鹹粥",
@@ -705,7 +2501,37 @@
   "lat": 23.000007,
   "lng": 120.192241,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4837832535525559001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4837832535525559001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    360,
+    770
+   ],
+   [
+    3240,
+    3650
+   ],
+   [
+    4680,
+    5090
+   ],
+   [
+    6120,
+    6530
+   ],
+   [
+    7560,
+    7970
+   ],
+   [
+    9000,
+    9410
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2904,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "黃家蝦捲",
@@ -721,7 +2547,29 @@
   "lat": 23.002747,
   "lng": 120.192597,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8184200463641085585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8184200463641085585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    870,
+    1140
+   ],
+   [
+    2310,
+    2580
+   ],
+   [
+    3750,
+    4020
+   ],
+   [
+    5190,
+    5460
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 1833,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "誠實鍋燒意麵",
@@ -737,7 +2585,69 @@
   "lat": 22.989409,
   "lng": 120.198105,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=14649210647679501726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=14649210647679501726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    960,
+    1200
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2400,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3840,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5280,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6720,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8160,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9600,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1781,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "葉家小卷米粉",
@@ -753,7 +2663,33 @@
   "lat": 22.991075,
   "lng": 120.19696,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9590103266872809101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9590103266872809101&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    510,
+    840
+   ],
+   [
+    4830,
+    5220
+   ],
+   [
+    6270,
+    6660
+   ],
+   [
+    7710,
+    8100
+   ],
+   [
+    9150,
+    9480
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 5428,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "八寶彬圓仔惠",
@@ -769,7 +2705,37 @@
   "lat": 22.990453,
   "lng": 120.196678,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6395193438007342432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6395193438007342432&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    540,
+    1320
+   ],
+   [
+    3420,
+    4200
+   ],
+   [
+    4860,
+    5640
+   ],
+   [
+    6300,
+    7080
+   ],
+   [
+    7740,
+    8520
+   ],
+   [
+    9180,
+    9960
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3287,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "(大菜市)",
@@ -785,7 +2751,37 @@
   "lat": 22.991343,
   "lng": 120.194461,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6988823270250232013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6988823270250232013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    330,
+    750
+   ],
+   [
+    1770,
+    2190
+   ],
+   [
+    4650,
+    5070
+   ],
+   [
+    6090,
+    6510
+   ],
+   [
+    7530,
+    7950
+   ],
+   [
+    8970,
+    9390
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 2154,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "大勇街無名鹹粥",
@@ -801,7 +2797,37 @@
   "lat": 22.989842,
   "lng": 120.193308,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17719067003627080936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17719067003627080936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    240,
+    810
+   ],
+   [
+    3120,
+    3690
+   ],
+   [
+    4560,
+    5130
+   ],
+   [
+    6000,
+    6570
+   ],
+   [
+    7440,
+    8010
+   ],
+   [
+    8880,
+    9450
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 3380,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿文米粿",
@@ -817,7 +2843,41 @@
   "lat": 22.990478,
   "lng": 120.196082,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9089272520701498000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9089272520701498000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    510,
+    1320
+   ],
+   [
+    1950,
+    2760
+   ],
+   [
+    3390,
+    4200
+   ],
+   [
+    4830,
+    5640
+   ],
+   [
+    6270,
+    7080
+   ],
+   [
+    7710,
+    8520
+   ],
+   [
+    9150,
+    9960
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2396,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "吃麵吧",
@@ -833,7 +2893,53 @@
   "lat": 22.990774,
   "lng": 120.193764,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11769042255863418593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11769042255863418593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4080
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5520
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    6960
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8400
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1423,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "三好一公道當歸鴨",
@@ -849,7 +2955,37 @@
   "lat": 22.989152,
   "lng": 120.210832,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4995518584272188188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4995518584272188188&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    870,
+    1230
+   ],
+   [
+    3750,
+    4110
+   ],
+   [
+    5190,
+    5550
+   ],
+   [
+    6630,
+    6990
+   ],
+   [
+    8070,
+    8430
+   ],
+   [
+    9510,
+    9870
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 237,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "添厚",
@@ -865,7 +3001,61 @@
   "lat": 22.996947,
   "lng": 120.200472,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7190636666772315826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7190636666772315826&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4110
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8430
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 478,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "竹記冬菜鴨【NEW】",
@@ -879,7 +3069,45 @@
   "lat": 22.993599,
   "lng": 120.206289,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10197086236727133786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10197086236727133786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3600,
+    3750
+   ],
+   [
+    3870,
+    4050
+   ],
+   [
+    5040,
+    5190
+   ],
+   [
+    5310,
+    5490
+   ],
+   [
+    6480,
+    6630
+   ],
+   [
+    6750,
+    6930
+   ],
+   [
+    7920,
+    8070
+   ],
+   [
+    8190,
+    8370
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 403,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鮮蒸蝦仁肉圓",
@@ -895,7 +3123,61 @@
   "lat": 22.988751,
   "lng": 120.235225,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6294114963477654302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6294114963477654302&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    840
+   ],
+   [
+    990,
+    1140
+   ],
+   [
+    3510,
+    3720
+   ],
+   [
+    3870,
+    4020
+   ],
+   [
+    4950,
+    5160
+   ],
+   [
+    5310,
+    5460
+   ],
+   [
+    6390,
+    6600
+   ],
+   [
+    6750,
+    6900
+   ],
+   [
+    7830,
+    8040
+   ],
+   [
+    8190,
+    8340
+   ],
+   [
+    9270,
+    9480
+   ],
+   [
+    9630,
+    9780
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1137,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "葉桑生炒鴨肉焿",
@@ -911,7 +3193,33 @@
   "lat": 22.990284,
   "lng": 120.224548,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15471054367276530882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15471054367276530882&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    1140
+   ],
+   [
+    2070,
+    2580
+   ],
+   [
+    3510,
+    4020
+   ],
+   [
+    7830,
+    8340
+   ],
+   [
+    9270,
+    9780
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 690,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "詹記-家常飯桌鮮魚湯【NEW】",
@@ -925,7 +3233,53 @@
   "lat": 22.992299,
   "lng": 120.226244,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=14237302227699575834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=14237302227699575834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3540,
+    3690
+   ],
+   [
+    3900,
+    4020
+   ],
+   [
+    4980,
+    5130
+   ],
+   [
+    5340,
+    5460
+   ],
+   [
+    6420,
+    6570
+   ],
+   [
+    6780,
+    6900
+   ],
+   [
+    7860,
+    8010
+   ],
+   [
+    8220,
+    8340
+   ],
+   [
+    9300,
+    9450
+   ],
+   [
+    9660,
+    9780
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 211,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿興虱目魚",
@@ -941,7 +3295,41 @@
   "lat": 23.006545,
   "lng": 120.193437,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10434937269500906662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10434937269500906662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    450,
+    840
+   ],
+   [
+    1890,
+    2280
+   ],
+   [
+    3330,
+    3720
+   ],
+   [
+    4770,
+    5160
+   ],
+   [
+    6210,
+    6600
+   ],
+   [
+    7650,
+    8040
+   ],
+   [
+    9090,
+    9480
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 2990,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "開元紅燒土魠魚羮",
@@ -957,7 +3345,41 @@
   "lat": 23.008099,
   "lng": 120.221414,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2416022006512852225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2416022006512852225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    540,
+    1110
+   ],
+   [
+    1980,
+    2550
+   ],
+   [
+    3420,
+    3990
+   ],
+   [
+    4860,
+    5430
+   ],
+   [
+    6300,
+    6870
+   ],
+   [
+    7740,
+    8310
+   ],
+   [
+    9180,
+    9750
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3700,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "尚好吃牛肉湯",
@@ -973,7 +3395,45 @@
   "lat": 23.015209,
   "lng": 120.212632,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7374082598989700416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7374082598989700416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    240,
+    720
+   ],
+   [
+    1680,
+    2160
+   ],
+   [
+    4560,
+    5040
+   ],
+   [
+    6000,
+    6480
+   ],
+   [
+    7440,
+    7920
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    8880,
+    9360
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 956,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "西羅殿牛肉湯",
@@ -989,7 +3449,33 @@
   "lat": 23.001528,
   "lng": 120.207444,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8387396375659946375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8387396375659946375&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    270,
+    780
+   ],
+   [
+    4590,
+    5100
+   ],
+   [
+    6030,
+    6540
+   ],
+   [
+    7470,
+    7980
+   ],
+   [
+    8910,
+    9420
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 5870,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "好農家米糕",
@@ -1005,7 +3491,53 @@
   "lat": 22.98169,
   "lng": 120.196063,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9317340098404613990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9317340098404613990&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2280
+   ],
+   [
+    2400,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3840,
+    4080
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6720,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8160,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9600,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 600,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "謝掌櫃",
@@ -1021,7 +3553,53 @@
   "lat": 22.999239,
   "lng": 120.161743,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12017699919596147568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12017699919596147568&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1170
+   ],
+   [
+    3570,
+    3690
+   ],
+   [
+    3885,
+    4020
+   ],
+   [
+    5010,
+    5130
+   ],
+   [
+    5325,
+    5460
+   ],
+   [
+    6450,
+    6570
+   ],
+   [
+    6765,
+    6900
+   ],
+   [
+    7890,
+    8010
+   ],
+   [
+    8205,
+    8340
+   ],
+   [
+    9300,
+    9810
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 951,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "長盈海味屋",
@@ -1037,7 +3615,21 @@
   "lat": 23.238787,
   "lng": 120.110644,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12373523185047058015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12373523185047058015&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1020
+   ],
+   [
+    9300,
+    9660
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 561,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "咩灣裡羊肉店【NEW】",
@@ -1051,7 +3643,61 @@
   "lat": 22.924337,
   "lng": 120.184326,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3207369562756673468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3207369562756673468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 572,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿爸の芋圓",
@@ -1066,7 +3712,41 @@
   "lat": 25.007648,
   "lng": 121.512336,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5885513296328430102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5885513296328430102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    930,
+    1380
+   ],
+   [
+    2370,
+    2820
+   ],
+   [
+    3810,
+    4260
+   ],
+   [
+    5250,
+    5700
+   ],
+   [
+    6690,
+    7140
+   ],
+   [
+    8130,
+    8580
+   ],
+   [
+    9570,
+    10020
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 6057,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "客家小館",
@@ -1081,7 +3761,69 @@
   "lat": 24.999234,
   "lng": 121.518071,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17351711508054190023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17351711508054190023&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    900
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4110
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5550
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8430
+   ],
+   [
+    9330,
+    9540
+   ],
+   [
+    9690,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3312,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "宋朝",
@@ -1096,7 +3838,41 @@
   "lat": 25.013407,
   "lng": 121.517142,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4347496256028415209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4347496256028415209&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1020,
+    1440
+   ],
+   [
+    2460,
+    2880
+   ],
+   [
+    3900,
+    4320
+   ],
+   [
+    5340,
+    5760
+   ],
+   [
+    6780,
+    7200
+   ],
+   [
+    8220,
+    8640
+   ],
+   [
+    9660,
+    0
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 1391,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "永和佳香豆漿",
@@ -1111,7 +3887,37 @@
   "lat": 24.997739,
   "lng": 121.518722,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11122060767353329013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11122060767353329013&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    360,
+    675
+   ],
+   [
+    1800,
+    2115
+   ],
+   [
+    3240,
+    3555
+   ],
+   [
+    6120,
+    6435
+   ],
+   [
+    7560,
+    7875
+   ],
+   [
+    9000,
+    9315
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 453,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "上好雞肉",
@@ -1126,7 +3932,57 @@
   "lat": 25.004955,
   "lng": 121.474879,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17332507362794037988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17332507362794037988&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2280
+   ],
+   [
+    2430,
+    2550
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3870,
+    3990
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5310,
+    5430
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6750,
+    6870
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8190,
+    8310
+   ],
+   [
+    9300,
+    9480
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 687,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "蔡家牛肉麵",
@@ -1141,7 +3997,29 @@
   "lat": 24.99156,
   "lng": 121.525584,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3586414458383651459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3586414458383651459&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3570,
+    3720
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    7890,
+    8040
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 886,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "大碗公當歸羊肉",
@@ -1156,7 +4034,37 @@
   "lat": 25.024765,
   "lng": 121.465731,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11564122689188178059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11564122689188178059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2400,
+    2760
+   ],
+   [
+    3840,
+    4200
+   ],
+   [
+    5280,
+    5640
+   ],
+   [
+    6720,
+    7080
+   ],
+   [
+    8160,
+    8520
+   ],
+   [
+    9600,
+    9960
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 2812,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "葉家藥燉排骨",
@@ -1171,7 +4079,37 @@
   "lat": 25.020214,
   "lng": 121.481355,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1392065977992084610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1392065977992084610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2430,
+    2940
+   ],
+   [
+    3870,
+    4380
+   ],
+   [
+    5310,
+    5820
+   ],
+   [
+    6750,
+    7260
+   ],
+   [
+    8190,
+    8700
+   ],
+   [
+    9630,
+    60
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2114,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "店小二(大同北路)",
@@ -1186,7 +4124,37 @@
   "lat": 25.062654,
   "lng": 121.495494,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15338468298515431934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15338468298515431934&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1290
+   ],
+   [
+    2100,
+    2730
+   ],
+   [
+    3540,
+    4170
+   ],
+   [
+    6420,
+    7050
+   ],
+   [
+    7860,
+    8490
+   ],
+   [
+    9300,
+    9930
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 6607,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "光興腿庫",
@@ -1201,7 +4169,53 @@
   "lat": 25.074807,
   "lng": 121.494936,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13402710450236292067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13402710450236292067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2250
+   ],
+   [
+    2430,
+    2610
+   ],
+   [
+    3540,
+    3690
+   ],
+   [
+    3870,
+    4050
+   ],
+   [
+    4980,
+    5130
+   ],
+   [
+    5310,
+    5490
+   ],
+   [
+    6420,
+    6570
+   ],
+   [
+    6750,
+    6930
+   ],
+   [
+    7860,
+    8010
+   ],
+   [
+    8190,
+    8370
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2421,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "珍品餐飲坊",
@@ -1216,7 +4230,53 @@
   "lat": 25.042986,
   "lng": 121.448849,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13565607530227286371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13565607530227286371&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    840
+   ],
+   [
+    960,
+    1170
+   ],
+   [
+    4950,
+    5160
+   ],
+   [
+    5280,
+    5490
+   ],
+   [
+    6390,
+    6600
+   ],
+   [
+    6720,
+    6930
+   ],
+   [
+    7830,
+    8040
+   ],
+   [
+    8160,
+    8370
+   ],
+   [
+    9270,
+    9480
+   ],
+   [
+    9600,
+    9810
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 977,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "賴岡山羊肉",
@@ -1231,7 +4291,37 @@
   "lat": 24.973377,
   "lng": 121.539661,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6227887437760463946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6227887437760463946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    960,
+    1440
+   ],
+   [
+    2400,
+    2880
+   ],
+   [
+    3840,
+    4320
+   ],
+   [
+    5280,
+    5760
+   ],
+   [
+    8160,
+    8640
+   ],
+   [
+    9600,
+    0
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 4547,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "山東小館",
@@ -1246,7 +4336,61 @@
   "lat": 24.973507,
   "lng": 121.531371,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4673981156985135059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4673981156985135059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    820
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2100,
+    2260
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    4980,
+    5140
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6420,
+    6580
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7860,
+    8020
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9460
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 5044,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "超人鱸魚",
@@ -1261,7 +4405,53 @@
   "lat": 24.969193,
   "lng": 121.541763,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2571943366894056356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2571943366894056356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4050
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5490
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    6930
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8370
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9810
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 2648,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "新店北鴨鴨肉羹【NEW】",
@@ -1275,7 +4465,37 @@
   "lat": 24.962676,
   "lng": 121.539674,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11271118032665665220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11271118032665665220&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1230
+   ],
+   [
+    2100,
+    2670
+   ],
+   [
+    3540,
+    4110
+   ],
+   [
+    6420,
+    6990
+   ],
+   [
+    7860,
+    8430
+   ],
+   [
+    9300,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2532,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "碧潭橋頭鵝肉【NEW】",
@@ -1289,7 +4509,33 @@
   "lat": 24.962817,
   "lng": 121.539447,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4462492259472937123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4462492259472937123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2340
+   ],
+   [
+    3540,
+    3780
+   ],
+   [
+    4980,
+    5220
+   ],
+   [
+    6420,
+    6660
+   ],
+   [
+    7860,
+    8100
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 409,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "三姐妹農家樂",
@@ -1304,7 +4550,29 @@
   "lat": 25.167757,
   "lng": 121.633901,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=799729237478499773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=799729237478499773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    960
+   ],
+   [
+    6420,
+    6720
+   ],
+   [
+    7860,
+    8160
+   ],
+   [
+    9300,
+    9600
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 597,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿爸的客家菜【NEW】",
@@ -1318,7 +4586,61 @@
   "lat": 24.936074,
   "lng": 121.365834,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6757890258154850601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6757890258154850601&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2700
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 819,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "北港蔡三代筒仔米糕",
@@ -1334,7 +4656,37 @@
   "lat": 22.631918,
   "lng": 120.285005,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1584910777684673479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1584910777684673479&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    1200
+   ],
+   [
+    2160,
+    2640
+   ],
+   [
+    3600,
+    4080
+   ],
+   [
+    6480,
+    6960
+   ],
+   [
+    7920,
+    8400
+   ],
+   [
+    9360,
+    9840
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 6439,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小燉食室",
@@ -1350,7 +4702,61 @@
   "lat": 22.615461,
   "lng": 120.316864,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17930196772647522094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17930196772647522094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    870
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    3600,
+    3750
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    5040,
+    5190
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6480,
+    6630
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7920,
+    8070
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9360,
+    9510
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 567,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "牛老大涮牛肉（高雄總店）",
@@ -1366,7 +4772,57 @@
   "lat": 22.622246,
   "lng": 120.296626,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11609015391117380462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11609015391117380462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    960,
+    1440
+   ],
+   [
+    3840,
+    4320
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5280,
+    5760
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6720,
+    7200
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8160,
+    8640
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9600,
+    0
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 3199,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "昭明海產家庭料理",
@@ -1382,7 +4838,61 @@
   "lat": 22.63058,
   "lng": 120.293155,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11215798244080478696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11215798244080478696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    810
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2100,
+    2250
+   ],
+   [
+    2460,
+    2700
+   ],
+   [
+    3540,
+    3690
+   ],
+   [
+    3900,
+    4140
+   ],
+   [
+    4980,
+    5130
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    7860,
+    8010
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9300,
+    9450
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 3.6,
+  "rating_count": 396,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "前金肉燥飯",
@@ -1398,7 +4908,37 @@
   "lat": 22.627214,
   "lng": 120.295439,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15681256682762429738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15681256682762429738&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1890,
+    2490
+   ],
+   [
+    3330,
+    3930
+   ],
+   [
+    4770,
+    5370
+   ],
+   [
+    6210,
+    6810
+   ],
+   [
+    7650,
+    8250
+   ],
+   [
+    9090,
+    9480
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2975,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "永筵小館",
@@ -1413,7 +4953,53 @@
   "lat": 22.63303,
   "lng": 120.290459,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13706731621518716926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13706731621518716926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3540,
+    3630
+   ],
+   [
+    3900,
+    3990
+   ],
+   [
+    4980,
+    5070
+   ],
+   [
+    5340,
+    5430
+   ],
+   [
+    6420,
+    6510
+   ],
+   [
+    6780,
+    6870
+   ],
+   [
+    7860,
+    7950
+   ],
+   [
+    8220,
+    8310
+   ],
+   [
+    9300,
+    9390
+   ],
+   [
+    9660,
+    9750
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 508,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "米院子油飯",
@@ -1429,7 +5015,33 @@
   "lat": 22.628401,
   "lng": 120.310599,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1144306193492926763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1144306193492926763&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3540,
+    3900
+   ],
+   [
+    4980,
+    5340
+   ],
+   [
+    6420,
+    6780
+   ],
+   [
+    7860,
+    8220
+   ],
+   [
+    9300,
+    9660
+   ]
+  ],
+  "rating": 4.7,
+  "rating_count": 1210,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "春蘭割包",
@@ -1445,7 +5057,53 @@
   "lat": 22.628023,
   "lng": 120.307806,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9213185688120734486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9213185688120734486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3420,
+    3720
+   ],
+   [
+    3780,
+    4020
+   ],
+   [
+    4860,
+    5160
+   ],
+   [
+    5220,
+    5460
+   ],
+   [
+    6300,
+    6600
+   ],
+   [
+    6660,
+    6900
+   ],
+   [
+    7740,
+    8040
+   ],
+   [
+    8100,
+    8340
+   ],
+   [
+    9180,
+    9480
+   ],
+   [
+    9540,
+    9780
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2489,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "泰元",
@@ -1461,7 +5119,61 @@
   "lat": 22.617879,
   "lng": 120.301394,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=968210899305999958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=968210899305999958&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    720,
+    900
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    2160,
+    2340
+   ],
+   [
+    2460,
+    2670
+   ],
+   [
+    3600,
+    3780
+   ],
+   [
+    3900,
+    4110
+   ],
+   [
+    6480,
+    6660
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7920,
+    8100
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9360,
+    9540
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 947,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "菜粽李",
@@ -1477,7 +5189,41 @@
   "lat": 22.615941,
   "lng": 120.296824,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4038770931026386974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4038770931026386974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    390,
+    1110
+   ],
+   [
+    1830,
+    2550
+   ],
+   [
+    3270,
+    3990
+   ],
+   [
+    4710,
+    5430
+   ],
+   [
+    6150,
+    6870
+   ],
+   [
+    7590,
+    8310
+   ],
+   [
+    9030,
+    9750
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1154,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "侯記鴨肉飯",
@@ -1493,7 +5239,37 @@
   "lat": 22.634748,
   "lng": 120.291548,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9727117602273670721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9727117602273670721&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    600,
+    1170
+   ],
+   [
+    3480,
+    4050
+   ],
+   [
+    4920,
+    5490
+   ],
+   [
+    6360,
+    6930
+   ],
+   [
+    7800,
+    8370
+   ],
+   [
+    9240,
+    9810
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 2761,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "良佳豬腳",
@@ -1509,7 +5285,37 @@
   "lat": 22.64188,
   "lng": 120.341789,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13617154894113164210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13617154894113164210&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    2100,
+    2520
+   ],
+   [
+    3540,
+    3960
+   ],
+   [
+    6420,
+    6840
+   ],
+   [
+    7860,
+    8280
+   ],
+   [
+    9300,
+    9720
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 499,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "貳哥食堂",
@@ -1525,7 +5331,53 @@
   "lat": 22.651221,
   "lng": 120.288329,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8770476153106679427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8770476153106679427&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    810
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    5010,
+    5130
+   ],
+   [
+    5340,
+    5550
+   ],
+   [
+    6450,
+    6570
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7890,
+    8010
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9330,
+    9450
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 808,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "弘記肉燥飯舖",
@@ -1541,7 +5393,69 @@
   "lat": 22.664603,
   "lng": 120.304314,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=18053568363391073764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=18053568363391073764&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    900
+   ],
+   [
+    990,
+    1320
+   ],
+   [
+    2130,
+    2340
+   ],
+   [
+    2430,
+    2760
+   ],
+   [
+    3570,
+    3780
+   ],
+   [
+    3870,
+    4200
+   ],
+   [
+    5010,
+    5220
+   ],
+   [
+    5310,
+    5640
+   ],
+   [
+    6450,
+    6660
+   ],
+   [
+    6750,
+    7080
+   ],
+   [
+    7890,
+    8100
+   ],
+   [
+    8190,
+    8520
+   ],
+   [
+    9330,
+    9540
+   ],
+   [
+    9630,
+    9960
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 5665,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "楊寶寶蒸餃（朝明路）",
@@ -1557,7 +5471,41 @@
   "lat": 22.724212,
   "lng": 120.327735,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7980509518157880215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7980509518157880215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1500
+   ],
+   [
+    2100,
+    2940
+   ],
+   [
+    3540,
+    4380
+   ],
+   [
+    4980,
+    5820
+   ],
+   [
+    6420,
+    7260
+   ],
+   [
+    7860,
+    8700
+   ],
+   [
+    9300,
+    60
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 14214,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "橋仔頭黃家肉燥飯",
@@ -1573,7 +5521,37 @@
   "lat": 22.754704,
   "lng": 120.312261,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=118937712685558313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=118937712685558313&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    510,
+    1050
+   ],
+   [
+    3390,
+    3930
+   ],
+   [
+    4830,
+    5370
+   ],
+   [
+    6270,
+    6810
+   ],
+   [
+    7710,
+    8250
+   ],
+   [
+    9150,
+    9690
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 2762,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "廖記米糕",
@@ -1589,7 +5567,41 @@
   "lat": 22.754325,
   "lng": 120.312299,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1462372396161582855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1462372396161582855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    540,
+    988
+   ],
+   [
+    1980,
+    2428
+   ],
+   [
+    3420,
+    3868
+   ],
+   [
+    4860,
+    5308
+   ],
+   [
+    6300,
+    6748
+   ],
+   [
+    7740,
+    8188
+   ],
+   [
+    9180,
+    9628
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 595,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "湖東牛肉館",
@@ -1605,7 +5617,57 @@
   "lat": 22.877725,
   "lng": 120.251756,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=14449434982721545252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=14449434982721545252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    570,
+    810
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    3900,
+    4110
+   ],
+   [
+    4920,
+    5160
+   ],
+   [
+    5340,
+    5550
+   ],
+   [
+    6360,
+    6600
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7800,
+    8040
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9210,
+    9450
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 3433,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "舊市羊肉（岡山）",
@@ -1621,7 +5683,41 @@
   "lat": 22.798521,
   "lng": 120.284096,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13395229983003754995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13395229983003754995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1200
+   ],
+   [
+    2100,
+    2640
+   ],
+   [
+    3540,
+    4080
+   ],
+   [
+    4980,
+    5520
+   ],
+   [
+    6420,
+    6960
+   ],
+   [
+    7860,
+    8400
+   ],
+   [
+    9300,
+    9840
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 6154,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿香的廚房",
@@ -1637,7 +5733,61 @@
   "lat": 22.893724,
   "lng": 120.514202,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=18386060272295019605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=18386060272295019605&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1050,
+    1170
+   ],
+   [
+    2130,
+    2250
+   ],
+   [
+    2490,
+    2610
+   ],
+   [
+    5010,
+    5130
+   ],
+   [
+    5370,
+    5490
+   ],
+   [
+    6450,
+    6570
+   ],
+   [
+    6810,
+    6930
+   ],
+   [
+    7890,
+    8010
+   ],
+   [
+    8250,
+    8370
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9690,
+    9810
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2586,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "秀明豬心冬粉",
@@ -1653,7 +5803,37 @@
   "lat": 22.885401,
   "lng": 120.48145,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10234194913540095237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10234194913540095237&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    510,
+    930
+   ],
+   [
+    3390,
+    3810
+   ],
+   [
+    4830,
+    5250
+   ],
+   [
+    6270,
+    6690
+   ],
+   [
+    7710,
+    8130
+   ],
+   [
+    9150,
+    9570
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1299,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "東沐。食在【NEW】",
@@ -1667,7 +5847,53 @@
   "lat": 24.155562,
   "lng": 120.669997,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2178347003965926297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2178347003965926297&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3570,
+    3750
+   ],
+   [
+    3840,
+    4020
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5280,
+    5400
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6720,
+    6900
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8160,
+    8340
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9600,
+    9780
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 1143,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿坤麵",
@@ -1683,7 +5909,33 @@
   "lat": 24.143021,
   "lng": 120.682419,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12476507357954515393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12476507357954515393&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    390,
+    780
+   ],
+   [
+    1830,
+    2220
+   ],
+   [
+    3270,
+    3660
+   ],
+   [
+    7590,
+    7980
+   ],
+   [
+    9030,
+    9450
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2250,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "范記金之園",
@@ -1699,7 +5951,37 @@
   "lat": 24.141351,
   "lng": 120.682454,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15046089153568494693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15046089153568494693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1170
+   ],
+   [
+    2100,
+    2610
+   ],
+   [
+    3540,
+    4050
+   ],
+   [
+    4980,
+    5490
+   ],
+   [
+    7860,
+    8370
+   ],
+   [
+    9300,
+    9810
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 4809,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "富鼎旺",
@@ -1715,7 +5997,61 @@
   "lat": 24.145249,
   "lng": 120.67659,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3957227401987166132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3957227401987166132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2310
+   ],
+   [
+    2430,
+    2610
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3870,
+    4050
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5310,
+    5490
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6750,
+    6930
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8190,
+    8370
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9630,
+    9810
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3466,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "富貴亭",
@@ -1731,7 +6067,37 @@
   "lat": 24.140146,
   "lng": 120.678243,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12455772372230563349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12455772372230563349&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2640
+   ],
+   [
+    3540,
+    4080
+   ],
+   [
+    4980,
+    5520
+   ],
+   [
+    6420,
+    6960
+   ],
+   [
+    7860,
+    8400
+   ],
+   [
+    9300,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1630,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "醉月樓",
@@ -1747,7 +6113,41 @@
   "lat": 24.137835,
   "lng": 120.683559,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3542125126162041076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3542125126162041076&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1260
+   ],
+   [
+    2100,
+    2700
+   ],
+   [
+    3540,
+    4140
+   ],
+   [
+    4980,
+    5580
+   ],
+   [
+    6420,
+    7020
+   ],
+   [
+    7860,
+    8460
+   ],
+   [
+    9300,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1382,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "上海未名麵點",
@@ -1763,7 +6163,33 @@
   "lat": 24.139666,
   "lng": 120.680056,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7913071797101003693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7913071797101003693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3300,
+    3690
+   ],
+   [
+    4740,
+    5130
+   ],
+   [
+    6180,
+    6570
+   ],
+   [
+    7620,
+    8010
+   ],
+   [
+    9060,
+    9450
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 2303,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "繡球",
@@ -1779,7 +6205,37 @@
   "lat": 24.147651,
   "lng": 120.663264,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15387645849934134534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15387645849934134534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 903,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "富狀元豬腳",
@@ -1795,7 +6251,61 @@
   "lat": 24.149862,
   "lng": 120.661792,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13560397093329266659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13560397093329266659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    900
+   ],
+   [
+    960,
+    1200
+   ],
+   [
+    3540,
+    3780
+   ],
+   [
+    3840,
+    4080
+   ],
+   [
+    4980,
+    5220
+   ],
+   [
+    5280,
+    5520
+   ],
+   [
+    6420,
+    6660
+   ],
+   [
+    6720,
+    6960
+   ],
+   [
+    7860,
+    8100
+   ],
+   [
+    8160,
+    8400
+   ],
+   [
+    9300,
+    9540
+   ],
+   [
+    9600,
+    9840
+   ]
+  ],
+  "rating": 3.6,
+  "rating_count": 3948,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "夜間部爌肉飯",
@@ -1811,7 +6321,41 @@
   "lat": 24.150426,
   "lng": 120.655237,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11730119799960195595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11730119799960195595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1020,
+    1560
+   ],
+   [
+    2460,
+    3000
+   ],
+   [
+    3900,
+    4440
+   ],
+   [
+    5340,
+    5880
+   ],
+   [
+    6780,
+    7320
+   ],
+   [
+    8220,
+    8760
+   ],
+   [
+    9660,
+    120
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 6043,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "馨苑",
@@ -1827,7 +6371,41 @@
   "lat": 24.148189,
   "lng": 120.668389,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12101457283560568515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12101457283560568515&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1230
+   ],
+   [
+    2130,
+    2670
+   ],
+   [
+    3570,
+    4110
+   ],
+   [
+    5010,
+    5550
+   ],
+   [
+    6450,
+    6990
+   ],
+   [
+    7890,
+    8430
+   ],
+   [
+    9330,
+    9870
+   ]
+  ],
+  "rating": 4.8,
+  "rating_count": 7263,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "好菜",
@@ -1843,7 +6421,61 @@
   "lat": 24.148677,
   "lng": 120.666765,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11758082653371456400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11758082653371456400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1230
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2670
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5550
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8430
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2937,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "功夫上海手工魚丸",
@@ -1858,7 +6490,61 @@
   "lat": 24.151935,
   "lng": 120.660271,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=1787566170523770855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1787566170523770855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2130,
+    2280
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1073,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "曙光居",
@@ -1874,7 +6560,12 @@
   "lat": 24.157495,
   "lng": 120.648911,
   "status": "CLOSED_TEMPORARILY",
-  "gurl": "https://maps.google.com/?cid=16049981338291796912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16049981338291796912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.4,
+  "rating_count": 599,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "可口牛肉麵",
@@ -1890,7 +6581,53 @@
   "lat": 24.156975,
   "lng": 120.650445,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3121224004976155908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3121224004976155908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2280
+   ],
+   [
+    2430,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3870,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5310,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6750,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8190,
+    8400
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2245,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "裡小樓",
@@ -1906,7 +6643,53 @@
   "lat": 24.176626,
   "lng": 120.642561,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2465581502262211411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2465581502262211411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    3570,
+    3750
+   ],
+   [
+    3930,
+    4110
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5550
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    6990
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8430
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 427,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "羅家古早味",
@@ -1922,7 +6705,69 @@
   "lat": 24.146224,
   "lng": 120.634869,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8637372535704171021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8637372535704171021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    990,
+    1260
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2430,
+    2700
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3870,
+    4140
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5310,
+    5580
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6750,
+    7020
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8190,
+    8460
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9630,
+    9900
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1825,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "滬舍餘味",
@@ -1938,7 +6783,41 @@
   "lat": 24.151153,
   "lng": 120.635738,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5266825701928333549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5266825701928333549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1200
+   ],
+   [
+    2100,
+    2640
+   ],
+   [
+    3540,
+    4080
+   ],
+   [
+    4980,
+    5520
+   ],
+   [
+    6420,
+    6960
+   ],
+   [
+    7860,
+    8400
+   ],
+   [
+    9300,
+    9840
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 3230,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "牛稼莊",
@@ -1954,7 +6833,61 @@
   "lat": 24.262918,
   "lng": 120.824697,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=16306970929511013177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16306970929511013177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    900
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2100,
+    2340
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    4980,
+    5220
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6420,
+    6660
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7860,
+    8100
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9540
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 2493,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "台中肉員",
@@ -1970,7 +6903,41 @@
   "lat": 24.134469,
   "lng": 120.682571,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3824813352541693090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3824813352541693090&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    630,
+    1170
+   ],
+   [
+    2070,
+    2610
+   ],
+   [
+    3510,
+    4050
+   ],
+   [
+    4950,
+    5490
+   ],
+   [
+    6390,
+    6930
+   ],
+   [
+    7830,
+    8370
+   ],
+   [
+    9270,
+    9810
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 10272,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "彭城堂",
@@ -1986,7 +6953,69 @@
   "lat": 24.144833,
   "lng": 120.713621,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13072185594841813112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13072185594841813112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 5004,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鳳記鵝肉老店",
@@ -2002,7 +7031,37 @@
   "lat": 24.20963,
   "lng": 120.569153,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11665596894399772357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11665596894399772357&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    540,
+    1200
+   ],
+   [
+    1980,
+    2640
+   ],
+   [
+    3420,
+    4080
+   ],
+   [
+    6300,
+    6960
+   ],
+   [
+    7740,
+    8400
+   ],
+   [
+    9180,
+    9840
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 1620,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "老士官擀麵",
@@ -2018,7 +7077,37 @@
   "lat": 24.26834,
   "lng": 120.57211,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5837762935575359604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5837762935575359604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    480,
+    810
+   ],
+   [
+    3360,
+    3690
+   ],
+   [
+    4800,
+    5130
+   ],
+   [
+    6240,
+    6570
+   ],
+   [
+    7680,
+    8010
+   ],
+   [
+    9120,
+    9450
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 2975,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "貓的堅持",
@@ -2033,7 +7122,69 @@
   "lat": 24.795661,
   "lng": 120.971196,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12427575143759896292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12427575143759896292&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 286,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "東門米粉攤",
@@ -2048,7 +7199,69 @@
   "lat": 24.805135,
   "lng": 120.968814,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6376365612838733756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6376365612838733756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    990,
+    1200
+   ],
+   [
+    2100,
+    2265
+   ],
+   [
+    2430,
+    2640
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3870,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5310,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6750,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8190,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9630,
+    9840
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2572,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "菜園",
@@ -2063,7 +7276,69 @@
   "lat": 24.808519,
   "lng": 120.972112,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6839223529702388916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6839223529702388916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    1020,
+    1290
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2460,
+    2730
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3900,
+    4170
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5340,
+    5610
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6780,
+    7050
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8220,
+    8490
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9660,
+    9930
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 6479,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "禾日香",
@@ -2078,7 +7353,61 @@
   "lat": 24.809119,
   "lng": 120.978944,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9169348001884567631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9169348001884567631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    600,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    3480,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    4920,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6360,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7800,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9240,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 2119,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "原味鴨肉麵",
@@ -2093,7 +7422,37 @@
   "lat": 24.800525,
   "lng": 120.968416,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8070766507767300719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8070766507767300719&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2100,
+    2640
+   ],
+   [
+    3540,
+    4080
+   ],
+   [
+    4980,
+    5520
+   ],
+   [
+    6420,
+    6960
+   ],
+   [
+    7860,
+    8400
+   ],
+   [
+    9300,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 1538,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "九添福牛肉麵館",
@@ -2108,7 +7467,41 @@
   "lat": 24.803777,
   "lng": 120.964309,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5325058845550330679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5325058845550330679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    1260
+   ],
+   [
+    2130,
+    2700
+   ],
+   [
+    3570,
+    4140
+   ],
+   [
+    5010,
+    5580
+   ],
+   [
+    6450,
+    7020
+   ],
+   [
+    7890,
+    8460
+   ],
+   [
+    9330,
+    9900
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1085,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "弄味小廚",
@@ -2123,7 +7516,53 @@
   "lat": 24.797736,
   "lng": 120.951301,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7486330700261140579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7486330700261140579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    810
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    4980,
+    5130
+   ],
+   [
+    5340,
+    5550
+   ],
+   [
+    6420,
+    6570
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7860,
+    8010
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9300,
+    9450
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1116,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鄒記菜包",
@@ -2138,7 +7577,41 @@
   "lat": 24.700611,
   "lng": 121.055987,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12690966610850308933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12690966610850308933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    480,
+    1020
+   ],
+   [
+    2040,
+    2400
+   ],
+   [
+    3480,
+    3840
+   ],
+   [
+    4920,
+    5280
+   ],
+   [
+    6360,
+    6720
+   ],
+   [
+    7800,
+    8160
+   ],
+   [
+    9120,
+    9660
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 931,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "春嬌粄條",
@@ -2153,7 +7626,33 @@
   "lat": 24.698612,
   "lng": 121.058287,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13666972514963308164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13666972514963308164&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1020
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    9300,
+    9660
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 711,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "季風Monsoon",
@@ -2167,7 +7666,12 @@
   "lat": 24.820663,
   "lng": 121.023102,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6774960395027427645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6774960395027427645&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.9,
+  "rating_count": 100,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "善菓堂",
@@ -2182,7 +7686,61 @@
   "lat": 24.815494,
   "lng": 121.019333,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=934369847045672411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=934369847045672411&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    870
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    3570,
+    3750
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 1193,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "首烏廚EAT",
@@ -2197,7 +7755,61 @@
   "lat": 24.820185,
   "lng": 121.023294,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11012131525497380514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11012131525497380514&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3900,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 741,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "唐草園",
@@ -2212,7 +7824,61 @@
   "lat": 24.820223,
   "lng": 121.009389,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=7137768334530396831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=7137768334530396831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2460,
+    2670
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3900,
+    4110
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 826,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "ㄤ咕麵",
@@ -2227,7 +7893,37 @@
   "lat": 24.792814,
   "lng": 121.177379,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13780643552460128132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13780643552460128132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1140
+   ],
+   [
+    2100,
+    2550
+   ],
+   [
+    4980,
+    5430
+   ],
+   [
+    6420,
+    6870
+   ],
+   [
+    7860,
+    8310
+   ],
+   [
+    9300,
+    9780
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 11052,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "鴻金食堂",
@@ -2242,7 +7938,61 @@
   "lat": 24.759939,
   "lng": 121.036119,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=18376841330549377151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=18376841330549377151&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2460,
+    2640
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 432,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "晌午粄食",
@@ -2257,7 +8007,25 @@
   "lat": 24.716665,
   "lng": 121.140395,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5870948388380120653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5870948388380120653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    600,
+    960
+   ],
+   [
+    7800,
+    8160
+   ],
+   [
+    9240,
+    9600
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 179,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "一哥炊粉",
@@ -2271,7 +8039,37 @@
   "lat": 24.75505,
   "lng": 121.095415,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=17323298140462047936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=17323298140462047936&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1980,
+    2220
+   ],
+   [
+    3420,
+    3660
+   ],
+   [
+    4860,
+    5100
+   ],
+   [
+    6300,
+    6540
+   ],
+   [
+    7740,
+    7980
+   ],
+   [
+    9180,
+    9420
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 914,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "茂園",
@@ -2286,7 +8084,61 @@
   "lat": 25.048428,
   "lng": 121.542637,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=2252199126641455608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=2252199126641455608&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1290
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4170
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5610
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7050
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8490
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9930
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3216,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小品雅廚",
@@ -2301,7 +8153,41 @@
   "lat": 25.063075,
   "lng": 121.528867,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5541067804233522019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5541067804233522019&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1080,
+    1740
+   ],
+   [
+    2520,
+    3180
+   ],
+   [
+    3960,
+    4620
+   ],
+   [
+    5400,
+    6060
+   ],
+   [
+    6840,
+    7500
+   ],
+   [
+    8280,
+    8940
+   ],
+   [
+    9720,
+    300
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 1991,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "好朋友涼麵",
@@ -2316,7 +8202,41 @@
   "lat": 25.089091,
   "lng": 121.525537,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12718693462168875201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12718693462168875201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    990,
+    1410
+   ],
+   [
+    2430,
+    2850
+   ],
+   [
+    3870,
+    4290
+   ],
+   [
+    5310,
+    5730
+   ],
+   [
+    6750,
+    7170
+   ],
+   [
+    8190,
+    8610
+   ],
+   [
+    9630,
+    10050
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 1737,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "欣葉小聚",
@@ -2331,7 +8251,69 @@
   "lat": 25.058584,
   "lng": 121.616067,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3702502844456360793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3702502844456360793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2460,
+    2700
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3900,
+    4140
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2238,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "木公麥麵",
@@ -2346,7 +8328,12 @@
   "lat": 24.149856,
   "lng": 120.695673,
   "status": "CLOSED_TEMPORARILY",
-  "gurl": "https://maps.google.com/?cid=6835440995006099841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6835440995006099841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.3,
+  "rating_count": 666,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "筑馨居",
@@ -2361,7 +8348,69 @@
   "lat": 23.000299,
   "lng": 120.194981,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5447012694367576691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5447012694367576691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 1723,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "麥謎食驗室",
@@ -2376,7 +8425,12 @@
   "lat": 22.99197,
   "lng": 120.208186,
   "status": "CLOSED_PERMANENTLY",
-  "gurl": "https://maps.google.com/?cid=13588100327852083905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13588100327852083905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.7,
+  "rating_count": 331,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "東香台菜海味料理",
@@ -2391,7 +8445,69 @@
   "lat": 23.06075,
   "lng": 120.136655,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=839025395191243305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=839025395191243305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2670
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4110
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5550
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 758,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "白玉樓",
@@ -2405,7 +8521,69 @@
   "lat": 22.595408,
   "lng": 120.3071,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=11481386716854058651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11481386716854058651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    930
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2130,
+    2340
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3780
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5220
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6660
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8100
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9300,
+    9570
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 1065,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "賣塩順台菜",
@@ -2420,7 +8598,61 @@
   "lat": 22.651313,
   "lng": 120.287,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=16078784187892625579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16078784187892625579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 641,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "正宗鴨肉飯",
@@ -2435,7 +8667,37 @@
   "lat": 22.664611,
   "lng": 120.309543,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=3999286127361130097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=3999286127361130097&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    1230
+   ],
+   [
+    2100,
+    2670
+   ],
+   [
+    3540,
+    4110
+   ],
+   [
+    4980,
+    5550
+   ],
+   [
+    6420,
+    6990
+   ],
+   [
+    9300,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 2510,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "泰姬",
@@ -2449,7 +8711,69 @@
   "lat": 25.044736,
   "lng": 121.545842,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10607116148556621781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10607116148556621781&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    870
+   ],
+   [
+    1050,
+    1320
+   ],
+   [
+    2130,
+    2310
+   ],
+   [
+    2490,
+    2760
+   ],
+   [
+    3570,
+    3750
+   ],
+   [
+    3930,
+    4200
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5640
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    7080
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8520
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9960
+   ]
+  ],
+  "rating": 4.7,
+  "rating_count": 4373,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "昶鴻麵點",
@@ -2463,7 +8787,12 @@
   "lat": 25.039475,
   "lng": 121.498591,
   "status": "CLOSED_PERMANENTLY",
-  "gurl": "https://maps.google.com/?cid=11120410006770245609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=11120410006770245609&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.1,
+  "rating_count": 689,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "都一處 (信義)",
@@ -2477,7 +8806,69 @@
   "lat": 25.037242,
   "lng": 121.561047,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=15999708593898650649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=15999708593898650649&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2460,
+    2700
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4140
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5580
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    7020
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8460
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4,
+  "rating_count": 3323,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "清真中國牛肉麵食館 (大安)",
@@ -2491,7 +8882,61 @@
   "lat": 25.042071,
   "lng": 121.554957,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=5381090262815681304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=5381090262815681304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1020,
+    1230
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2460,
+    2670
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3900,
+    4110
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6780,
+    6990
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8220,
+    8430
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3911,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "磐石坊",
@@ -2505,7 +8950,53 @@
   "lat": 25.028066,
   "lng": 121.55128,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12753583843917098046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12753583843917098046&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    870
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    5010,
+    5190
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6630
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8070
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9510
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 1070,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "榮榮園",
@@ -2519,7 +9010,69 @@
   "lat": 25.033579,
   "lng": 121.544639,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6018616477767085582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6018616477767085582&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1020,
+    1260
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5580
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9660,
+    9900
+   ]
+  ],
+  "rating": 4.1,
+  "rating_count": 3599,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "麵鋪-芋頭米粉",
@@ -2533,7 +9086,33 @@
   "lat": 25.035552,
   "lng": 121.57569,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=8339592018375445272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=8339592018375445272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2040,
+    2310
+   ],
+   [
+    3480,
+    3750
+   ],
+   [
+    4920,
+    5190
+   ],
+   [
+    6360,
+    6630
+   ],
+   [
+    7800,
+    8070
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 405,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "元味料理",
@@ -2547,7 +9126,37 @@
   "lat": 25.050783,
   "lng": 121.514121,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=4671002530392536208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=4671002530392536208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    2160,
+    2340
+   ],
+   [
+    3600,
+    3780
+   ],
+   [
+    5040,
+    5220
+   ],
+   [
+    6480,
+    6660
+   ],
+   [
+    7920,
+    8100
+   ],
+   [
+    9360,
+    9540
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 360,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "阿城鵝肉 (中山)",
@@ -2561,7 +9170,41 @@
   "lat": 25.056406,
   "lng": 121.530362,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=694526374424343264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=694526374424343264&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    680,
+    1200
+   ],
+   [
+    2130,
+    2640
+   ],
+   [
+    3570,
+    4080
+   ],
+   [
+    5010,
+    5520
+   ],
+   [
+    6450,
+    6960
+   ],
+   [
+    7890,
+    8400
+   ],
+   [
+    9320,
+    9840
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 8012,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "黑琵食堂",
@@ -2575,7 +9218,69 @@
   "lat": 23.082691,
   "lng": 120.062898,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9612042680311548488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9612042680311548488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    870
+   ],
+   [
+    990,
+    1200
+   ],
+   [
+    2100,
+    2310
+   ],
+   [
+    2430,
+    2640
+   ],
+   [
+    3540,
+    3750
+   ],
+   [
+    3870,
+    4080
+   ],
+   [
+    4980,
+    5190
+   ],
+   [
+    5310,
+    5520
+   ],
+   [
+    6420,
+    6630
+   ],
+   [
+    6750,
+    6960
+   ],
+   [
+    7860,
+    8070
+   ],
+   [
+    8190,
+    8400
+   ],
+   [
+    9300,
+    9510
+   ],
+   [
+    9630,
+    9840
+   ]
+  ],
+  "rating": 4.5,
+  "rating_count": 1820,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "永通虱目魚粥",
@@ -2589,7 +9294,57 @@
   "lat": 23.231401,
   "lng": 120.180514,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=13656686151050941627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=13656686151050941627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    320,
+    780
+   ],
+   [
+    920,
+    1230
+   ],
+   [
+    2360,
+    2670
+   ],
+   [
+    3200,
+    3660
+   ],
+   [
+    3800,
+    4110
+   ],
+   [
+    5240,
+    5550
+   ],
+   [
+    6080,
+    6540
+   ],
+   [
+    7520,
+    7980
+   ],
+   [
+    8120,
+    8430
+   ],
+   [
+    8960,
+    9420
+   ],
+   [
+    9560,
+    9870
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 3536,
+  "gprice": "$",
+  "checked": "2026-11-16"
  },
  {
   "name": "沁園春",
@@ -2603,7 +9358,61 @@
   "lat": 24.139553,
   "lng": 120.682638,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=9908569997977357179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=9908569997977357179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1050,
+    1260
+   ],
+   [
+    2100,
+    2280
+   ],
+   [
+    2490,
+    2700
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3930,
+    4140
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6810,
+    7020
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8250,
+    8460
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9690,
+    9900
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 4347,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "咕嚕咕嚕原住民音樂餐廳",
@@ -2617,7 +9426,12 @@
   "lat": 24.13902,
   "lng": 120.662504,
   "status": "CLOSED_PERMANENTLY",
-  "gurl": "https://maps.google.com/?cid=1363614580755967088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=1363614580755967088&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": null,
+  "rating": 4.4,
+  "rating_count": 925,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "小初店",
@@ -2631,7 +9445,49 @@
   "lat": 24.153494,
   "lng": 120.648922,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=647040690049706350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=647040690049706350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    930
+   ],
+   [
+    990,
+    1170
+   ],
+   [
+    2130,
+    2610
+   ],
+   [
+    3570,
+    4050
+   ],
+   [
+    5010,
+    5490
+   ],
+   [
+    6450,
+    6930
+   ],
+   [
+    7890,
+    8370
+   ],
+   [
+    9330,
+    9570
+   ],
+   [
+    9630,
+    9810
+   ]
+  ],
+  "rating": 4.4,
+  "rating_count": 2482,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "沙卡燒酒雞餐館",
@@ -2645,7 +9501,33 @@
   "lat": 24.204871,
   "lng": 120.64418,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=16066092939466247637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=16066092939466247637&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    990,
+    1320
+   ],
+   [
+    5310,
+    5640
+   ],
+   [
+    6750,
+    7080
+   ],
+   [
+    8190,
+    8520
+   ],
+   [
+    9630,
+    9960
+   ]
+  ],
+  "rating": 4.2,
+  "rating_count": 828,
+  "gprice": "$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "Apis Grill",
@@ -2659,7 +9541,33 @@
   "lat": 22.639828,
   "lng": 120.347721,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=12510993338857389426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=12510993338857389426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    1050,
+    1305
+   ],
+   [
+    5370,
+    5625
+   ],
+   [
+    6810,
+    7065
+   ],
+   [
+    8250,
+    8505
+   ],
+   [
+    9690,
+    9945
+   ]
+  ],
+  "rating": 4.6,
+  "rating_count": 559,
+  "gprice": null,
+  "checked": "2026-11-16"
  },
  {
   "name": "老新台菜 (九如二路)",
@@ -2673,7 +9581,69 @@
   "lat": 22.640678,
   "lng": 120.307486,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=6016250982801556773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=6016250982801556773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    690,
+    840
+   ],
+   [
+    1050,
+    1290
+   ],
+   [
+    2130,
+    2280
+   ],
+   [
+    2490,
+    2730
+   ],
+   [
+    3570,
+    3720
+   ],
+   [
+    3930,
+    4170
+   ],
+   [
+    5010,
+    5160
+   ],
+   [
+    5370,
+    5610
+   ],
+   [
+    6450,
+    6600
+   ],
+   [
+    6810,
+    7050
+   ],
+   [
+    7890,
+    8040
+   ],
+   [
+    8250,
+    8490
+   ],
+   [
+    9330,
+    9480
+   ],
+   [
+    9690,
+    9930
+   ]
+  ],
+  "rating": 4.7,
+  "rating_count": 9439,
+  "gprice": "$$$$",
+  "checked": "2026-11-16"
  },
  {
   "name": "老爺美食館 （鳳山）",
@@ -2687,6 +9657,60 @@
   "lat": 22.650586,
   "lng": 120.318569,
   "status": "OPERATIONAL",
-  "gurl": "https://maps.google.com/?cid=10698009809623422672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  "gurl": "https://maps.google.com/?cid=10698009809623422672&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "hours": [
+   [
+    660,
+    840
+   ],
+   [
+    1020,
+    1200
+   ],
+   [
+    3540,
+    3720
+   ],
+   [
+    3900,
+    4080
+   ],
+   [
+    4980,
+    5160
+   ],
+   [
+    5340,
+    5520
+   ],
+   [
+    6420,
+    6600
+   ],
+   [
+    6780,
+    6960
+   ],
+   [
+    7860,
+    8040
+   ],
+   [
+    8220,
+    8400
+   ],
+   [
+    9300,
+    9480
+   ],
+   [
+    9660,
+    9840
+   ]
+  ],
+  "rating": 4.3,
+  "rating_count": 613,
+  "gprice": "$$",
+  "checked": "2026-11-16"
  }
 ]
